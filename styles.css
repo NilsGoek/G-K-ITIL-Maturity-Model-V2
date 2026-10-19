@@ -27,3 +27,4 @@
 @media print{.result-table-label,table .btn[data-practice]{display:inline!important;border:0;padding:0;background:transparent;color:inherit;font:inherit;text-align:left}}
 @media(max-width:600px){.card .section-title{flex-wrap:wrap;gap:10px}}
 @media(max-width:850px){[data-gp-detail]>.question-index{max-height:none;overflow:visible}[data-gp-detail]>.question-index .question-list{display:none}[data-gp-detail]>.question-index .question-stage-nav>.stage-button{display:inline-flex;width:auto;flex:1 1 auto;justify-content:center;white-space:nowrap;padding:8px}}
+.two-col>.card{min-width:0}

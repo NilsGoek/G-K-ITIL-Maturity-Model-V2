@@ -9,6 +9,7 @@ const COMPONENTS = [
 const esc = value => String(value ?? '').replace(/[&<>"']/g,character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const numeric = value => typeof value === 'number' && Number.isFinite(value);
 const number = value => formatReferenceNumber(value,{exact:true});
+const exactNumber = value => new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2,useGrouping:false}).format(value);
 const ownLabels = {confirmed:'Stufe bestimmt',provisional:'Vorläufige Untergrenze',open:'Noch offen',partial_scope:'Teilumfang',below_baseline:'Unter Ausgangsstufe',needs_reconciliation:'Klärung erforderlich',not_classifiable:'Noch nicht einstufbar'};
 const practiceId = row => row?.practiceId || row?.practice_id || row?.id;
 
@@ -19,9 +20,9 @@ export function safeReferenceUrl(value) {
 
 export function displayReferenceOriginal(row) {
   if (!row) return 'Keine Referenz vorhanden';
-  if (numeric(row.original_range_lower) && numeric(row.original_range_upper)) return `${number(row.original_range_lower)}–${number(row.original_range_upper)}`;
+  if (numeric(row.original_range_lower) && numeric(row.original_range_upper)) return `${exactNumber(row.original_range_lower)}–${exactNumber(row.original_range_upper)}`;
   const value = row.originalValue ?? row.absoluteValue ?? row.original_numeric_value ?? row.original_mean;
-  return numeric(value) ? number(value) : 'Keine Referenz vorhanden';
+  return numeric(value) ? exactNumber(value) : 'Keine Referenz vorhanden';
 }
 
 export function displayReferenceFloor(row) {
@@ -32,8 +33,8 @@ export function displayReferenceFloor(row) {
 }
 
 export function ownReferenceValue(unit) {
-  const status = unit?.status || 'open';
-  const valid = numeric(unit?.assessed_level) && ['confirmed','provisional'].includes(status);
+  const status = unit?.stage_complete === true ? 'confirmed' : unit?.status || 'open';
+  const valid = numeric(unit?.assessed_level) && (unit.stage_complete === true || status === 'provisional' || (!Object.hasOwn(unit,'stage_complete') && status === 'confirmed'));
   return {value:valid ? unit.assessed_level : null,
     text:valid ? `${status === 'provisional' ? 'Mindestens ' : ''}${number(unit.assessed_level)}` : ownLabels[status] || 'Noch offen',status};
 }
@@ -72,9 +73,9 @@ function ownLevelCell(unit) {
 function ownRawCell(unit) {
   const own = ownReferenceValue(unit);
   const candidate = unit && Object.hasOwn(unit,'exact_value') ? unit.exact_value : unit?.unrounded_mean;
-  const raw = numeric(candidate) && own.value != null ? candidate : null;
-  const formatted = raw != null && Object.hasOwn(unit,'exact_value') ? new Intl.NumberFormat('de-DE',{minimumFractionDigits:3,maximumFractionDigits:3}).format(raw) : raw != null ? number(raw) : null;
-  return `<td class="reference-own-raw" data-own-original data-own-status="${esc(own.status)}">${formatted != null ? `<strong>${own.status === 'provisional' ? 'Mindestens ' : ''}${esc(formatted)}</strong>` : '—'}</td>`;
+  const raw = numeric(candidate) && (Object.hasOwn(unit,'exact_value') || own.value != null) ? candidate : null;
+  const formatted = raw != null ? exactNumber(raw) : null;
+  return `<td class="reference-own-raw" data-own-original data-own-status="${esc(own.status)}">${formatted != null ? `<strong>${own.status === 'provisional' ? 'Mindestens ' : ''}${esc(formatted)}</strong>` : '—<small>Noch offen</small>'}</td>`;
 }
 
 function table(headers,rows,{className = '',attributes = '',caption} = {}) {
@@ -86,14 +87,14 @@ function overallHtml({data,result,project}) {
     const level = row.publishedLevel ?? row.floorValue;
     return `<tr data-reference-id="${esc(row.id)}" data-reference-overall="${esc(row.id)}"><th scope="row">${esc(row.organization || row.labelGerman || row.label || row.name || row.id)}</th><td class="reference-floor" data-reference-floor data-reference-level>${numeric(level) ? esc(number(level)) : '—'}</td>${ownRawCell(result?.svs_result)}${ownLevelCell(result?.svs_result)}</tr>`;
   });
-  return `<section class="reference-section" data-reference-section="overall" aria-labelledby="reference-overall-title"><h3 id="reference-overall-title">Service Value System</h3>${table(['Referenz','SVS-Level','Eigener Exakter Wert',`Eigene SVS-Stufe${project?.name ? ` · ${project.name}` : ''}`],rows,{className:'reference-overall-table',caption:'Drei SVS-Gesamtreferenzen im Vergleich zur eigenen SVS-Stufe'})}</section>`;
+  return `<section class="reference-section" data-reference-section="overall" aria-labelledby="reference-overall-title"><h3 id="reference-overall-title">Service Value System</h3>${table(['Referenz','SVS-Level','Eigener SVS-Gesamtwert',`Finale eigene SVS-Stufe${project?.name ? ` · ${project.name}` : ''}`],rows,{className:'reference-overall-table',caption:'Drei SVS-Gesamtreferenzen im Vergleich zur eigenen SVS-Stufe'})}</section>`;
 }
 
 function componentsHtml({data,result}) {
   const rows = COMPONENTS.map(component => {
     const row = (data.componentRecords || []).find(row => row.componentId === component.id);
     const own = result?.component_results?.[component.id];
-    return `<tr data-reference-id="${esc(row?.id || component.id)}" data-reference-component="${component.id}" data-own-component="${component.id}"><th scope="row">${component.label}</th>${originalCell(row,{fractionDigits:3})}${floorCell(row)}${ownRawCell(own)}${ownLevelCell(own)}</tr>`;
+    return `<tr data-reference-id="${esc(row?.id || component.id)}" data-reference-component="${component.id}" data-own-component="${component.id}"><th scope="row">${component.label}</th>${originalCell(row,{fractionDigits:2})}${floorCell(row)}${ownRawCell(own)}${ownLevelCell(own)}</tr>`;
   });
   return `<section class="reference-section" data-reference-section="components" aria-labelledby="reference-components-title"><h3 id="reference-components-title">Kategorien des Service Value Systems</h3>${table(['Kategorie','Mittelwert Referenz','Referenzstufe','Eigener Exakter Wert','Eigene Kategorie-Stufe'],rows,{className:'reference-component-table',caption:'Kategorien des Service Value Systems im Vergleich zur eigenen Kategorie-Stufe'})}</section>`;
 }
@@ -112,7 +113,7 @@ function practicesHtml(options) {
 /** Pure read-only projection of reference data, actual scope decisions and evaluated results. */
 export function referenceViewHtml(options) {
   if (!options?.data) return '<div class="reference-view"><p class="reference-empty">Referenzdaten werden geladen …</p></div>';
-  return `<div class="reference-view"><div class="reference-view-head"><h2>Referenzvergleich</h2><p class="muted">Referenzwerte und abgerundete Stufen im Vergleich zur eigenen Bewertung.</p></div>${overallHtml(options)}${componentsHtml(options)}${practicesHtml(options)}</div>`;
+  return `<div class="reference-view"><div class="reference-view-head"><h2>Referenzvergleich</h2><p class="muted">Referenzwerte und Stufen im Vergleich zur eigenen Bewertung. Der eigene SVS-Gesamtwert ist der Durchschnitt; die finale SVS-Stufe entspricht der niedrigsten Kategorie-Stufe.</p></div>${overallHtml(options)}${componentsHtml(options)}${practicesHtml(options)}</div>`;
 }
 
 /** The native disclosure changes only its DOM state; project data and storage remain untouched. */
