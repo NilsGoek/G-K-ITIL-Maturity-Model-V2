@@ -1,0 +1,79 @@
+{
+  "version": "5.0.0",
+  "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+  "checked_on": "2026-10-13",
+  "status": "passed",
+  "technical_tests_run": 59,
+  "technical_tests_passed": 59,
+  "structural_contract_errors": 0,
+  "issues": [],
+  "catalogs": [
+    {
+      "component_id": "governance",
+      "file_name": "SVS_Governance_Fragenkatalog_V5.json",
+      "question_count": 45,
+      "direct_question_count": 45,
+      "local_question_count": 40,
+      "category_or_helper_question_count": 5,
+      "sha256": "a87d5792b110d04f17c3a751bf3bda8bd197a60105bc1020c16f762dd5ea0cb5"
+    },
+    {
+      "component_id": "service_value_chain",
+      "file_name": "SVS_Service_Value_Chain_Fragenkatalog_V5.json",
+      "question_count": 45,
+      "direct_question_count": 45,
+      "local_question_count": 40,
+      "category_or_helper_question_count": 5,
+      "sha256": "680454a9732bc523af4daa790ef8b068e39180c1b1930ba49ea23b46ce88aad4"
+    },
+    {
+      "component_id": "guiding_principles",
+      "file_name": "GP_Fragenkatalog_V5.json",
+      "question_count": 22,
+      "direct_question_count": 22,
+      "local_question_count": 0,
+      "category_or_helper_question_count": 22,
+      "sha256": "af8053858ba5421fee60fd986389aa2b7acd1a620f0b963f57c37fb2f555fbf1"
+    },
+    {
+      "component_id": "continual_improvement",
+      "file_name": "CI_Fragenkatalog_V5.json",
+      "question_count": 51,
+      "direct_question_count": 51,
+      "local_question_count": 40,
+      "category_or_helper_question_count": 11,
+      "sha256": "cc4164f8934f821f10b03f8d15cb360001900dcb4b44b2414698f55b2e90f4c9"
+    },
+    {
+      "component_id": "practices",
+      "file_name": "SVS_Practices_Fragenkatalog_V5.json",
+      "question_count": 1306,
+      "direct_question_count": 1306,
+      "local_question_count": 1306,
+      "category_or_helper_question_count": 0,
+      "sha256": "22ea1b6058377ab3fff9c3f7600a331fffcf23c02a60c14a264dd494d4e55e4d"
+    }
+  ],
+  "total_question_definitions": 1469,
+  "direct_answer_projections": 0,
+  "practice_modules": 34,
+  "ci_individual_questions_restored": 40,
+  "separation_checks": [
+    "own local ladders",
+    "binding component prerequisites",
+    "SVS-only minimum",
+    "actual five-value graphic profile"
+  ],
+  "verified_example": {
+    "component_scores": {
+      "practices": 2,
+      "governance": 4,
+      "service_value_chain": 4,
+      "guiding_principles": 4,
+      "continual_improvement": 4
+    },
+    "svs_assessed_level": 2
+  },
+  "model_validation_completed": false,
+  "limitation": "Technische und strukturelle Prüfung mit synthetischen Fällen. Fachliche Modellvalidierung und reale Pilot-Assessments stehen weiterhin aus."
+}

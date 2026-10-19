@@ -1,0 +1,5887 @@
+{
+  "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+  "catalog_version": "5.0.0",
+  "component_results": {
+    "practices": {
+      "unit_id": "practices",
+      "assessed_level": 2,
+      "possible_upper_level": 2,
+      "status": "confirmed",
+      "aggregation_method": "explicit_role_thresholds",
+      "component_level_evaluations": [
+        {
+          "level": 1,
+          "fulfilled": true,
+          "possible": true,
+          "key_minimum": 1,
+          "supporting_minimum": null,
+          "practice_requirements": [
+            {
+              "practice_id": "PR02",
+              "scope_role": "primary",
+              "minimum_level": 1,
+              "state": "fulfilled"
+            },
+            {
+              "practice_id": "PR22",
+              "scope_role": "primary",
+              "minimum_level": 1,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "fulfilled": true,
+          "possible": true,
+          "key_minimum": 2,
+          "supporting_minimum": null,
+          "practice_requirements": [
+            {
+              "practice_id": "PR02",
+              "scope_role": "primary",
+              "minimum_level": 2,
+              "state": "fulfilled"
+            },
+            {
+              "practice_id": "PR22",
+              "scope_role": "primary",
+              "minimum_level": 2,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "fulfilled": false,
+          "possible": false,
+          "key_minimum": 3,
+          "supporting_minimum": 1,
+          "practice_requirements": [
+            {
+              "practice_id": "PR02",
+              "scope_role": "primary",
+              "minimum_level": 3,
+              "state": "fulfilled"
+            },
+            {
+              "practice_id": "PR22",
+              "scope_role": "primary",
+              "minimum_level": 3,
+              "state": "not_fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "fulfilled": false,
+          "possible": false,
+          "key_minimum": 4,
+          "supporting_minimum": 2,
+          "practice_requirements": [
+            {
+              "practice_id": "PR02",
+              "scope_role": "primary",
+              "minimum_level": 4,
+              "state": "fulfilled"
+            },
+            {
+              "practice_id": "PR22",
+              "scope_role": "primary",
+              "minimum_level": 4,
+              "state": "not_fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "fulfilled": false,
+          "possible": false,
+          "key_minimum": 5,
+          "supporting_minimum": 3,
+          "practice_requirements": [
+            {
+              "practice_id": "PR02",
+              "scope_role": "primary",
+              "minimum_level": 5,
+              "state": "not_fulfilled"
+            },
+            {
+              "practice_id": "PR22",
+              "scope_role": "primary",
+              "minimum_level": 5,
+              "state": "not_fulfilled"
+            }
+          ]
+        }
+      ],
+      "category_level_source": "binding_component_maturity_criteria",
+      "unit_results": [
+        {
+          "unit_id": "PR02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 4.0,
+          "unrounded_upper_mean": 4.0,
+          "unit_results": [
+            {
+              "unit_id": "PR02-C01",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C01-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C01-S2-Q01": 2,
+                "PR02-C01-S3-Q01": 3,
+                "PR02-C01-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C02",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C02-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C02-S2-Q01": 2,
+                "PR02-C02-S3-Q01": 3,
+                "PR02-C02-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C03",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C03-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C03-S2-Q01": 2,
+                "PR02-C03-S3-Q01": 3,
+                "PR02-C03-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C04",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C04-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C04-S2-Q01": 2,
+                "PR02-C04-S3-Q01": 3,
+                "PR02-C04-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C05",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C05-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C05-S2-Q01": 2,
+                "PR02-C05-S3-Q01": 3,
+                "PR02-C05-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C06",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C06-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C06-S2-Q01": 2,
+                "PR02-C06-S3-Q01": 3,
+                "PR02-C06-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C07",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C07-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C07-S2-Q01": 2,
+                "PR02-C07-S3-Q01": 3,
+                "PR02-C07-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C08",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C08-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C08-S2-Q01": 2,
+                "PR02-C08-S3-Q01": 3,
+                "PR02-C08-S4-Q01": 4
+              }
+            },
+            {
+              "unit_id": "PR02-C09",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR02-C09-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR02-C00-S1-Q01": 1,
+                "PR02-C09-S2-Q01": 2,
+                "PR02-C09-S3-Q01": 3,
+                "PR02-C09-S4-Q01": 4
+              }
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [
+            "PR02-C01-S5-Q01",
+            "PR02-C02-S5-Q01",
+            "PR02-C03-S5-Q01",
+            "PR02-C04-S5-Q01",
+            "PR02-C05-S5-Q01",
+            "PR02-C06-S5-Q01",
+            "PR02-C07-S5-Q01",
+            "PR02-C08-S5-Q01",
+            "PR02-C09-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C01-S2-Q01": 2,
+            "PR02-C01-S3-Q01": 3,
+            "PR02-C01-S4-Q01": 4,
+            "PR02-C02-S2-Q01": 2,
+            "PR02-C02-S3-Q01": 3,
+            "PR02-C02-S4-Q01": 4,
+            "PR02-C03-S2-Q01": 2,
+            "PR02-C03-S3-Q01": 3,
+            "PR02-C03-S4-Q01": 4,
+            "PR02-C04-S2-Q01": 2,
+            "PR02-C04-S3-Q01": 3,
+            "PR02-C04-S4-Q01": 4,
+            "PR02-C05-S2-Q01": 2,
+            "PR02-C05-S3-Q01": 3,
+            "PR02-C05-S4-Q01": 4,
+            "PR02-C06-S2-Q01": 2,
+            "PR02-C06-S3-Q01": 3,
+            "PR02-C06-S4-Q01": 4,
+            "PR02-C07-S2-Q01": 2,
+            "PR02-C07-S3-Q01": 3,
+            "PR02-C07-S4-Q01": 4,
+            "PR02-C08-S2-Q01": 2,
+            "PR02-C08-S3-Q01": 3,
+            "PR02-C08-S4-Q01": 4,
+            "PR02-C09-S2-Q01": 2,
+            "PR02-C09-S3-Q01": 3,
+            "PR02-C09-S4-Q01": 4
+          },
+          "practice_id": "PR02",
+          "module_id": "MOD-PR02",
+          "module_version": "0.4.0",
+          "scope_review_complete": true,
+          "component_id": "practices",
+          "level_type": "capability",
+          "assessment_id": "TEST-ASSESSMENT",
+          "assessment_unit_id": "TEST-UNIT",
+          "catalog_id": "svs-practices",
+          "catalog_version": "5.0.0",
+          "scope_id": "TEST-SCOPE",
+          "scope_description": "Synthetischer Prüfumfang",
+          "assessment_period": {
+            "start": "2026-07-01",
+            "end": "2026-09-30"
+          },
+          "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+          "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+          "context_status": "complete",
+          "model_validation_completed": false,
+          "result_is_draft": true,
+          "is_final": false,
+          "release_status": "draft",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "limitations": [
+            "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+          ],
+          "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+        },
+        {
+          "unit_id": "PR22",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 2.0,
+          "unrounded_upper_mean": 2.0,
+          "unit_results": [
+            {
+              "unit_id": "PR22-C01",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C01-S3-Q01",
+                "PR22-C01-S4-Q01",
+                "PR22-C01-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C01-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C02",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C02-S3-Q01",
+                "PR22-C02-S4-Q01",
+                "PR22-C02-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C02-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C03",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C03-S3-Q01",
+                "PR22-C03-S4-Q01",
+                "PR22-C03-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C03-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C04",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C04-S3-Q01",
+                "PR22-C04-S4-Q01",
+                "PR22-C04-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C04-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C05",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C05-S3-Q01",
+                "PR22-C05-S4-Q01",
+                "PR22-C05-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C05-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C06",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C06-S3-Q01",
+                "PR22-C06-S4-Q01",
+                "PR22-C06-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C06-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C07",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C07-S3-Q01",
+                "PR22-C07-S4-Q01",
+                "PR22-C07-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C07-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C08",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C08-S3-Q01",
+                "PR22-C08-S4-Q01",
+                "PR22-C08-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C08-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C09",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C09-S3-Q01",
+                "PR22-C09-S4-Q01",
+                "PR22-C09-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C09-S2-Q01": 2
+              }
+            },
+            {
+              "unit_id": "PR22-C10",
+              "assessed_level": 2,
+              "possible_upper_level": 2,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "PR22-C10-S3-Q01",
+                "PR22-C10-S4-Q01",
+                "PR22-C10-S5-Q01"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "PR22-C00-S1-Q01": 1,
+                "PR22-C10-S2-Q01": 2
+              }
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [
+            "PR22-C01-S3-Q01",
+            "PR22-C01-S4-Q01",
+            "PR22-C01-S5-Q01",
+            "PR22-C02-S3-Q01",
+            "PR22-C02-S4-Q01",
+            "PR22-C02-S5-Q01",
+            "PR22-C03-S3-Q01",
+            "PR22-C03-S4-Q01",
+            "PR22-C03-S5-Q01",
+            "PR22-C04-S3-Q01",
+            "PR22-C04-S4-Q01",
+            "PR22-C04-S5-Q01",
+            "PR22-C05-S3-Q01",
+            "PR22-C05-S4-Q01",
+            "PR22-C05-S5-Q01",
+            "PR22-C06-S3-Q01",
+            "PR22-C06-S4-Q01",
+            "PR22-C06-S5-Q01",
+            "PR22-C07-S3-Q01",
+            "PR22-C07-S4-Q01",
+            "PR22-C07-S5-Q01",
+            "PR22-C08-S3-Q01",
+            "PR22-C08-S4-Q01",
+            "PR22-C08-S5-Q01",
+            "PR22-C09-S3-Q01",
+            "PR22-C09-S4-Q01",
+            "PR22-C09-S5-Q01",
+            "PR22-C10-S3-Q01",
+            "PR22-C10-S4-Q01",
+            "PR22-C10-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C01-S2-Q01": 2,
+            "PR22-C02-S2-Q01": 2,
+            "PR22-C03-S2-Q01": 2,
+            "PR22-C04-S2-Q01": 2,
+            "PR22-C05-S2-Q01": 2,
+            "PR22-C06-S2-Q01": 2,
+            "PR22-C07-S2-Q01": 2,
+            "PR22-C08-S2-Q01": 2,
+            "PR22-C09-S2-Q01": 2,
+            "PR22-C10-S2-Q01": 2
+          },
+          "practice_id": "PR22",
+          "module_id": "MOD-PR22",
+          "module_version": "0.4.0",
+          "scope_review_complete": true,
+          "component_id": "practices",
+          "level_type": "capability",
+          "assessment_id": "TEST-ASSESSMENT",
+          "assessment_unit_id": "TEST-UNIT",
+          "catalog_id": "svs-practices",
+          "catalog_version": "5.0.0",
+          "scope_id": "TEST-SCOPE",
+          "scope_description": "Synthetischer Prüfumfang",
+          "assessment_period": {
+            "start": "2026-07-01",
+            "end": "2026-09-30"
+          },
+          "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+          "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+          "context_status": "complete",
+          "model_validation_completed": false,
+          "result_is_draft": true,
+          "is_final": false,
+          "release_status": "draft",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "limitations": [
+            "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+          ],
+          "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+        }
+      ],
+      "higher_level_unit_ids": [
+        "PR02"
+      ],
+      "limiting_unit_ids": [
+        "PR22"
+      ],
+      "primary_practice_ids": [
+        "PR02",
+        "PR22"
+      ],
+      "supporting_practice_ids": [],
+      "scope_review_complete": true,
+      "component_id": "practices",
+      "level_type": "maturity",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-practices",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "unrounded_mean": null,
+      "unrounded_upper_mean": null,
+      "weaker_criterion_ids": [],
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "blocking_question_ids": [],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "fulfilled_question_levels": {},
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    },
+    "governance": {
+      "unit_id": "governance",
+      "assessed_level": 4,
+      "possible_upper_level": 4,
+      "status": "confirmed",
+      "aggregation_method": "highest_fully_eligible_component_level",
+      "category_level_source": "binding_component_maturity_criteria",
+      "component_level_evaluations": [
+        {
+          "level": 1,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "GV-R01"
+          ],
+          "requirement_states": {
+            "GV-R01": "not_fulfilled"
+          },
+          "dependency_requirements": [],
+          "initial_classification_only": true
+        },
+        {
+          "level": 2,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GV-R02"
+          ],
+          "requirement_states": {
+            "GV-R02": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 3,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GV-R02",
+            "GV-R03"
+          ],
+          "requirement_states": {
+            "GV-R02": "fulfilled",
+            "GV-R03": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 4,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GV-R02",
+            "GV-R03",
+            "GV-R04"
+          ],
+          "requirement_states": {
+            "GV-R02": "fulfilled",
+            "GV-R03": "fulfilled",
+            "GV-R04": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 5,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "GV-R02",
+            "GV-R03",
+            "GV-R04",
+            "GV-R05"
+          ],
+          "requirement_states": {
+            "GV-R02": "fulfilled",
+            "GV-R03": "fulfilled",
+            "GV-R04": "fulfilled",
+            "GV-R05": "not_fulfilled"
+          },
+          "dependency_requirements": []
+        }
+      ],
+      "unit_results": [
+        {
+          "unit_id": "GV01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV01-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV01-S1": 1,
+            "GV01-S2": 2,
+            "GV01-S3": 3,
+            "GV01-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV02-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV02-S1": 1,
+            "GV02-S2": 2,
+            "GV02-S3": 3,
+            "GV02-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV03-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV03-S1": 1,
+            "GV03-S2": 2,
+            "GV03-S3": 3,
+            "GV03-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV04-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV04-S1": 1,
+            "GV04-S2": 2,
+            "GV04-S3": 3,
+            "GV04-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV05-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV05-S1": 1,
+            "GV05-S2": 2,
+            "GV05-S3": 3,
+            "GV05-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV06-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV06-S1": 1,
+            "GV06-S2": 2,
+            "GV06-S3": 3,
+            "GV06-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV07-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV07-S1": 1,
+            "GV07-S2": 2,
+            "GV07-S3": 3,
+            "GV07-S4": 4
+          }
+        },
+        {
+          "unit_id": "GV08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "GV08-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV08-S1": 1,
+            "GV08-S2": 2,
+            "GV08-S3": 3,
+            "GV08-S4": 4
+          }
+        }
+      ],
+      "blocking_question_ids": [
+        "GV-R05"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "GV-R02": 2,
+        "GV-R03": 3,
+        "GV-R04": 4
+      },
+      "detail_index": {
+        "unit_id": "governance_details",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "arithmetic_mean_floor",
+        "unrounded_mean": 4.0,
+        "unrounded_upper_mean": 4.0,
+        "unit_results": [
+          {
+            "unit_id": "GV01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV01-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV01-S1": 1,
+              "GV01-S2": 2,
+              "GV01-S3": 3,
+              "GV01-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV02-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV02-S1": 1,
+              "GV02-S2": 2,
+              "GV02-S3": 3,
+              "GV02-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV03-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV03-S1": 1,
+              "GV03-S2": 2,
+              "GV03-S3": 3,
+              "GV03-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV04-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV04-S1": 1,
+              "GV04-S2": 2,
+              "GV04-S3": 3,
+              "GV04-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV05-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV05-S1": 1,
+              "GV05-S2": 2,
+              "GV05-S3": 3,
+              "GV05-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV06-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV06-S1": 1,
+              "GV06-S2": 2,
+              "GV06-S3": 3,
+              "GV06-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV07-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV07-S1": 1,
+              "GV07-S2": 2,
+              "GV07-S3": 3,
+              "GV07-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV08-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV08-S1": 1,
+              "GV08-S2": 2,
+              "GV08-S3": 3,
+              "GV08-S4": 4
+            }
+          }
+        ],
+        "limiting_unit_ids": [],
+        "weaker_criterion_ids": [],
+        "higher_level_unit_ids": [],
+        "blocking_question_ids": [
+          "GV01-S5",
+          "GV02-S5",
+          "GV03-S5",
+          "GV04-S5",
+          "GV05-S5",
+          "GV06-S5",
+          "GV07-S5",
+          "GV08-S5"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "GV01-S1": 1,
+          "GV01-S2": 2,
+          "GV01-S3": 3,
+          "GV01-S4": 4,
+          "GV02-S1": 1,
+          "GV02-S2": 2,
+          "GV02-S3": 3,
+          "GV02-S4": 4,
+          "GV03-S1": 1,
+          "GV03-S2": 2,
+          "GV03-S3": 3,
+          "GV03-S4": 4,
+          "GV04-S1": 1,
+          "GV04-S2": 2,
+          "GV04-S3": 3,
+          "GV04-S4": 4,
+          "GV05-S1": 1,
+          "GV05-S2": 2,
+          "GV05-S3": 3,
+          "GV05-S4": 4,
+          "GV06-S1": 1,
+          "GV06-S2": 2,
+          "GV06-S3": 3,
+          "GV06-S4": 4,
+          "GV07-S1": 1,
+          "GV07-S2": 2,
+          "GV07-S3": 3,
+          "GV07-S4": 4,
+          "GV08-S1": 1,
+          "GV08-S2": 2,
+          "GV08-S3": 3,
+          "GV08-S4": 4
+        }
+      },
+      "component_id": "governance",
+      "level_type": "maturity",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-governance",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "unrounded_mean": null,
+      "unrounded_upper_mean": null,
+      "weaker_criterion_ids": [],
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limiting_unit_ids": [],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    },
+    "service_value_chain": {
+      "unit_id": "service_value_chain",
+      "assessed_level": 4,
+      "possible_upper_level": 4,
+      "status": "confirmed",
+      "aggregation_method": "highest_fully_eligible_component_level",
+      "category_level_source": "binding_component_maturity_criteria",
+      "component_level_evaluations": [
+        {
+          "level": 1,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "SVC-R01"
+          ],
+          "requirement_states": {
+            "SVC-R01": "not_fulfilled"
+          },
+          "dependency_requirements": [],
+          "initial_classification_only": true
+        },
+        {
+          "level": 2,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "SVC-R02"
+          ],
+          "requirement_states": {
+            "SVC-R02": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 3,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "SVC-R02",
+            "SVC-R03"
+          ],
+          "requirement_states": {
+            "SVC-R02": "fulfilled",
+            "SVC-R03": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 4,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "SVC-R02",
+            "SVC-R03",
+            "SVC-R04"
+          ],
+          "requirement_states": {
+            "SVC-R02": "fulfilled",
+            "SVC-R03": "fulfilled",
+            "SVC-R04": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 5,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "SVC-R02",
+            "SVC-R03",
+            "SVC-R04",
+            "SVC-R05"
+          ],
+          "requirement_states": {
+            "SVC-R02": "fulfilled",
+            "SVC-R03": "fulfilled",
+            "SVC-R04": "fulfilled",
+            "SVC-R05": "not_fulfilled"
+          },
+          "dependency_requirements": []
+        }
+      ],
+      "unit_results": [
+        {
+          "unit_id": "SVC01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC01-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC01-S1": 1,
+            "SVC01-S2": 2,
+            "SVC01-S3": 3,
+            "SVC01-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC02-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC02-S1": 1,
+            "SVC02-S2": 2,
+            "SVC02-S3": 3,
+            "SVC02-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC03-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC03-S1": 1,
+            "SVC03-S2": 2,
+            "SVC03-S3": 3,
+            "SVC03-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC04-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC04-S1": 1,
+            "SVC04-S2": 2,
+            "SVC04-S3": 3,
+            "SVC04-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC05-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC05-S1": 1,
+            "SVC05-S2": 2,
+            "SVC05-S3": 3,
+            "SVC05-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC06-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC06-S1": 1,
+            "SVC06-S2": 2,
+            "SVC06-S3": 3,
+            "SVC06-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC07-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC07-S1": 1,
+            "SVC07-S2": 2,
+            "SVC07-S3": 3,
+            "SVC07-S4": 4
+          }
+        },
+        {
+          "unit_id": "SVC08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "SVC08-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC08-S1": 1,
+            "SVC08-S2": 2,
+            "SVC08-S3": 3,
+            "SVC08-S4": 4
+          }
+        }
+      ],
+      "blocking_question_ids": [
+        "SVC-R05"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "SVC-R02": 2,
+        "SVC-R03": 3,
+        "SVC-R04": 4
+      },
+      "detail_index": {
+        "unit_id": "service_value_chain_details",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "arithmetic_mean_floor",
+        "unrounded_mean": 4.0,
+        "unrounded_upper_mean": 4.0,
+        "unit_results": [
+          {
+            "unit_id": "SVC01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC01-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC01-S1": 1,
+              "SVC01-S2": 2,
+              "SVC01-S3": 3,
+              "SVC01-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC02-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC02-S1": 1,
+              "SVC02-S2": 2,
+              "SVC02-S3": 3,
+              "SVC02-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC03-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC03-S1": 1,
+              "SVC03-S2": 2,
+              "SVC03-S3": 3,
+              "SVC03-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC04-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC04-S1": 1,
+              "SVC04-S2": 2,
+              "SVC04-S3": 3,
+              "SVC04-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC05-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC05-S1": 1,
+              "SVC05-S2": 2,
+              "SVC05-S3": 3,
+              "SVC05-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC06-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC06-S1": 1,
+              "SVC06-S2": 2,
+              "SVC06-S3": 3,
+              "SVC06-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC07-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC07-S1": 1,
+              "SVC07-S2": 2,
+              "SVC07-S3": 3,
+              "SVC07-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC08-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC08-S1": 1,
+              "SVC08-S2": 2,
+              "SVC08-S3": 3,
+              "SVC08-S4": 4
+            }
+          }
+        ],
+        "limiting_unit_ids": [],
+        "weaker_criterion_ids": [],
+        "higher_level_unit_ids": [],
+        "blocking_question_ids": [
+          "SVC01-S5",
+          "SVC02-S5",
+          "SVC03-S5",
+          "SVC04-S5",
+          "SVC05-S5",
+          "SVC06-S5",
+          "SVC07-S5",
+          "SVC08-S5"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "SVC01-S1": 1,
+          "SVC01-S2": 2,
+          "SVC01-S3": 3,
+          "SVC01-S4": 4,
+          "SVC02-S1": 1,
+          "SVC02-S2": 2,
+          "SVC02-S3": 3,
+          "SVC02-S4": 4,
+          "SVC03-S1": 1,
+          "SVC03-S2": 2,
+          "SVC03-S3": 3,
+          "SVC03-S4": 4,
+          "SVC04-S1": 1,
+          "SVC04-S2": 2,
+          "SVC04-S3": 3,
+          "SVC04-S4": 4,
+          "SVC05-S1": 1,
+          "SVC05-S2": 2,
+          "SVC05-S3": 3,
+          "SVC05-S4": 4,
+          "SVC06-S1": 1,
+          "SVC06-S2": 2,
+          "SVC06-S3": 3,
+          "SVC06-S4": 4,
+          "SVC07-S1": 1,
+          "SVC07-S2": 2,
+          "SVC07-S3": 3,
+          "SVC07-S4": 4,
+          "SVC08-S1": 1,
+          "SVC08-S2": 2,
+          "SVC08-S3": 3,
+          "SVC08-S4": 4
+        }
+      },
+      "assessed_value_stream_ids": [
+        "TEST-VS"
+      ],
+      "component_id": "service_value_chain",
+      "level_type": "maturity",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-service-value-chain",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "unrounded_mean": null,
+      "unrounded_upper_mean": null,
+      "weaker_criterion_ids": [],
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limiting_unit_ids": [],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    },
+    "guiding_principles": {
+      "unit_id": "guiding_principles",
+      "assessed_level": 4,
+      "possible_upper_level": 4,
+      "status": "confirmed",
+      "aggregation_method": "highest_fully_eligible_component_level",
+      "category_level_source": "binding_component_maturity_criteria",
+      "component_level_evaluations": [
+        {
+          "level": 1,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "GP-R01"
+          ],
+          "requirement_states": {
+            "GP-R01": "not_fulfilled"
+          },
+          "dependency_requirements": [],
+          "initial_classification_only": true
+        },
+        {
+          "level": 2,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GP-R02",
+            "GP-R03"
+          ],
+          "requirement_states": {
+            "GP-R02": "fulfilled",
+            "GP-R03": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 3,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GP-R02",
+            "GP-R03",
+            "GP-R04",
+            "GP-R05",
+            "GP-R06",
+            "GP-R07"
+          ],
+          "requirement_states": {
+            "GP-R02": "fulfilled",
+            "GP-R03": "fulfilled",
+            "GP-R04": "fulfilled",
+            "GP-R05": "fulfilled",
+            "GP-R06": "fulfilled",
+            "GP-R07": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 4,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "GP-R02",
+            "GP-R03",
+            "GP-R04",
+            "GP-R05",
+            "GP-R06",
+            "GP-R07",
+            "GP-R08",
+            "GP-R09",
+            "GP-R10",
+            "GP-R11",
+            "GP-R12"
+          ],
+          "requirement_states": {
+            "GP-R02": "fulfilled",
+            "GP-R03": "fulfilled",
+            "GP-R04": "fulfilled",
+            "GP-R05": "fulfilled",
+            "GP-R06": "fulfilled",
+            "GP-R07": "fulfilled",
+            "GP-R08": "fulfilled",
+            "GP-R09": "fulfilled",
+            "GP-R10": "fulfilled",
+            "GP-R11": "fulfilled",
+            "GP-R12": "fulfilled"
+          },
+          "dependency_requirements": []
+        },
+        {
+          "level": 5,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "GP-R02",
+            "GP-R03",
+            "GP-R04",
+            "GP-R05",
+            "GP-R06",
+            "GP-R07",
+            "GP-R08",
+            "GP-R09",
+            "GP-R10",
+            "GP-R11",
+            "GP-R12",
+            "GP-R13",
+            "GP-R14",
+            "GP-R15"
+          ],
+          "requirement_states": {
+            "GP-R02": "fulfilled",
+            "GP-R03": "fulfilled",
+            "GP-R04": "fulfilled",
+            "GP-R05": "fulfilled",
+            "GP-R06": "fulfilled",
+            "GP-R07": "fulfilled",
+            "GP-R08": "fulfilled",
+            "GP-R09": "fulfilled",
+            "GP-R10": "fulfilled",
+            "GP-R11": "fulfilled",
+            "GP-R12": "fulfilled",
+            "GP-R13": "not_fulfilled",
+            "GP-R14": "not_fulfilled",
+            "GP-R15": "not_fulfilled"
+          },
+          "dependency_requirements": []
+        }
+      ],
+      "unit_results": [
+        {
+          "unit_id": "GP-C01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        },
+        {
+          "unit_id": "GP-C08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "rating_source": "reviewed_criterion_rating"
+        }
+      ],
+      "blocking_question_ids": [
+        "GP-R13",
+        "GP-R14",
+        "GP-R15"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "GP-R02": 2,
+        "GP-R03": 2,
+        "GP-R04": 3,
+        "GP-R05": 3,
+        "GP-R06": 3,
+        "GP-R07": 3,
+        "GP-R08": 4,
+        "GP-R09": 4,
+        "GP-R10": 4,
+        "GP-R11": 4,
+        "GP-R12": 4
+      },
+      "detail_index": {
+        "unit_id": "guiding_principles_details",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "arithmetic_mean_floor",
+        "unrounded_mean": 4.0,
+        "unrounded_upper_mean": 4.0,
+        "unit_results": [
+          {
+            "unit_id": "GP-C01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          }
+        ],
+        "limiting_unit_ids": [],
+        "weaker_criterion_ids": [],
+        "higher_level_unit_ids": [],
+        "blocking_question_ids": [],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {}
+      },
+      "component_id": "guiding_principles",
+      "level_type": "maturity",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "GOEK-SVS-GP",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "unrounded_mean": null,
+      "unrounded_upper_mean": null,
+      "weaker_criterion_ids": [],
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limiting_unit_ids": [],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    },
+    "continual_improvement": {
+      "unit_id": "continual_improvement",
+      "assessed_level": 4,
+      "possible_upper_level": 4,
+      "status": "confirmed",
+      "aggregation_method": "highest_fully_eligible_component_level",
+      "category_level_source": "binding_component_maturity_criteria",
+      "component_level_evaluations": [
+        {
+          "level": 1,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "CI-R01",
+            "CI-R02"
+          ],
+          "requirement_states": {
+            "CI-R01": "fulfilled",
+            "CI-R02": "fulfilled"
+          },
+          "dependency_requirements": [
+            {
+              "source_id": "PR02",
+              "minimum_level": 1,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "CI-R01",
+            "CI-R02",
+            "CI-R03"
+          ],
+          "requirement_states": {
+            "CI-R01": "fulfilled",
+            "CI-R02": "fulfilled",
+            "CI-R03": "fulfilled"
+          },
+          "dependency_requirements": [
+            {
+              "source_id": "PR02",
+              "minimum_level": 2,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "CI-R01",
+            "CI-R02",
+            "CI-R03",
+            "CI-R04",
+            "CI-R05"
+          ],
+          "requirement_states": {
+            "CI-R01": "fulfilled",
+            "CI-R02": "fulfilled",
+            "CI-R03": "fulfilled",
+            "CI-R04": "fulfilled",
+            "CI-R05": "fulfilled"
+          },
+          "dependency_requirements": [
+            {
+              "source_id": "PR02",
+              "minimum_level": 3,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "fulfilled": true,
+          "possible": true,
+          "required_question_ids": [
+            "CI-R01",
+            "CI-R02",
+            "CI-R03",
+            "CI-R04",
+            "CI-R05",
+            "CI-R06",
+            "CI-R07",
+            "CI-R08",
+            "CI-R09"
+          ],
+          "requirement_states": {
+            "CI-R01": "fulfilled",
+            "CI-R02": "fulfilled",
+            "CI-R03": "fulfilled",
+            "CI-R04": "fulfilled",
+            "CI-R05": "fulfilled",
+            "CI-R06": "fulfilled",
+            "CI-R07": "fulfilled",
+            "CI-R08": "fulfilled",
+            "CI-R09": "fulfilled"
+          },
+          "dependency_requirements": [
+            {
+              "source_id": "PR02",
+              "minimum_level": 4,
+              "state": "fulfilled"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "fulfilled": false,
+          "possible": false,
+          "required_question_ids": [
+            "CI-R01",
+            "CI-R02",
+            "CI-R03",
+            "CI-R04",
+            "CI-R05",
+            "CI-R06",
+            "CI-R07",
+            "CI-R08",
+            "CI-R09",
+            "CI-R10",
+            "CI-R11"
+          ],
+          "requirement_states": {
+            "CI-R01": "fulfilled",
+            "CI-R02": "fulfilled",
+            "CI-R03": "fulfilled",
+            "CI-R04": "fulfilled",
+            "CI-R05": "fulfilled",
+            "CI-R06": "fulfilled",
+            "CI-R07": "fulfilled",
+            "CI-R08": "fulfilled",
+            "CI-R09": "fulfilled",
+            "CI-R10": "not_fulfilled",
+            "CI-R11": "not_fulfilled"
+          },
+          "dependency_requirements": [
+            {
+              "source_id": "PR02",
+              "minimum_level": 5,
+              "state": "not_fulfilled"
+            }
+          ]
+        }
+      ],
+      "unit_results": [
+        {
+          "unit_id": "CI-01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-01-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-01-L1": 1,
+            "CI-01-L2": 2,
+            "CI-01-L3": 3,
+            "CI-01-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-02-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-02-L1": 1,
+            "CI-02-L2": 2,
+            "CI-02-L3": 3,
+            "CI-02-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-03-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-03-L1": 1,
+            "CI-03-L2": 2,
+            "CI-03-L3": 3,
+            "CI-03-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-04-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-04-L1": 1,
+            "CI-04-L2": 2,
+            "CI-04-L3": 3,
+            "CI-04-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-05-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-05-L1": 1,
+            "CI-05-L2": 2,
+            "CI-05-L3": 3,
+            "CI-05-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-06-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-06-L1": 1,
+            "CI-06-L2": 2,
+            "CI-06-L3": 3,
+            "CI-06-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-07-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-07-L1": 1,
+            "CI-07-L2": 2,
+            "CI-07-L3": 3,
+            "CI-07-L4": 4
+          }
+        },
+        {
+          "unit_id": "CI-08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-08-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-08-L1": 1,
+            "CI-08-L2": 2,
+            "CI-08-L3": 3,
+            "CI-08-L4": 4
+          }
+        }
+      ],
+      "blocking_question_ids": [
+        "CI-R10",
+        "CI-R11"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "CI-R01": 1,
+        "CI-R02": 1,
+        "CI-R03": 2,
+        "CI-R04": 3,
+        "CI-R05": 3,
+        "CI-R06": 4,
+        "CI-R07": 4,
+        "CI-R08": 4,
+        "CI-R09": 4
+      },
+      "detail_index": {
+        "unit_id": "continual_improvement_details",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "arithmetic_mean_floor",
+        "unrounded_mean": 4.0,
+        "unrounded_upper_mean": 4.0,
+        "unit_results": [
+          {
+            "unit_id": "CI-01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-01-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-01-L1": 1,
+              "CI-01-L2": 2,
+              "CI-01-L3": 3,
+              "CI-01-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-02-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-02-L1": 1,
+              "CI-02-L2": 2,
+              "CI-02-L3": 3,
+              "CI-02-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-03-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-03-L1": 1,
+              "CI-03-L2": 2,
+              "CI-03-L3": 3,
+              "CI-03-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-04-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-04-L1": 1,
+              "CI-04-L2": 2,
+              "CI-04-L3": 3,
+              "CI-04-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-05-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-05-L1": 1,
+              "CI-05-L2": 2,
+              "CI-05-L3": 3,
+              "CI-05-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-06-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-06-L1": 1,
+              "CI-06-L2": 2,
+              "CI-06-L3": 3,
+              "CI-06-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-07-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-07-L1": 1,
+              "CI-07-L2": 2,
+              "CI-07-L3": 3,
+              "CI-07-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-08-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-08-L1": 1,
+              "CI-08-L2": 2,
+              "CI-08-L3": 3,
+              "CI-08-L4": 4
+            }
+          }
+        ],
+        "limiting_unit_ids": [],
+        "weaker_criterion_ids": [],
+        "higher_level_unit_ids": [],
+        "blocking_question_ids": [
+          "CI-01-L5",
+          "CI-02-L5",
+          "CI-03-L5",
+          "CI-04-L5",
+          "CI-05-L5",
+          "CI-06-L5",
+          "CI-07-L5",
+          "CI-08-L5"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "CI-01-L1": 1,
+          "CI-01-L2": 2,
+          "CI-01-L3": 3,
+          "CI-01-L4": 4,
+          "CI-02-L1": 1,
+          "CI-02-L2": 2,
+          "CI-02-L3": 3,
+          "CI-02-L4": 4,
+          "CI-03-L1": 1,
+          "CI-03-L2": 2,
+          "CI-03-L3": 3,
+          "CI-03-L4": 4,
+          "CI-04-L1": 1,
+          "CI-04-L2": 2,
+          "CI-04-L3": 3,
+          "CI-04-L4": 4,
+          "CI-05-L1": 1,
+          "CI-05-L2": 2,
+          "CI-05-L3": 3,
+          "CI-05-L4": 4,
+          "CI-06-L1": 1,
+          "CI-06-L2": 2,
+          "CI-06-L3": 3,
+          "CI-06-L4": 4,
+          "CI-07-L1": 1,
+          "CI-07-L2": 2,
+          "CI-07-L3": 3,
+          "CI-07-L4": 4,
+          "CI-08-L1": 1,
+          "CI-08-L2": 2,
+          "CI-08-L3": 3,
+          "CI-08-L4": 4
+        }
+      },
+      "dependency_status": "compatible",
+      "diagnostic_profile_results": [
+        {
+          "unit_id": "CI-01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-01-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-01-L1": 1,
+            "CI-01-L2": 2,
+            "CI-01-L3": 3,
+            "CI-01-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-02-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-02-L1": 1,
+            "CI-02-L2": 2,
+            "CI-02-L3": 3,
+            "CI-02-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-03-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-03-L1": 1,
+            "CI-03-L2": 2,
+            "CI-03-L3": 3,
+            "CI-03-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-04-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-04-L1": 1,
+            "CI-04-L2": 2,
+            "CI-04-L3": 3,
+            "CI-04-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-05-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-05-L1": 1,
+            "CI-05-L2": 2,
+            "CI-05-L3": 3,
+            "CI-05-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-06-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-06-L1": 1,
+            "CI-06-L2": 2,
+            "CI-06-L3": 3,
+            "CI-06-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-07-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-07-L1": 1,
+            "CI-07-L2": 2,
+            "CI-07-L3": 3,
+            "CI-07-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        },
+        {
+          "unit_id": "CI-08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "CI-08-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-08-L1": 1,
+            "CI-08-L2": 2,
+            "CI-08-L3": 3,
+            "CI-08-L4": 4
+          },
+          "profile_type": "individual_detail",
+          "influences_component_level": false
+        }
+      ],
+      "component_id": "continual_improvement",
+      "level_type": "maturity",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "GOEK-SVS-CI",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "unrounded_mean": null,
+      "unrounded_upper_mean": null,
+      "weaker_criterion_ids": [],
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limiting_unit_ids": [],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    }
+  },
+  "practice_results": {
+    "PR02": {
+      "unit_id": "PR02",
+      "assessed_level": 4,
+      "possible_upper_level": 4,
+      "status": "confirmed",
+      "aggregation_method": "arithmetic_mean_floor",
+      "unrounded_mean": 4.0,
+      "unrounded_upper_mean": 4.0,
+      "unit_results": [
+        {
+          "unit_id": "PR02-C01",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C01-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C01-S2-Q01": 2,
+            "PR02-C01-S3-Q01": 3,
+            "PR02-C01-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C02",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C02-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C02-S2-Q01": 2,
+            "PR02-C02-S3-Q01": 3,
+            "PR02-C02-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C03",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C03-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C03-S2-Q01": 2,
+            "PR02-C03-S3-Q01": 3,
+            "PR02-C03-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C04",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C04-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C04-S2-Q01": 2,
+            "PR02-C04-S3-Q01": 3,
+            "PR02-C04-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C05",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C05-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C05-S2-Q01": 2,
+            "PR02-C05-S3-Q01": 3,
+            "PR02-C05-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C06",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C06-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C06-S2-Q01": 2,
+            "PR02-C06-S3-Q01": 3,
+            "PR02-C06-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C07",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C07-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C07-S2-Q01": 2,
+            "PR02-C07-S3-Q01": 3,
+            "PR02-C07-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C08",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C08-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C08-S2-Q01": 2,
+            "PR02-C08-S3-Q01": 3,
+            "PR02-C08-S4-Q01": 4
+          }
+        },
+        {
+          "unit_id": "PR02-C09",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR02-C09-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR02-C00-S1-Q01": 1,
+            "PR02-C09-S2-Q01": 2,
+            "PR02-C09-S3-Q01": 3,
+            "PR02-C09-S4-Q01": 4
+          }
+        }
+      ],
+      "limiting_unit_ids": [],
+      "weaker_criterion_ids": [],
+      "higher_level_unit_ids": [],
+      "blocking_question_ids": [
+        "PR02-C01-S5-Q01",
+        "PR02-C02-S5-Q01",
+        "PR02-C03-S5-Q01",
+        "PR02-C04-S5-Q01",
+        "PR02-C05-S5-Q01",
+        "PR02-C06-S5-Q01",
+        "PR02-C07-S5-Q01",
+        "PR02-C08-S5-Q01",
+        "PR02-C09-S5-Q01"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "PR02-C00-S1-Q01": 1,
+        "PR02-C01-S2-Q01": 2,
+        "PR02-C01-S3-Q01": 3,
+        "PR02-C01-S4-Q01": 4,
+        "PR02-C02-S2-Q01": 2,
+        "PR02-C02-S3-Q01": 3,
+        "PR02-C02-S4-Q01": 4,
+        "PR02-C03-S2-Q01": 2,
+        "PR02-C03-S3-Q01": 3,
+        "PR02-C03-S4-Q01": 4,
+        "PR02-C04-S2-Q01": 2,
+        "PR02-C04-S3-Q01": 3,
+        "PR02-C04-S4-Q01": 4,
+        "PR02-C05-S2-Q01": 2,
+        "PR02-C05-S3-Q01": 3,
+        "PR02-C05-S4-Q01": 4,
+        "PR02-C06-S2-Q01": 2,
+        "PR02-C06-S3-Q01": 3,
+        "PR02-C06-S4-Q01": 4,
+        "PR02-C07-S2-Q01": 2,
+        "PR02-C07-S3-Q01": 3,
+        "PR02-C07-S4-Q01": 4,
+        "PR02-C08-S2-Q01": 2,
+        "PR02-C08-S3-Q01": 3,
+        "PR02-C08-S4-Q01": 4,
+        "PR02-C09-S2-Q01": 2,
+        "PR02-C09-S3-Q01": 3,
+        "PR02-C09-S4-Q01": 4
+      },
+      "practice_id": "PR02",
+      "module_id": "MOD-PR02",
+      "module_version": "0.4.0",
+      "scope_review_complete": true,
+      "component_id": "practices",
+      "level_type": "capability",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-practices",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    },
+    "PR22": {
+      "unit_id": "PR22",
+      "assessed_level": 2,
+      "possible_upper_level": 2,
+      "status": "confirmed",
+      "aggregation_method": "arithmetic_mean_floor",
+      "unrounded_mean": 2.0,
+      "unrounded_upper_mean": 2.0,
+      "unit_results": [
+        {
+          "unit_id": "PR22-C01",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C01-S3-Q01",
+            "PR22-C01-S4-Q01",
+            "PR22-C01-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C01-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C02",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C02-S3-Q01",
+            "PR22-C02-S4-Q01",
+            "PR22-C02-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C02-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C03",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C03-S3-Q01",
+            "PR22-C03-S4-Q01",
+            "PR22-C03-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C03-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C04",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C04-S3-Q01",
+            "PR22-C04-S4-Q01",
+            "PR22-C04-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C04-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C05",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C05-S3-Q01",
+            "PR22-C05-S4-Q01",
+            "PR22-C05-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C05-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C06",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C06-S3-Q01",
+            "PR22-C06-S4-Q01",
+            "PR22-C06-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C06-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C07",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C07-S3-Q01",
+            "PR22-C07-S4-Q01",
+            "PR22-C07-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C07-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C08",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C08-S3-Q01",
+            "PR22-C08-S4-Q01",
+            "PR22-C08-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C08-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C09",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C09-S3-Q01",
+            "PR22-C09-S4-Q01",
+            "PR22-C09-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C09-S2-Q01": 2
+          }
+        },
+        {
+          "unit_id": "PR22-C10",
+          "assessed_level": 2,
+          "possible_upper_level": 2,
+          "status": "confirmed",
+          "blocking_question_ids": [
+            "PR22-C10-S3-Q01",
+            "PR22-C10-S4-Q01",
+            "PR22-C10-S5-Q01"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "PR22-C00-S1-Q01": 1,
+            "PR22-C10-S2-Q01": 2
+          }
+        }
+      ],
+      "limiting_unit_ids": [],
+      "weaker_criterion_ids": [],
+      "higher_level_unit_ids": [],
+      "blocking_question_ids": [
+        "PR22-C01-S3-Q01",
+        "PR22-C01-S4-Q01",
+        "PR22-C01-S5-Q01",
+        "PR22-C02-S3-Q01",
+        "PR22-C02-S4-Q01",
+        "PR22-C02-S5-Q01",
+        "PR22-C03-S3-Q01",
+        "PR22-C03-S4-Q01",
+        "PR22-C03-S5-Q01",
+        "PR22-C04-S3-Q01",
+        "PR22-C04-S4-Q01",
+        "PR22-C04-S5-Q01",
+        "PR22-C05-S3-Q01",
+        "PR22-C05-S4-Q01",
+        "PR22-C05-S5-Q01",
+        "PR22-C06-S3-Q01",
+        "PR22-C06-S4-Q01",
+        "PR22-C06-S5-Q01",
+        "PR22-C07-S3-Q01",
+        "PR22-C07-S4-Q01",
+        "PR22-C07-S5-Q01",
+        "PR22-C08-S3-Q01",
+        "PR22-C08-S4-Q01",
+        "PR22-C08-S5-Q01",
+        "PR22-C09-S3-Q01",
+        "PR22-C09-S4-Q01",
+        "PR22-C09-S5-Q01",
+        "PR22-C10-S3-Q01",
+        "PR22-C10-S4-Q01",
+        "PR22-C10-S5-Q01"
+      ],
+      "open_question_ids": [],
+      "higher_level_strength_question_ids": [],
+      "fulfilled_question_levels": {
+        "PR22-C00-S1-Q01": 1,
+        "PR22-C01-S2-Q01": 2,
+        "PR22-C02-S2-Q01": 2,
+        "PR22-C03-S2-Q01": 2,
+        "PR22-C04-S2-Q01": 2,
+        "PR22-C05-S2-Q01": 2,
+        "PR22-C06-S2-Q01": 2,
+        "PR22-C07-S2-Q01": 2,
+        "PR22-C08-S2-Q01": 2,
+        "PR22-C09-S2-Q01": 2,
+        "PR22-C10-S2-Q01": 2
+      },
+      "practice_id": "PR22",
+      "module_id": "MOD-PR22",
+      "module_version": "0.4.0",
+      "scope_review_complete": true,
+      "component_id": "practices",
+      "level_type": "capability",
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-practices",
+      "catalog_version": "5.0.0",
+      "scope_id": "TEST-SCOPE",
+      "scope_description": "Synthetischer Prüfumfang",
+      "assessment_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+      "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+      "context_status": "complete",
+      "model_validation_completed": false,
+      "result_is_draft": true,
+      "is_final": false,
+      "release_status": "draft",
+      "evidence_ids": [
+        "TEST-E"
+      ],
+      "limitations": [
+        "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+      ],
+      "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+    }
+  },
+  "svs_result": {
+    "unit_id": "svs",
+    "assessed_level": 2,
+    "possible_upper_level": 2,
+    "status": "confirmed",
+    "limiting_unit_ids": [
+      "practices"
+    ],
+    "unit_results": [
+      {
+        "unit_id": "practices",
+        "assessed_level": 2,
+        "possible_upper_level": 2,
+        "status": "confirmed",
+        "aggregation_method": "explicit_role_thresholds",
+        "component_level_evaluations": [
+          {
+            "level": 1,
+            "fulfilled": true,
+            "possible": true,
+            "key_minimum": 1,
+            "supporting_minimum": null,
+            "practice_requirements": [
+              {
+                "practice_id": "PR02",
+                "scope_role": "primary",
+                "minimum_level": 1,
+                "state": "fulfilled"
+              },
+              {
+                "practice_id": "PR22",
+                "scope_role": "primary",
+                "minimum_level": 1,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "fulfilled": true,
+            "possible": true,
+            "key_minimum": 2,
+            "supporting_minimum": null,
+            "practice_requirements": [
+              {
+                "practice_id": "PR02",
+                "scope_role": "primary",
+                "minimum_level": 2,
+                "state": "fulfilled"
+              },
+              {
+                "practice_id": "PR22",
+                "scope_role": "primary",
+                "minimum_level": 2,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "fulfilled": false,
+            "possible": false,
+            "key_minimum": 3,
+            "supporting_minimum": 1,
+            "practice_requirements": [
+              {
+                "practice_id": "PR02",
+                "scope_role": "primary",
+                "minimum_level": 3,
+                "state": "fulfilled"
+              },
+              {
+                "practice_id": "PR22",
+                "scope_role": "primary",
+                "minimum_level": 3,
+                "state": "not_fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "fulfilled": false,
+            "possible": false,
+            "key_minimum": 4,
+            "supporting_minimum": 2,
+            "practice_requirements": [
+              {
+                "practice_id": "PR02",
+                "scope_role": "primary",
+                "minimum_level": 4,
+                "state": "fulfilled"
+              },
+              {
+                "practice_id": "PR22",
+                "scope_role": "primary",
+                "minimum_level": 4,
+                "state": "not_fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "fulfilled": false,
+            "possible": false,
+            "key_minimum": 5,
+            "supporting_minimum": 3,
+            "practice_requirements": [
+              {
+                "practice_id": "PR02",
+                "scope_role": "primary",
+                "minimum_level": 5,
+                "state": "not_fulfilled"
+              },
+              {
+                "practice_id": "PR22",
+                "scope_role": "primary",
+                "minimum_level": 5,
+                "state": "not_fulfilled"
+              }
+            ]
+          }
+        ],
+        "category_level_source": "binding_component_maturity_criteria",
+        "unit_results": [
+          {
+            "unit_id": "PR02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "aggregation_method": "arithmetic_mean_floor",
+            "unrounded_mean": 4.0,
+            "unrounded_upper_mean": 4.0,
+            "unit_results": [
+              {
+                "unit_id": "PR02-C01",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C01-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C01-S2-Q01": 2,
+                  "PR02-C01-S3-Q01": 3,
+                  "PR02-C01-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C02",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C02-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C02-S2-Q01": 2,
+                  "PR02-C02-S3-Q01": 3,
+                  "PR02-C02-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C03",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C03-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C03-S2-Q01": 2,
+                  "PR02-C03-S3-Q01": 3,
+                  "PR02-C03-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C04",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C04-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C04-S2-Q01": 2,
+                  "PR02-C04-S3-Q01": 3,
+                  "PR02-C04-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C05",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C05-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C05-S2-Q01": 2,
+                  "PR02-C05-S3-Q01": 3,
+                  "PR02-C05-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C06",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C06-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C06-S2-Q01": 2,
+                  "PR02-C06-S3-Q01": 3,
+                  "PR02-C06-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C07",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C07-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C07-S2-Q01": 2,
+                  "PR02-C07-S3-Q01": 3,
+                  "PR02-C07-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C08",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C08-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C08-S2-Q01": 2,
+                  "PR02-C08-S3-Q01": 3,
+                  "PR02-C08-S4-Q01": 4
+                }
+              },
+              {
+                "unit_id": "PR02-C09",
+                "assessed_level": 4,
+                "possible_upper_level": 4,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR02-C09-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR02-C00-S1-Q01": 1,
+                  "PR02-C09-S2-Q01": 2,
+                  "PR02-C09-S3-Q01": 3,
+                  "PR02-C09-S4-Q01": 4
+                }
+              }
+            ],
+            "limiting_unit_ids": [],
+            "weaker_criterion_ids": [],
+            "higher_level_unit_ids": [],
+            "blocking_question_ids": [
+              "PR02-C01-S5-Q01",
+              "PR02-C02-S5-Q01",
+              "PR02-C03-S5-Q01",
+              "PR02-C04-S5-Q01",
+              "PR02-C05-S5-Q01",
+              "PR02-C06-S5-Q01",
+              "PR02-C07-S5-Q01",
+              "PR02-C08-S5-Q01",
+              "PR02-C09-S5-Q01"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "PR02-C00-S1-Q01": 1,
+              "PR02-C01-S2-Q01": 2,
+              "PR02-C01-S3-Q01": 3,
+              "PR02-C01-S4-Q01": 4,
+              "PR02-C02-S2-Q01": 2,
+              "PR02-C02-S3-Q01": 3,
+              "PR02-C02-S4-Q01": 4,
+              "PR02-C03-S2-Q01": 2,
+              "PR02-C03-S3-Q01": 3,
+              "PR02-C03-S4-Q01": 4,
+              "PR02-C04-S2-Q01": 2,
+              "PR02-C04-S3-Q01": 3,
+              "PR02-C04-S4-Q01": 4,
+              "PR02-C05-S2-Q01": 2,
+              "PR02-C05-S3-Q01": 3,
+              "PR02-C05-S4-Q01": 4,
+              "PR02-C06-S2-Q01": 2,
+              "PR02-C06-S3-Q01": 3,
+              "PR02-C06-S4-Q01": 4,
+              "PR02-C07-S2-Q01": 2,
+              "PR02-C07-S3-Q01": 3,
+              "PR02-C07-S4-Q01": 4,
+              "PR02-C08-S2-Q01": 2,
+              "PR02-C08-S3-Q01": 3,
+              "PR02-C08-S4-Q01": 4,
+              "PR02-C09-S2-Q01": 2,
+              "PR02-C09-S3-Q01": 3,
+              "PR02-C09-S4-Q01": 4
+            },
+            "practice_id": "PR02",
+            "module_id": "MOD-PR02",
+            "module_version": "0.4.0",
+            "scope_review_complete": true,
+            "component_id": "practices",
+            "level_type": "capability",
+            "assessment_id": "TEST-ASSESSMENT",
+            "assessment_unit_id": "TEST-UNIT",
+            "catalog_id": "svs-practices",
+            "catalog_version": "5.0.0",
+            "scope_id": "TEST-SCOPE",
+            "scope_description": "Synthetischer Prüfumfang",
+            "assessment_period": {
+              "start": "2026-07-01",
+              "end": "2026-09-30"
+            },
+            "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+            "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+            "context_status": "complete",
+            "model_validation_completed": false,
+            "result_is_draft": true,
+            "is_final": false,
+            "release_status": "draft",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "limitations": [
+              "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+            ],
+            "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+          },
+          {
+            "unit_id": "PR22",
+            "assessed_level": 2,
+            "possible_upper_level": 2,
+            "status": "confirmed",
+            "aggregation_method": "arithmetic_mean_floor",
+            "unrounded_mean": 2.0,
+            "unrounded_upper_mean": 2.0,
+            "unit_results": [
+              {
+                "unit_id": "PR22-C01",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C01-S3-Q01",
+                  "PR22-C01-S4-Q01",
+                  "PR22-C01-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C01-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C02",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C02-S3-Q01",
+                  "PR22-C02-S4-Q01",
+                  "PR22-C02-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C02-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C03",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C03-S3-Q01",
+                  "PR22-C03-S4-Q01",
+                  "PR22-C03-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C03-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C04",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C04-S3-Q01",
+                  "PR22-C04-S4-Q01",
+                  "PR22-C04-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C04-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C05",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C05-S3-Q01",
+                  "PR22-C05-S4-Q01",
+                  "PR22-C05-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C05-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C06",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C06-S3-Q01",
+                  "PR22-C06-S4-Q01",
+                  "PR22-C06-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C06-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C07",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C07-S3-Q01",
+                  "PR22-C07-S4-Q01",
+                  "PR22-C07-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C07-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C08",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C08-S3-Q01",
+                  "PR22-C08-S4-Q01",
+                  "PR22-C08-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C08-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C09",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C09-S3-Q01",
+                  "PR22-C09-S4-Q01",
+                  "PR22-C09-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C09-S2-Q01": 2
+                }
+              },
+              {
+                "unit_id": "PR22-C10",
+                "assessed_level": 2,
+                "possible_upper_level": 2,
+                "status": "confirmed",
+                "blocking_question_ids": [
+                  "PR22-C10-S3-Q01",
+                  "PR22-C10-S4-Q01",
+                  "PR22-C10-S5-Q01"
+                ],
+                "open_question_ids": [],
+                "higher_level_strength_question_ids": [],
+                "fulfilled_question_levels": {
+                  "PR22-C00-S1-Q01": 1,
+                  "PR22-C10-S2-Q01": 2
+                }
+              }
+            ],
+            "limiting_unit_ids": [],
+            "weaker_criterion_ids": [],
+            "higher_level_unit_ids": [],
+            "blocking_question_ids": [
+              "PR22-C01-S3-Q01",
+              "PR22-C01-S4-Q01",
+              "PR22-C01-S5-Q01",
+              "PR22-C02-S3-Q01",
+              "PR22-C02-S4-Q01",
+              "PR22-C02-S5-Q01",
+              "PR22-C03-S3-Q01",
+              "PR22-C03-S4-Q01",
+              "PR22-C03-S5-Q01",
+              "PR22-C04-S3-Q01",
+              "PR22-C04-S4-Q01",
+              "PR22-C04-S5-Q01",
+              "PR22-C05-S3-Q01",
+              "PR22-C05-S4-Q01",
+              "PR22-C05-S5-Q01",
+              "PR22-C06-S3-Q01",
+              "PR22-C06-S4-Q01",
+              "PR22-C06-S5-Q01",
+              "PR22-C07-S3-Q01",
+              "PR22-C07-S4-Q01",
+              "PR22-C07-S5-Q01",
+              "PR22-C08-S3-Q01",
+              "PR22-C08-S4-Q01",
+              "PR22-C08-S5-Q01",
+              "PR22-C09-S3-Q01",
+              "PR22-C09-S4-Q01",
+              "PR22-C09-S5-Q01",
+              "PR22-C10-S3-Q01",
+              "PR22-C10-S4-Q01",
+              "PR22-C10-S5-Q01"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "PR22-C00-S1-Q01": 1,
+              "PR22-C01-S2-Q01": 2,
+              "PR22-C02-S2-Q01": 2,
+              "PR22-C03-S2-Q01": 2,
+              "PR22-C04-S2-Q01": 2,
+              "PR22-C05-S2-Q01": 2,
+              "PR22-C06-S2-Q01": 2,
+              "PR22-C07-S2-Q01": 2,
+              "PR22-C08-S2-Q01": 2,
+              "PR22-C09-S2-Q01": 2,
+              "PR22-C10-S2-Q01": 2
+            },
+            "practice_id": "PR22",
+            "module_id": "MOD-PR22",
+            "module_version": "0.4.0",
+            "scope_review_complete": true,
+            "component_id": "practices",
+            "level_type": "capability",
+            "assessment_id": "TEST-ASSESSMENT",
+            "assessment_unit_id": "TEST-UNIT",
+            "catalog_id": "svs-practices",
+            "catalog_version": "5.0.0",
+            "scope_id": "TEST-SCOPE",
+            "scope_description": "Synthetischer Prüfumfang",
+            "assessment_period": {
+              "start": "2026-07-01",
+              "end": "2026-09-30"
+            },
+            "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+            "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+            "context_status": "complete",
+            "model_validation_completed": false,
+            "result_is_draft": true,
+            "is_final": false,
+            "release_status": "draft",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "limitations": [
+              "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+            ],
+            "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+          }
+        ],
+        "higher_level_unit_ids": [
+          "PR02"
+        ],
+        "limiting_unit_ids": [
+          "PR22"
+        ],
+        "primary_practice_ids": [
+          "PR02",
+          "PR22"
+        ],
+        "supporting_practice_ids": [],
+        "scope_review_complete": true,
+        "component_id": "practices",
+        "level_type": "maturity",
+        "assessment_id": "TEST-ASSESSMENT",
+        "assessment_unit_id": "TEST-UNIT",
+        "catalog_id": "svs-practices",
+        "catalog_version": "5.0.0",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+        "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+        "unrounded_mean": null,
+        "unrounded_upper_mean": null,
+        "weaker_criterion_ids": [],
+        "context_status": "complete",
+        "model_validation_completed": false,
+        "result_is_draft": true,
+        "is_final": false,
+        "release_status": "draft",
+        "evidence_ids": [
+          "TEST-E"
+        ],
+        "blocking_question_ids": [],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "limitations": [
+          "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+        ],
+        "fulfilled_question_levels": {},
+        "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+      },
+      {
+        "unit_id": "governance",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "highest_fully_eligible_component_level",
+        "category_level_source": "binding_component_maturity_criteria",
+        "component_level_evaluations": [
+          {
+            "level": 1,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "GV-R01"
+            ],
+            "requirement_states": {
+              "GV-R01": "not_fulfilled"
+            },
+            "dependency_requirements": [],
+            "initial_classification_only": true
+          },
+          {
+            "level": 2,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GV-R02"
+            ],
+            "requirement_states": {
+              "GV-R02": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 3,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GV-R02",
+              "GV-R03"
+            ],
+            "requirement_states": {
+              "GV-R02": "fulfilled",
+              "GV-R03": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 4,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GV-R02",
+              "GV-R03",
+              "GV-R04"
+            ],
+            "requirement_states": {
+              "GV-R02": "fulfilled",
+              "GV-R03": "fulfilled",
+              "GV-R04": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 5,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "GV-R02",
+              "GV-R03",
+              "GV-R04",
+              "GV-R05"
+            ],
+            "requirement_states": {
+              "GV-R02": "fulfilled",
+              "GV-R03": "fulfilled",
+              "GV-R04": "fulfilled",
+              "GV-R05": "not_fulfilled"
+            },
+            "dependency_requirements": []
+          }
+        ],
+        "unit_results": [
+          {
+            "unit_id": "GV01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV01-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV01-S1": 1,
+              "GV01-S2": 2,
+              "GV01-S3": 3,
+              "GV01-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV02-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV02-S1": 1,
+              "GV02-S2": 2,
+              "GV02-S3": 3,
+              "GV02-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV03-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV03-S1": 1,
+              "GV03-S2": 2,
+              "GV03-S3": 3,
+              "GV03-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV04-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV04-S1": 1,
+              "GV04-S2": 2,
+              "GV04-S3": 3,
+              "GV04-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV05-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV05-S1": 1,
+              "GV05-S2": 2,
+              "GV05-S3": 3,
+              "GV05-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV06-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV06-S1": 1,
+              "GV06-S2": 2,
+              "GV06-S3": 3,
+              "GV06-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV07-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV07-S1": 1,
+              "GV07-S2": 2,
+              "GV07-S3": 3,
+              "GV07-S4": 4
+            }
+          },
+          {
+            "unit_id": "GV08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "GV08-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "GV08-S1": 1,
+              "GV08-S2": 2,
+              "GV08-S3": 3,
+              "GV08-S4": 4
+            }
+          }
+        ],
+        "blocking_question_ids": [
+          "GV-R05"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "GV-R02": 2,
+          "GV-R03": 3,
+          "GV-R04": 4
+        },
+        "detail_index": {
+          "unit_id": "governance_details",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 4.0,
+          "unrounded_upper_mean": 4.0,
+          "unit_results": [
+            {
+              "unit_id": "GV01",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV01-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV01-S1": 1,
+                "GV01-S2": 2,
+                "GV01-S3": 3,
+                "GV01-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV02",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV02-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV02-S1": 1,
+                "GV02-S2": 2,
+                "GV02-S3": 3,
+                "GV02-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV03",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV03-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV03-S1": 1,
+                "GV03-S2": 2,
+                "GV03-S3": 3,
+                "GV03-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV04",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV04-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV04-S1": 1,
+                "GV04-S2": 2,
+                "GV04-S3": 3,
+                "GV04-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV05",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV05-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV05-S1": 1,
+                "GV05-S2": 2,
+                "GV05-S3": 3,
+                "GV05-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV06",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV06-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV06-S1": 1,
+                "GV06-S2": 2,
+                "GV06-S3": 3,
+                "GV06-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV07",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV07-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV07-S1": 1,
+                "GV07-S2": 2,
+                "GV07-S3": 3,
+                "GV07-S4": 4
+              }
+            },
+            {
+              "unit_id": "GV08",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "GV08-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "GV08-S1": 1,
+                "GV08-S2": 2,
+                "GV08-S3": 3,
+                "GV08-S4": 4
+              }
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [
+            "GV01-S5",
+            "GV02-S5",
+            "GV03-S5",
+            "GV04-S5",
+            "GV05-S5",
+            "GV06-S5",
+            "GV07-S5",
+            "GV08-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "GV01-S1": 1,
+            "GV01-S2": 2,
+            "GV01-S3": 3,
+            "GV01-S4": 4,
+            "GV02-S1": 1,
+            "GV02-S2": 2,
+            "GV02-S3": 3,
+            "GV02-S4": 4,
+            "GV03-S1": 1,
+            "GV03-S2": 2,
+            "GV03-S3": 3,
+            "GV03-S4": 4,
+            "GV04-S1": 1,
+            "GV04-S2": 2,
+            "GV04-S3": 3,
+            "GV04-S4": 4,
+            "GV05-S1": 1,
+            "GV05-S2": 2,
+            "GV05-S3": 3,
+            "GV05-S4": 4,
+            "GV06-S1": 1,
+            "GV06-S2": 2,
+            "GV06-S3": 3,
+            "GV06-S4": 4,
+            "GV07-S1": 1,
+            "GV07-S2": 2,
+            "GV07-S3": 3,
+            "GV07-S4": 4,
+            "GV08-S1": 1,
+            "GV08-S2": 2,
+            "GV08-S3": 3,
+            "GV08-S4": 4
+          }
+        },
+        "component_id": "governance",
+        "level_type": "maturity",
+        "assessment_id": "TEST-ASSESSMENT",
+        "assessment_unit_id": "TEST-UNIT",
+        "catalog_id": "svs-governance",
+        "catalog_version": "5.0.0",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+        "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+        "unrounded_mean": null,
+        "unrounded_upper_mean": null,
+        "weaker_criterion_ids": [],
+        "context_status": "complete",
+        "model_validation_completed": false,
+        "result_is_draft": true,
+        "is_final": false,
+        "release_status": "draft",
+        "evidence_ids": [
+          "TEST-E"
+        ],
+        "limiting_unit_ids": [],
+        "limitations": [
+          "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+        ],
+        "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+      },
+      {
+        "unit_id": "service_value_chain",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "highest_fully_eligible_component_level",
+        "category_level_source": "binding_component_maturity_criteria",
+        "component_level_evaluations": [
+          {
+            "level": 1,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "SVC-R01"
+            ],
+            "requirement_states": {
+              "SVC-R01": "not_fulfilled"
+            },
+            "dependency_requirements": [],
+            "initial_classification_only": true
+          },
+          {
+            "level": 2,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "SVC-R02"
+            ],
+            "requirement_states": {
+              "SVC-R02": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 3,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "SVC-R02",
+              "SVC-R03"
+            ],
+            "requirement_states": {
+              "SVC-R02": "fulfilled",
+              "SVC-R03": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 4,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "SVC-R02",
+              "SVC-R03",
+              "SVC-R04"
+            ],
+            "requirement_states": {
+              "SVC-R02": "fulfilled",
+              "SVC-R03": "fulfilled",
+              "SVC-R04": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 5,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "SVC-R02",
+              "SVC-R03",
+              "SVC-R04",
+              "SVC-R05"
+            ],
+            "requirement_states": {
+              "SVC-R02": "fulfilled",
+              "SVC-R03": "fulfilled",
+              "SVC-R04": "fulfilled",
+              "SVC-R05": "not_fulfilled"
+            },
+            "dependency_requirements": []
+          }
+        ],
+        "unit_results": [
+          {
+            "unit_id": "SVC01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC01-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC01-S1": 1,
+              "SVC01-S2": 2,
+              "SVC01-S3": 3,
+              "SVC01-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC02-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC02-S1": 1,
+              "SVC02-S2": 2,
+              "SVC02-S3": 3,
+              "SVC02-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC03-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC03-S1": 1,
+              "SVC03-S2": 2,
+              "SVC03-S3": 3,
+              "SVC03-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC04-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC04-S1": 1,
+              "SVC04-S2": 2,
+              "SVC04-S3": 3,
+              "SVC04-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC05-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC05-S1": 1,
+              "SVC05-S2": 2,
+              "SVC05-S3": 3,
+              "SVC05-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC06-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC06-S1": 1,
+              "SVC06-S2": 2,
+              "SVC06-S3": 3,
+              "SVC06-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC07-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC07-S1": 1,
+              "SVC07-S2": 2,
+              "SVC07-S3": 3,
+              "SVC07-S4": 4
+            }
+          },
+          {
+            "unit_id": "SVC08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "SVC08-S5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "SVC08-S1": 1,
+              "SVC08-S2": 2,
+              "SVC08-S3": 3,
+              "SVC08-S4": 4
+            }
+          }
+        ],
+        "blocking_question_ids": [
+          "SVC-R05"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "SVC-R02": 2,
+          "SVC-R03": 3,
+          "SVC-R04": 4
+        },
+        "detail_index": {
+          "unit_id": "service_value_chain_details",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 4.0,
+          "unrounded_upper_mean": 4.0,
+          "unit_results": [
+            {
+              "unit_id": "SVC01",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC01-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC01-S1": 1,
+                "SVC01-S2": 2,
+                "SVC01-S3": 3,
+                "SVC01-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC02",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC02-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC02-S1": 1,
+                "SVC02-S2": 2,
+                "SVC02-S3": 3,
+                "SVC02-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC03",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC03-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC03-S1": 1,
+                "SVC03-S2": 2,
+                "SVC03-S3": 3,
+                "SVC03-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC04",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC04-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC04-S1": 1,
+                "SVC04-S2": 2,
+                "SVC04-S3": 3,
+                "SVC04-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC05",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC05-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC05-S1": 1,
+                "SVC05-S2": 2,
+                "SVC05-S3": 3,
+                "SVC05-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC06",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC06-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC06-S1": 1,
+                "SVC06-S2": 2,
+                "SVC06-S3": 3,
+                "SVC06-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC07",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC07-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC07-S1": 1,
+                "SVC07-S2": 2,
+                "SVC07-S3": 3,
+                "SVC07-S4": 4
+              }
+            },
+            {
+              "unit_id": "SVC08",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "SVC08-S5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "SVC08-S1": 1,
+                "SVC08-S2": 2,
+                "SVC08-S3": 3,
+                "SVC08-S4": 4
+              }
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [
+            "SVC01-S5",
+            "SVC02-S5",
+            "SVC03-S5",
+            "SVC04-S5",
+            "SVC05-S5",
+            "SVC06-S5",
+            "SVC07-S5",
+            "SVC08-S5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "SVC01-S1": 1,
+            "SVC01-S2": 2,
+            "SVC01-S3": 3,
+            "SVC01-S4": 4,
+            "SVC02-S1": 1,
+            "SVC02-S2": 2,
+            "SVC02-S3": 3,
+            "SVC02-S4": 4,
+            "SVC03-S1": 1,
+            "SVC03-S2": 2,
+            "SVC03-S3": 3,
+            "SVC03-S4": 4,
+            "SVC04-S1": 1,
+            "SVC04-S2": 2,
+            "SVC04-S3": 3,
+            "SVC04-S4": 4,
+            "SVC05-S1": 1,
+            "SVC05-S2": 2,
+            "SVC05-S3": 3,
+            "SVC05-S4": 4,
+            "SVC06-S1": 1,
+            "SVC06-S2": 2,
+            "SVC06-S3": 3,
+            "SVC06-S4": 4,
+            "SVC07-S1": 1,
+            "SVC07-S2": 2,
+            "SVC07-S3": 3,
+            "SVC07-S4": 4,
+            "SVC08-S1": 1,
+            "SVC08-S2": 2,
+            "SVC08-S3": 3,
+            "SVC08-S4": 4
+          }
+        },
+        "assessed_value_stream_ids": [
+          "TEST-VS"
+        ],
+        "component_id": "service_value_chain",
+        "level_type": "maturity",
+        "assessment_id": "TEST-ASSESSMENT",
+        "assessment_unit_id": "TEST-UNIT",
+        "catalog_id": "svs-service-value-chain",
+        "catalog_version": "5.0.0",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+        "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+        "unrounded_mean": null,
+        "unrounded_upper_mean": null,
+        "weaker_criterion_ids": [],
+        "context_status": "complete",
+        "model_validation_completed": false,
+        "result_is_draft": true,
+        "is_final": false,
+        "release_status": "draft",
+        "evidence_ids": [
+          "TEST-E"
+        ],
+        "limiting_unit_ids": [],
+        "limitations": [
+          "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+        ],
+        "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+      },
+      {
+        "unit_id": "guiding_principles",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "highest_fully_eligible_component_level",
+        "category_level_source": "binding_component_maturity_criteria",
+        "component_level_evaluations": [
+          {
+            "level": 1,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "GP-R01"
+            ],
+            "requirement_states": {
+              "GP-R01": "not_fulfilled"
+            },
+            "dependency_requirements": [],
+            "initial_classification_only": true
+          },
+          {
+            "level": 2,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GP-R02",
+              "GP-R03"
+            ],
+            "requirement_states": {
+              "GP-R02": "fulfilled",
+              "GP-R03": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 3,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GP-R02",
+              "GP-R03",
+              "GP-R04",
+              "GP-R05",
+              "GP-R06",
+              "GP-R07"
+            ],
+            "requirement_states": {
+              "GP-R02": "fulfilled",
+              "GP-R03": "fulfilled",
+              "GP-R04": "fulfilled",
+              "GP-R05": "fulfilled",
+              "GP-R06": "fulfilled",
+              "GP-R07": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 4,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "GP-R02",
+              "GP-R03",
+              "GP-R04",
+              "GP-R05",
+              "GP-R06",
+              "GP-R07",
+              "GP-R08",
+              "GP-R09",
+              "GP-R10",
+              "GP-R11",
+              "GP-R12"
+            ],
+            "requirement_states": {
+              "GP-R02": "fulfilled",
+              "GP-R03": "fulfilled",
+              "GP-R04": "fulfilled",
+              "GP-R05": "fulfilled",
+              "GP-R06": "fulfilled",
+              "GP-R07": "fulfilled",
+              "GP-R08": "fulfilled",
+              "GP-R09": "fulfilled",
+              "GP-R10": "fulfilled",
+              "GP-R11": "fulfilled",
+              "GP-R12": "fulfilled"
+            },
+            "dependency_requirements": []
+          },
+          {
+            "level": 5,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "GP-R02",
+              "GP-R03",
+              "GP-R04",
+              "GP-R05",
+              "GP-R06",
+              "GP-R07",
+              "GP-R08",
+              "GP-R09",
+              "GP-R10",
+              "GP-R11",
+              "GP-R12",
+              "GP-R13",
+              "GP-R14",
+              "GP-R15"
+            ],
+            "requirement_states": {
+              "GP-R02": "fulfilled",
+              "GP-R03": "fulfilled",
+              "GP-R04": "fulfilled",
+              "GP-R05": "fulfilled",
+              "GP-R06": "fulfilled",
+              "GP-R07": "fulfilled",
+              "GP-R08": "fulfilled",
+              "GP-R09": "fulfilled",
+              "GP-R10": "fulfilled",
+              "GP-R11": "fulfilled",
+              "GP-R12": "fulfilled",
+              "GP-R13": "not_fulfilled",
+              "GP-R14": "not_fulfilled",
+              "GP-R15": "not_fulfilled"
+            },
+            "dependency_requirements": []
+          }
+        ],
+        "unit_results": [
+          {
+            "unit_id": "GP-C01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          },
+          {
+            "unit_id": "GP-C08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "rating_source": "reviewed_criterion_rating"
+          }
+        ],
+        "blocking_question_ids": [
+          "GP-R13",
+          "GP-R14",
+          "GP-R15"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "GP-R02": 2,
+          "GP-R03": 2,
+          "GP-R04": 3,
+          "GP-R05": 3,
+          "GP-R06": 3,
+          "GP-R07": 3,
+          "GP-R08": 4,
+          "GP-R09": 4,
+          "GP-R10": 4,
+          "GP-R11": 4,
+          "GP-R12": 4
+        },
+        "detail_index": {
+          "unit_id": "guiding_principles_details",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 4.0,
+          "unrounded_upper_mean": 4.0,
+          "unit_results": [
+            {
+              "unit_id": "GP-C01",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C02",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C03",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C04",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C05",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C06",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C07",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            },
+            {
+              "unit_id": "GP-C08",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "evidence_ids": [
+                "TEST-E"
+              ],
+              "rating_source": "reviewed_criterion_rating"
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {}
+        },
+        "component_id": "guiding_principles",
+        "level_type": "maturity",
+        "assessment_id": "TEST-ASSESSMENT",
+        "assessment_unit_id": "TEST-UNIT",
+        "catalog_id": "GOEK-SVS-GP",
+        "catalog_version": "5.0.0",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+        "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+        "unrounded_mean": null,
+        "unrounded_upper_mean": null,
+        "weaker_criterion_ids": [],
+        "context_status": "complete",
+        "model_validation_completed": false,
+        "result_is_draft": true,
+        "is_final": false,
+        "release_status": "draft",
+        "evidence_ids": [
+          "TEST-E"
+        ],
+        "limiting_unit_ids": [],
+        "limitations": [
+          "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+        ],
+        "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+      },
+      {
+        "unit_id": "continual_improvement",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed",
+        "aggregation_method": "highest_fully_eligible_component_level",
+        "category_level_source": "binding_component_maturity_criteria",
+        "component_level_evaluations": [
+          {
+            "level": 1,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "CI-R01",
+              "CI-R02"
+            ],
+            "requirement_states": {
+              "CI-R01": "fulfilled",
+              "CI-R02": "fulfilled"
+            },
+            "dependency_requirements": [
+              {
+                "source_id": "PR02",
+                "minimum_level": 1,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "CI-R01",
+              "CI-R02",
+              "CI-R03"
+            ],
+            "requirement_states": {
+              "CI-R01": "fulfilled",
+              "CI-R02": "fulfilled",
+              "CI-R03": "fulfilled"
+            },
+            "dependency_requirements": [
+              {
+                "source_id": "PR02",
+                "minimum_level": 2,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "CI-R01",
+              "CI-R02",
+              "CI-R03",
+              "CI-R04",
+              "CI-R05"
+            ],
+            "requirement_states": {
+              "CI-R01": "fulfilled",
+              "CI-R02": "fulfilled",
+              "CI-R03": "fulfilled",
+              "CI-R04": "fulfilled",
+              "CI-R05": "fulfilled"
+            },
+            "dependency_requirements": [
+              {
+                "source_id": "PR02",
+                "minimum_level": 3,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "fulfilled": true,
+            "possible": true,
+            "required_question_ids": [
+              "CI-R01",
+              "CI-R02",
+              "CI-R03",
+              "CI-R04",
+              "CI-R05",
+              "CI-R06",
+              "CI-R07",
+              "CI-R08",
+              "CI-R09"
+            ],
+            "requirement_states": {
+              "CI-R01": "fulfilled",
+              "CI-R02": "fulfilled",
+              "CI-R03": "fulfilled",
+              "CI-R04": "fulfilled",
+              "CI-R05": "fulfilled",
+              "CI-R06": "fulfilled",
+              "CI-R07": "fulfilled",
+              "CI-R08": "fulfilled",
+              "CI-R09": "fulfilled"
+            },
+            "dependency_requirements": [
+              {
+                "source_id": "PR02",
+                "minimum_level": 4,
+                "state": "fulfilled"
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "fulfilled": false,
+            "possible": false,
+            "required_question_ids": [
+              "CI-R01",
+              "CI-R02",
+              "CI-R03",
+              "CI-R04",
+              "CI-R05",
+              "CI-R06",
+              "CI-R07",
+              "CI-R08",
+              "CI-R09",
+              "CI-R10",
+              "CI-R11"
+            ],
+            "requirement_states": {
+              "CI-R01": "fulfilled",
+              "CI-R02": "fulfilled",
+              "CI-R03": "fulfilled",
+              "CI-R04": "fulfilled",
+              "CI-R05": "fulfilled",
+              "CI-R06": "fulfilled",
+              "CI-R07": "fulfilled",
+              "CI-R08": "fulfilled",
+              "CI-R09": "fulfilled",
+              "CI-R10": "not_fulfilled",
+              "CI-R11": "not_fulfilled"
+            },
+            "dependency_requirements": [
+              {
+                "source_id": "PR02",
+                "minimum_level": 5,
+                "state": "not_fulfilled"
+              }
+            ]
+          }
+        ],
+        "unit_results": [
+          {
+            "unit_id": "CI-01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-01-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-01-L1": 1,
+              "CI-01-L2": 2,
+              "CI-01-L3": 3,
+              "CI-01-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-02-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-02-L1": 1,
+              "CI-02-L2": 2,
+              "CI-02-L3": 3,
+              "CI-02-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-03-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-03-L1": 1,
+              "CI-03-L2": 2,
+              "CI-03-L3": 3,
+              "CI-03-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-04-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-04-L1": 1,
+              "CI-04-L2": 2,
+              "CI-04-L3": 3,
+              "CI-04-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-05-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-05-L1": 1,
+              "CI-05-L2": 2,
+              "CI-05-L3": 3,
+              "CI-05-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-06-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-06-L1": 1,
+              "CI-06-L2": 2,
+              "CI-06-L3": 3,
+              "CI-06-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-07-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-07-L1": 1,
+              "CI-07-L2": 2,
+              "CI-07-L3": 3,
+              "CI-07-L4": 4
+            }
+          },
+          {
+            "unit_id": "CI-08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-08-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-08-L1": 1,
+              "CI-08-L2": 2,
+              "CI-08-L3": 3,
+              "CI-08-L4": 4
+            }
+          }
+        ],
+        "blocking_question_ids": [
+          "CI-R10",
+          "CI-R11"
+        ],
+        "open_question_ids": [],
+        "higher_level_strength_question_ids": [],
+        "fulfilled_question_levels": {
+          "CI-R01": 1,
+          "CI-R02": 1,
+          "CI-R03": 2,
+          "CI-R04": 3,
+          "CI-R05": 3,
+          "CI-R06": 4,
+          "CI-R07": 4,
+          "CI-R08": 4,
+          "CI-R09": 4
+        },
+        "detail_index": {
+          "unit_id": "continual_improvement_details",
+          "assessed_level": 4,
+          "possible_upper_level": 4,
+          "status": "confirmed",
+          "aggregation_method": "arithmetic_mean_floor",
+          "unrounded_mean": 4.0,
+          "unrounded_upper_mean": 4.0,
+          "unit_results": [
+            {
+              "unit_id": "CI-01",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-01-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-01-L1": 1,
+                "CI-01-L2": 2,
+                "CI-01-L3": 3,
+                "CI-01-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-02",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-02-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-02-L1": 1,
+                "CI-02-L2": 2,
+                "CI-02-L3": 3,
+                "CI-02-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-03",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-03-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-03-L1": 1,
+                "CI-03-L2": 2,
+                "CI-03-L3": 3,
+                "CI-03-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-04",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-04-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-04-L1": 1,
+                "CI-04-L2": 2,
+                "CI-04-L3": 3,
+                "CI-04-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-05",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-05-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-05-L1": 1,
+                "CI-05-L2": 2,
+                "CI-05-L3": 3,
+                "CI-05-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-06",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-06-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-06-L1": 1,
+                "CI-06-L2": 2,
+                "CI-06-L3": 3,
+                "CI-06-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-07",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-07-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-07-L1": 1,
+                "CI-07-L2": 2,
+                "CI-07-L3": 3,
+                "CI-07-L4": 4
+              }
+            },
+            {
+              "unit_id": "CI-08",
+              "assessed_level": 4,
+              "possible_upper_level": 4,
+              "status": "confirmed",
+              "blocking_question_ids": [
+                "CI-08-L5"
+              ],
+              "open_question_ids": [],
+              "higher_level_strength_question_ids": [],
+              "fulfilled_question_levels": {
+                "CI-08-L1": 1,
+                "CI-08-L2": 2,
+                "CI-08-L3": 3,
+                "CI-08-L4": 4
+              }
+            }
+          ],
+          "limiting_unit_ids": [],
+          "weaker_criterion_ids": [],
+          "higher_level_unit_ids": [],
+          "blocking_question_ids": [
+            "CI-01-L5",
+            "CI-02-L5",
+            "CI-03-L5",
+            "CI-04-L5",
+            "CI-05-L5",
+            "CI-06-L5",
+            "CI-07-L5",
+            "CI-08-L5"
+          ],
+          "open_question_ids": [],
+          "higher_level_strength_question_ids": [],
+          "fulfilled_question_levels": {
+            "CI-01-L1": 1,
+            "CI-01-L2": 2,
+            "CI-01-L3": 3,
+            "CI-01-L4": 4,
+            "CI-02-L1": 1,
+            "CI-02-L2": 2,
+            "CI-02-L3": 3,
+            "CI-02-L4": 4,
+            "CI-03-L1": 1,
+            "CI-03-L2": 2,
+            "CI-03-L3": 3,
+            "CI-03-L4": 4,
+            "CI-04-L1": 1,
+            "CI-04-L2": 2,
+            "CI-04-L3": 3,
+            "CI-04-L4": 4,
+            "CI-05-L1": 1,
+            "CI-05-L2": 2,
+            "CI-05-L3": 3,
+            "CI-05-L4": 4,
+            "CI-06-L1": 1,
+            "CI-06-L2": 2,
+            "CI-06-L3": 3,
+            "CI-06-L4": 4,
+            "CI-07-L1": 1,
+            "CI-07-L2": 2,
+            "CI-07-L3": 3,
+            "CI-07-L4": 4,
+            "CI-08-L1": 1,
+            "CI-08-L2": 2,
+            "CI-08-L3": 3,
+            "CI-08-L4": 4
+          }
+        },
+        "dependency_status": "compatible",
+        "diagnostic_profile_results": [
+          {
+            "unit_id": "CI-01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-01-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-01-L1": 1,
+              "CI-01-L2": 2,
+              "CI-01-L3": 3,
+              "CI-01-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-02-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-02-L1": 1,
+              "CI-02-L2": 2,
+              "CI-02-L3": 3,
+              "CI-02-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-03-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-03-L1": 1,
+              "CI-03-L2": 2,
+              "CI-03-L3": 3,
+              "CI-03-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-04-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-04-L1": 1,
+              "CI-04-L2": 2,
+              "CI-04-L3": 3,
+              "CI-04-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-05-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-05-L1": 1,
+              "CI-05-L2": 2,
+              "CI-05-L3": 3,
+              "CI-05-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-06-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-06-L1": 1,
+              "CI-06-L2": 2,
+              "CI-06-L3": 3,
+              "CI-06-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-07-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-07-L1": 1,
+              "CI-07-L2": 2,
+              "CI-07-L3": 3,
+              "CI-07-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          },
+          {
+            "unit_id": "CI-08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "status": "confirmed",
+            "blocking_question_ids": [
+              "CI-08-L5"
+            ],
+            "open_question_ids": [],
+            "higher_level_strength_question_ids": [],
+            "fulfilled_question_levels": {
+              "CI-08-L1": 1,
+              "CI-08-L2": 2,
+              "CI-08-L3": 3,
+              "CI-08-L4": 4
+            },
+            "profile_type": "individual_detail",
+            "influences_component_level": false
+          }
+        ],
+        "component_id": "continual_improvement",
+        "level_type": "maturity",
+        "assessment_id": "TEST-ASSESSMENT",
+        "assessment_unit_id": "TEST-UNIT",
+        "catalog_id": "GOEK-SVS-CI",
+        "catalog_version": "5.0.0",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+        "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+        "unrounded_mean": null,
+        "unrounded_upper_mean": null,
+        "weaker_criterion_ids": [],
+        "context_status": "complete",
+        "model_validation_completed": false,
+        "result_is_draft": true,
+        "is_final": false,
+        "release_status": "draft",
+        "evidence_ids": [
+          "TEST-E"
+        ],
+        "limiting_unit_ids": [],
+        "limitations": [
+          "Entwurfsbewertung: verwendetes Modell noch nicht fachlich validiert oder ausdrücklich im Entwurfs-/Pilotmodus."
+        ],
+        "scope_qualification": "Ergebnis ausschließlich für den angegebenen geprüften Umfang."
+      }
+    ],
+    "blocking_question_ids": [
+      "CI-R10",
+      "CI-R11",
+      "GP-R13",
+      "GP-R14",
+      "GP-R15",
+      "GV-R05",
+      "SVC-R05"
+    ],
+    "open_question_ids": [],
+    "higher_level_strength_question_ids": [
+      "CI-R04",
+      "CI-R05",
+      "CI-R06",
+      "CI-R07",
+      "CI-R08",
+      "CI-R09",
+      "GP-R04",
+      "GP-R05",
+      "GP-R06",
+      "GP-R07",
+      "GP-R08",
+      "GP-R09",
+      "GP-R10",
+      "GP-R11",
+      "GP-R12",
+      "GV-R03",
+      "GV-R04",
+      "SVC-R03",
+      "SVC-R04"
+    ],
+    "fulfilled_question_levels": {
+      "GV-R02": 2,
+      "GV-R03": 3,
+      "GV-R04": 4,
+      "SVC-R02": 2,
+      "SVC-R03": 3,
+      "SVC-R04": 4,
+      "GP-R02": 2,
+      "GP-R03": 2,
+      "GP-R04": 3,
+      "GP-R05": 3,
+      "GP-R06": 3,
+      "GP-R07": 3,
+      "GP-R08": 4,
+      "GP-R09": 4,
+      "GP-R10": 4,
+      "GP-R11": 4,
+      "GP-R12": 4,
+      "CI-R01": 1,
+      "CI-R02": 1,
+      "CI-R03": 2,
+      "CI-R04": 3,
+      "CI-R05": 3,
+      "CI-R06": 4,
+      "CI-R07": 4,
+      "CI-R08": 4,
+      "CI-R09": 4
+    },
+    "aggregation_method": "minimum",
+    "unrounded_mean": null,
+    "unrounded_upper_mean": null,
+    "weaker_criterion_ids": [],
+    "component_id": "svs",
+    "level_type": "maturity",
+    "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+    "model_validation_completed": false,
+    "result_is_draft": true,
+    "is_final": false,
+    "release_status": "draft",
+    "assessment_id": "TEST-ASSESSMENT",
+    "assessment_unit_id": "TEST-UNIT",
+    "scope_id": "TEST-SCOPE",
+    "scope_description": "Synthetischer Prüfumfang",
+    "assessment_period": {
+      "start": "2026-07-01",
+      "end": "2026-09-30"
+    },
+    "component_profile": [
+      {
+        "component_id": "practices",
+        "assessed_level": 2,
+        "possible_upper_level": 2,
+        "status": "confirmed"
+      },
+      {
+        "component_id": "governance",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed"
+      },
+      {
+        "component_id": "service_value_chain",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed"
+      },
+      {
+        "component_id": "guiding_principles",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed"
+      },
+      {
+        "component_id": "continual_improvement",
+        "assessed_level": 4,
+        "possible_upper_level": 4,
+        "status": "confirmed"
+      }
+    ],
+    "higher_scoring_component_ids": [
+      "governance",
+      "service_value_chain",
+      "guiding_principles",
+      "continual_improvement"
+    ],
+    "graphic_rule": "Show each actual component bar; show the SVS minimum as a separate number/reference line."
+  }
+}

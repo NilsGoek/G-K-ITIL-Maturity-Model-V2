@@ -1,0 +1,5280 @@
+{
+  "schema_version": "5.0.0",
+  "catalog_id": "GOEK-SVS-GP",
+  "catalog_version": "5.0.0",
+  "metadata": {
+    "title": "Guiding Principles – übergreifender Fragenkatalog",
+    "language": "de-DE",
+    "created_on": "2026-10-13",
+    "owner": "GÖK-Consulting",
+    "component_id": "guiding_principles",
+    "intended_sector": "Gesundheitssektor, unterschiedliche Organisationstypen",
+    "question_count": 22,
+    "reference_question_count": 15,
+    "positive_requirement_question_count": 14,
+    "initial_classification_question_count": 1,
+    "principle_application_question_count": 7,
+    "criterion_count": 8,
+    "context_field_count": 8,
+    "scope_note": "Bewertet den gemeinsamen Werte- und Prinzipienrahmen und dessen tatsächliche Anwendung im vereinbarten Umfang. Keine Wiederholung je Practice.",
+    "authorship_note": "Die vom Nutzer übermittelten fünf Stufen bilden den Referenzmaßstab. Fragen, Prüfpunkte, Einbindung der sieben Prinzipien und Auswertungsregeln sind eigene fachliche Operationalisierungen; kein vollständiger offizieller PeopleCert-Kriterienkatalog.",
+    "validation_status": "Struktur und Auswertungsfälle technisch prüfbar; fachlich noch nicht an realen Assessments erprobt.",
+    "validation_before_production": [
+      "Stufenzuordnung und eigene Operationalisierungen fachlich prüfen.",
+      "An verschiedenen Organisationen, Bereichen und geeigneten Personengruppen erproben.",
+      "Unabhängige Bewertungen derselben Nachweise vergleichen und Begriffe bei Bedarf präzisieren."
+    ],
+    "schema_version": "5.0.0",
+    "catalog_version": "5.0.0",
+    "scoring_version": "5.0.0",
+    "content_date": "2026-10-13",
+    "official_peoplecert_assessment": false,
+    "model_validation_completed": false,
+    "status": "component_eligibility_local_mean_draft",
+    "calculation_supported": true,
+    "regular_assessment_supported": false,
+    "revision_history": [
+      {
+        "version": "5.0.0",
+        "previous_version": "4.0.0",
+        "date": "2026-10-13",
+        "source_sha256": "f98d54f2464c615f53fd6e399e05bbd756d654c15a9b31719fc87d7a0cdf2911",
+        "reason": "Kategorie-Voraussetzungen sind verbindliche Bewertungsregeln; eigene Einzelstufen; Minimum ausschließlich für das gesamte SVS.",
+        "changed_question_or_anchor_ids": [
+          "GP-C01",
+          "GP-C02",
+          "GP-C03",
+          "GP-C04",
+          "GP-C05",
+          "GP-C06",
+          "GP-C07",
+          "GP-C08"
+        ]
+      },
+      {
+        "version": "4.0.0",
+        "previous_version": "3.0.0",
+        "date": "2026-10-13",
+        "source_sha256": "3e8009f7f1d57d1fabc89584968f3e1131bb048c200c444348cb90d6198afb19",
+        "reason": "Nutzerkorrektur: abgerundete Durchschnittsnoten innerhalb der Practices und übrigen Kategorien; Minimum ausschließlich zwischen Practice-Ergebnissen und optionalen Komponentenwerten."
+      }
+    ],
+    "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+    "assessment_question_count": 22,
+    "direct_question_count": 22,
+    "component_requirement_question_count": 14,
+    "individual_question_count": 0
+  },
+  "component_reference": {
+    "id": "USER-GP-LEVELS-2026-10-13",
+    "origin": "Vom Nutzer am 13.10.2026 vollständig übermittelte Guiding-Principles-Stufen",
+    "authority_for_this_catalog": "Verbindlicher Referenzmaßstab dieses Entwurfs; Herkunft der Passage nicht zusätzlich verifiziert.",
+    "levels": [
+      {
+        "level": 1,
+        "original_en": "Key people have different views on values and principles, and they might conflict.",
+        "description_de": "Schlüsselpersonen haben unterschiedliche Auffassungen von Werten und Prinzipien; diese können miteinander in Konflikt stehen."
+      },
+      {
+        "level": 2,
+        "original_en": "Common values and principles are shared by key people and articulated in a similar way; however, they are communicated mostly informally, by word of mouth.",
+        "description_de": "Schlüsselpersonen teilen gemeinsame Werte und Prinzipien und formulieren sie sinngemäß ähnlich. Die Kommunikation kann überwiegend informell und mündlich erfolgen."
+      },
+      {
+        "level": 3,
+        "original_en": "Common values and principles are documented and officially declared; most people are aware of them and agree with them.",
+        "description_de": "Gemeinsame Werte und Prinzipien sind dokumentiert und offiziell erklärt. Die meisten Personen kennen sie und stimmen ihnen zu."
+      },
+      {
+        "level": 4,
+        "original_en": "Common values and principles are integrated into the organization's activities and decision-making at formal and informal levels; they are communicated and promoted across the organization. Adherence to the values and principles is systematically monitored and evaluated.",
+        "description_de": "Gemeinsame Werte und Prinzipien prägen Aktivitäten und Entscheidungen auf formaler und informeller Ebene. Sie werden über die Organisation hinweg kommuniziert und gefördert. Ihre Einhaltung wird systematisch überwacht und bewertet."
+      },
+      {
+        "level": 5,
+        "original_en": "Common values and principles are consistently applied across the organization, but also are continually and systematically reviewed and may be challenged or confirmed.",
+        "description_de": "Gemeinsame Werte und Prinzipien werden konsequent über die Organisation hinweg angewendet und zugleich fortlaufend und systematisch überprüft. Sie können dabei hinterfragt oder bestätigt werden."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "GP-SRC01",
+      "title": "PeopleCert-Präsentation, Abschnitt zu den ITIL-4-Leitprinzipien",
+      "publisher": "PeopleCert",
+      "url": "https://www.itil.com/Itil-News-and-Announcements/-/media/2048efb812304872960038ec981a791a.ashx",
+      "locator": "Folie 16 (PDF-Seite 15)",
+      "accessed_on": "2026-10-13",
+      "use": "Benennung der sieben ITIL-4-Leitprinzipien; deutsche Kurzbezeichnungen und Anwendungsfragen eigenständig formuliert."
+    }
+  ],
+  "levels": [
+    {
+      "number": 1,
+      "label": "Unterschiedliche Auffassungen",
+      "description_de": "Schlüsselpersonen haben unterschiedliche Auffassungen von Werten und Prinzipien; diese können miteinander in Konflikt stehen.",
+      "interpretation": "Ein belegter Befund wesentlicher unterschiedlicher Auffassungen kennzeichnet Stufe 1. Tatsächliche Konflikte müssen nicht zusätzlich vorliegen. Der Befund ist keine kumulative Voraussetzung höherer Stufen.",
+      "question_ids": [
+        "GP-R01"
+      ],
+      "usage": "component_maturity_only"
+    },
+    {
+      "number": 2,
+      "label": "Gemeinsames informelles Verständnis",
+      "description_de": "Schlüsselpersonen teilen gemeinsame Werte und Prinzipien und formulieren sie sinngemäß ähnlich. Die Kommunikation kann überwiegend informell und mündlich erfolgen.",
+      "interpretation": "Ein inhaltlich gemeinsames Verständnis ist erforderlich. Schriftliche Leitlinien und offizielle Bekanntgabe sind noch keine Pflicht. Formellere Kommunikation verhindert die Einstufung nicht.",
+      "question_ids": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "usage": "component_maturity_only"
+    },
+    {
+      "number": 3,
+      "label": "Dokumentiert und offiziell erklärt",
+      "description_de": "Gemeinsame Werte und Prinzipien sind dokumentiert und offiziell erklärt. Die meisten Personen kennen sie und stimmen ihnen zu.",
+      "interpretation": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+      "question_ids": [
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "usage": "component_maturity_only"
+    },
+    {
+      "number": 4,
+      "label": "Integriert und systematisch überprüft",
+      "description_de": "Gemeinsame Werte und Prinzipien prägen Aktivitäten und Entscheidungen auf formaler und informeller Ebene. Sie werden über die Organisation hinweg kommuniziert und gefördert. Ihre Einhaltung wird systematisch überwacht und bewertet.",
+      "interpretation": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "question_ids": [
+        "GP-R08",
+        "GP-R09",
+        "GP-R10",
+        "GP-R11",
+        "GP-R12",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ],
+      "usage": "component_maturity_only"
+    },
+    {
+      "number": 5,
+      "label": "Konsequent angewendet und fortlaufend hinterfragt",
+      "description_de": "Gemeinsame Werte und Prinzipien werden konsequent über die Organisation hinweg angewendet und zugleich fortlaufend und systematisch überprüft. Sie können dabei hinterfragt oder bestätigt werden.",
+      "interpretation": "Konsequente Anwendung und ein tatsächlicher fortlaufender Reflexionsprozess sind erforderlich. Eine begründete Bestätigung unveränderter Prinzipien ist zulässig; die Werte müssen nicht in jedem Review geändert werden.",
+      "question_ids": [
+        "GP-R13",
+        "GP-R14",
+        "GP-R15"
+      ],
+      "usage": "component_maturity_only"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "GP-C01",
+      "title": "Gemeinsames Verständnis der Schlüsselpersonen",
+      "purpose": "Unterschiedliche Auffassungen und gemeinsamen inhaltlichen Rahmen unterscheiden.",
+      "question_ids": [
+        "GP-R01",
+        "GP-R02",
+        "GP-R03"
+      ]
+    },
+    {
+      "id": "GP-C02",
+      "title": "Dokumentation und offizielle Erklärung",
+      "purpose": "Gültige Dokumentation und verbindliche Bekanntgabe feststellen.",
+      "question_ids": [
+        "GP-R04",
+        "GP-R05"
+      ]
+    },
+    {
+      "id": "GP-C03",
+      "title": "Bekanntheit und Zustimmung",
+      "purpose": "Breite Kenntnis und tatsächliche Zustimmung im relevanten Personenkreis prüfen.",
+      "question_ids": [
+        "GP-R06",
+        "GP-R07"
+      ]
+    },
+    {
+      "id": "GP-C04",
+      "title": "Anwendung in Aktivitäten und Entscheidungen",
+      "purpose": "Tatsächliche Anwendung auf formaler und informeller Ebene anhand geeigneter Fälle prüfen.",
+      "question_ids": [
+        "GP-R08",
+        "GP-R09",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ]
+    },
+    {
+      "id": "GP-C05",
+      "title": "Kommunikation und Förderung",
+      "purpose": "Aktive Vermittlung und Förderung über die relevanten Bereiche hinweg prüfen.",
+      "question_ids": [
+        "GP-R10"
+      ]
+    },
+    {
+      "id": "GP-C06",
+      "title": "Systematische Überwachung und Bewertung",
+      "purpose": "Beobachtung und Beurteilung der Anwendung des gemeinsamen Rahmens prüfen.",
+      "question_ids": [
+        "GP-R11",
+        "GP-R12"
+      ]
+    },
+    {
+      "id": "GP-C07",
+      "title": "Konsequente Anwendung",
+      "purpose": "Konsistente Anwendung auch in anspruchsvollen Situationen über den Umfang hinweg prüfen.",
+      "question_ids": [
+        "GP-R13"
+      ]
+    },
+    {
+      "id": "GP-C08",
+      "title": "Fortlaufende Überprüfung des Prinzipienrahmens",
+      "purpose": "Überprüfung der Prinzipien selbst und begründete Bestätigung oder Weiterentwicklung prüfen.",
+      "question_ids": [
+        "GP-R14",
+        "GP-R15"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "GP-P01",
+      "title": "Wertorientierung",
+      "meaning": "Entscheidungen berücksichtigen den erwarteten Nutzen für relevante Beteiligte."
+    },
+    {
+      "id": "GP-P02",
+      "title": "Auf Vorhandenem aufbauen",
+      "meaning": "Vorhandene Fähigkeiten und Lösungen werden vor Veränderungen angemessen betrachtet."
+    },
+    {
+      "id": "GP-P03",
+      "title": "Schrittweise mit Feedback vorgehen",
+      "meaning": "Geeignete Schritte und Rückmeldungen helfen, Veränderungen anzupassen."
+    },
+    {
+      "id": "GP-P04",
+      "title": "Zusammenarbeiten und Transparenz fördern",
+      "meaning": "Relevante Beteiligte arbeiten zusammen und erhalten geeignete Informationen."
+    },
+    {
+      "id": "GP-P05",
+      "title": "Ganzheitlich denken und arbeiten",
+      "meaning": "Wesentliche Auswirkungen und Abhängigkeiten werden über Bereichsgrenzen hinweg betrachtet."
+    },
+    {
+      "id": "GP-P06",
+      "title": "Einfach und praktikabel halten",
+      "meaning": "Unnötige Komplexität wird vermieden oder reduziert."
+    },
+    {
+      "id": "GP-P07",
+      "title": "Optimieren und angemessen automatisieren",
+      "meaning": "Abläufe werden verbessert und Automatisierung wird dort eingesetzt, wo sie sinnvoll ist."
+    }
+  ],
+  "questions": [
+    {
+      "id": "GP-R01",
+      "criterion_id": "GP-C01",
+      "order": 1,
+      "kind": "initial_classification",
+      "text": "Sind bei relevanten Schlüsselpersonen wesentliche unterschiedliche Auffassungen von Werten und Prinzipien nachweisbar?",
+      "help_text": "Ein belegter Befund wesentlicher unterschiedlicher Auffassungen kennzeichnet Stufe 1. Tatsächliche Konflikte müssen nicht zusätzlich vorliegen. Der Befund ist keine kumulative Voraussetzung höherer Stufen.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Interviews oder reale Entscheidungsfälle mit nachvollziehbarer Gegenüberstellung der Auffassungen. Fehlende Informationen allein belegen diesen Befund nicht.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R01-EX",
+        "text": "Führungskräfte verschiedener Bereiche beschreiben unvereinbare Maßstäbe dafür, ob Nutzerbedarf oder ausschließlich lokale Kostenoptimierung ausschlaggebend sein soll.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Gemeinsames Verständnis zentraler Werte und Prinzipien mit den Schlüsselpersonen klären.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R01-A1",
+          "text": "Die relevanten Schlüsselpersonen sind anhand ihrer Rolle für Ausrichtung, Entscheidungen oder gelebte Zusammenarbeit im Bewertungsumfang bestimmt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R01-A2",
+          "text": "Geeignete geprüfte Aussagen oder Fälle zeigen inhaltliche Unterschiede in zentralen Werten oder Prinzipien; ein tatsächlicher Konflikt kann vorliegen, ist aber keine zusätzliche Pflicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R01-A3",
+          "text": "Unterschiedliche Wortwahl, legitime Abwägung mehrerer Prinzipien oder bloße Unterschiede der Anwendungssituation werden nicht automatisch als widersprüchliche Grundhaltung gewertet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 1,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R02",
+      "criterion_id": "GP-C01",
+      "order": 2,
+      "kind": "component_requirement",
+      "text": "Teilen die relevanten Schlüsselpersonen gemeinsame Werte und Prinzipien für den betrachteten Umfang?",
+      "help_text": "Ein inhaltlich gemeinsames Verständnis ist erforderlich. Schriftliche Leitlinien und offizielle Bekanntgabe sind noch keine Pflicht. Formellere Kommunikation verhindert die Einstufung nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Gespräche mit den relevanten Schlüsselpersonen und passende Arbeits- oder Entscheidungsbeispiele. Eine Aussage der IT-Leitung allein belegt nicht automatisch den gemeinsamen Rahmen.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R02-EX",
+        "text": "Leitung und Teamverantwortliche beschreiben übereinstimmend, dass Nutzen für Versorgungsabläufe, Zusammenarbeit und praktikable Lösungen ihre Entscheidungen prägen.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Zentrale Werte und Prinzipien gemeinsam klären und wesentliche Gegensätze bearbeiten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R02-A1",
+          "text": "Die wesentlichen Werte und Prinzipien lassen sich als gemeinsamer inhaltlicher Rahmen benennen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R02-A2",
+          "text": "Die relevanten Schlüsselpersonen teilen diesen Rahmen; wesentliche ungeklärte Gegensätze im Grundverständnis bestehen nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R02-A3",
+          "text": "Das Verständnis darf informell bestehen. Ein schriftliches Leitbild, eine ITIL-Zertifizierung oder ein eigener Werteprozess sind auf dieser Stufe nicht erforderlich.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 2,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R03",
+      "criterion_id": "GP-C01",
+      "order": 3,
+      "kind": "component_requirement",
+      "text": "Formulieren und vermitteln die Schlüsselpersonen die gemeinsamen Werte und Prinzipien sinngemäß ähnlich?",
+      "help_text": "Ein inhaltlich gemeinsames Verständnis ist erforderlich. Schriftliche Leitlinien und offizielle Bekanntgabe sind noch keine Pflicht. Formellere Kommunikation verhindert die Einstufung nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Vergleich geeigneter Aussagen und nachvollziehbare Vermittlungsbeispiele. Reines Wiederholen eines unbekannten Slogans genügt nicht.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R03-EX",
+        "text": "Mehrere Verantwortliche erklären in eigenen Worten denselben Anspruch an Nutzerorientierung und Zusammenarbeit in ihrer täglichen Arbeit.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Gemeinsame Aussagen verständlich formulieren und im Arbeitsalltag vermitteln.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R03-A1",
+          "text": "Die inhaltlichen Aussagen der Schlüsselpersonen stimmen ausreichend überein; identische Formulierungen oder englische ITIL-Bezeichnungen sind nicht erforderlich.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R03-A2",
+          "text": "Die Werte und Prinzipien werden tatsächlich vermittelt, beispielsweise in Gesprächen, Besprechungen oder Einweisungen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R03-A3",
+          "text": "Überwiegend mündliche und informelle Kommunikation ist ausreichend. Bereits dokumentierte oder formelle Kommunikation zählt ebenso.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 2,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R04",
+      "criterion_id": "GP-C02",
+      "order": 4,
+      "kind": "component_requirement",
+      "text": "Sind die gemeinsamen Werte und Prinzipien dokumentiert?",
+      "help_text": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Gültiges Leitbild, Prinzipienrahmen, Führungsleitlinie oder vergleichbare Dokumentation. Die Zuordnung zu den sieben Prinzipien ist eine eigene Operationalisierung des ITIL-Bezugs.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R04-EX",
+        "text": "Eine freigegebene IT-Leitlinie beschreibt gemeinsame Entscheidungs- und Arbeitsprinzipien in verständlicher Sprache.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Gemeinsame Werte und Prinzipien dokumentieren und ihren Geltungsbereich festhalten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R04-A1",
+          "text": "Eine aktuelle verbindlich zuordenbare Dokumentation des gemeinsamen Rahmens ist verfügbar.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R04-A2",
+          "text": "Die Inhalte sind verständlich und dem vereinbarten Umfang zugeordnet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R04-A3",
+          "text": "Die inhaltliche Beziehung zu den sieben ITIL-Leitprinzipien ist nachvollziehbar; die Organisation darf eigene passende Begriffe verwenden.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 3,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R05",
+      "criterion_id": "GP-C02",
+      "order": 5,
+      "kind": "component_requirement",
+      "text": "Sind die gemeinsamen Werte und Prinzipien offiziell erklärt beziehungsweise verbindlich bekanntgegeben?",
+      "help_text": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Offizielle Erklärung, Freigabe, Leitungsinformation oder verbindliche Bekanntgabe. Ein bestimmtes Gremium oder Dokumentformat ist nicht vorgeschrieben.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R05-EX",
+        "text": "Die zuständige Leitung erklärt den gemeinsamen Prinzipienrahmen als verbindliche Orientierung für die IT im vereinbarten Umfang.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Den gemeinsamen Rahmen durch die zuständige Stelle offiziell erklären und bekanntgeben.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R05-A1",
+          "text": "Die Erklärung oder Bekanntgabe durch eine dafür zuständige Stelle ist nachvollziehbar.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R05-A2",
+          "text": "Status, Geltungsbereich und maßgebliche Fassung sind erkennbar.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R05-A3",
+          "text": "Eine lediglich private oder unverbindliche Darstellung einzelner Personen genügt nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 3,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R06",
+      "criterion_id": "GP-C03",
+      "order": 6,
+      "kind": "component_requirement",
+      "text": "Kennen und verstehen die meisten Personen im betrachteten Umfang die gemeinsamen Werte und Prinzipien?",
+      "help_text": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Befragung, begründete Interviewstichprobe oder vergleichbare Erkenntnisse aus unterschiedlichen relevanten Gruppen. Keine frei erfundene Mindestquote und keine Pflicht zu einer Vollerhebung.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R06-EX",
+        "text": "Beschäftigte aus verschiedenen relevanten Bereichen können erklären, was die gemeinsamen Prinzipien für ihre Arbeit bedeuten.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Bekanntheit und Verständnis in den relevanten Personengruppen prüfen und gezielt stärken.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R06-A1",
+          "text": "Der relevante Personenkreis und seine wesentlichen Gruppen sind bestimmt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R06-A2",
+          "text": "Geeignete Nachweise belegen breite Bekanntheit und ein arbeitsbezogenes Verständnis der maßgeblichen Inhalte; Kenntnis der Wortlaute allein reicht nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R06-A3",
+          "text": "Die Aussage die meisten ist für den Personenkreis nachvollziehbar begründet. Einzelne Leitungsinterviews oder die Zahl versandter E-Mails allein genügen nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 3,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R07",
+      "criterion_id": "GP-C03",
+      "order": 7,
+      "kind": "component_requirement",
+      "text": "Stimmen die meisten Personen im betrachteten Umfang den gemeinsamen Werten und Prinzipien zu?",
+      "help_text": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Befragung, begründete Interviews oder Rückmeldungen, die Zustimmung und Vorbehalte tatsächlich untersuchen.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R07-EX",
+        "text": "Rückmeldungen aus verschiedenen Teams zeigen überwiegende Zustimmung; Vorbehalte bestimmter Gruppen sind gesondert erfasst.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Vorbehalte verstehen, den gemeinsamen Rahmen erläutern und inhaltliche Differenzen bearbeiten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R07-A1",
+          "text": "Geeignete Nachweise erlauben eine Einschätzung tatsächlicher Zustimmung im relevanten Personenkreis.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R07-A2",
+          "text": "Die Aussage die meisten ist anhand einer geeigneten Erhebung und der relevanten Gruppen begründet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R07-A3",
+          "text": "Ein Empfangsnachweis, verpflichtende Schulungsteilnahme oder eine Unterschrift allein belegt keine inhaltliche Zustimmung; verbleibende wesentliche Unterschiede werden benannt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 3,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R08",
+      "criterion_id": "GP-C04",
+      "order": 8,
+      "kind": "component_requirement",
+      "text": "Sind die gemeinsamen Werte und Prinzipien in formalen Aktivitäten und Entscheidungen verankert und werden sie tatsächlich angewendet?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Entscheidungsunterlagen, angewendete Leitlinien und reale Fälle aus verschiedenen relevanten Bereichen. Nicht jede Practice einzeln prüfen.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R08-EX",
+        "text": "Bei einer Beschaffung werden erwarteter Nutzen, vorhandene Lösungen und Auswirkungen auf betroffene Teams nachvollziehbar abgewogen.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Prinzipien in geeigneten formalen Entscheidungen und Arbeitsweisen verankern und tatsächliche Anwendung prüfen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R08-A1",
+          "text": "Relevante formale Entscheidungssituationen oder Arbeitsweisen beziehen die Prinzipien ein, beispielsweise Priorisierung, Gestaltung, Freigaben oder Reviews.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R08-A2",
+          "text": "Geeignete tatsächliche Fälle zeigen, dass die Prinzipien die Entscheidung oder Ausführung beeinflussen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R08-A3",
+          "text": "Die sieben Prinzipien sind über die jeweils relevanten Anwendungssituationen abgedeckt. Ein Verweis in einer Vorlage ohne erkennbare Anwendung genügt nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R09",
+      "criterion_id": "GP-C04",
+      "order": 9,
+      "kind": "component_requirement",
+      "text": "Prägen die gemeinsamen Werte und Prinzipien auch informelle Entscheidungen und die tägliche Zusammenarbeit?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geprüfte konkrete Interviews, Beobachtungen von Arbeitsabläufen oder nachvollziehbare Arbeitsfälle. Formale Prozessdokumente allein belegen diese Ebene nicht.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R09-EX",
+        "text": "Teams stimmen eine Übergabe frühzeitig miteinander ab und machen ein Hindernis für betroffene Bereiche sichtbar, auch ohne formalen Auftrag.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Anwendung im Arbeitsalltag anhand geeigneter Fälle klären und erkannte Hindernisse bearbeiten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R09-A1",
+          "text": "Geeignete alltägliche Arbeitssituationen zeigen die Anwendung jenseits formaler Vorlagen oder Freigaben.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R09-A2",
+          "text": "Die Erkenntnisse stammen aus unterschiedlichen relevanten Rollen und Bereichen; allgemeine Selbstaussagen allein reichen nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R09-A3",
+          "text": "Die Bewertung untersucht arbeitsbezogenes Verhalten und Entscheidungen, nicht private Kommunikation.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R10",
+      "criterion_id": "GP-C05",
+      "order": 10,
+      "kind": "component_requirement",
+      "text": "Werden die gemeinsamen Werte und Prinzipien über den betrachteten Umfang hinweg aktiv kommuniziert und gefördert?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Tatsächlich genutzte Kommunikations- und Fördermaßnahmen mit Rückmeldungen aus den erreichten Gruppen. Keine Pflicht zu einem bestimmten Schulungsformat.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R10-EX",
+        "text": "Führungskräfte erläutern reale Entscheidungen anhand der Prinzipien, und neue Beschäftigte erhalten passende Arbeitsbeispiele.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Verständliche Kommunikation und aktive Förderung über die relevanten Gruppen hinweg etablieren.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R10-A1",
+          "text": "Geeignete Kommunikation erreicht die relevanten Gruppen und wird bei Bedarf aufgefrischt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R10-A2",
+          "text": "Die Anwendung wird aktiv gefördert, beispielsweise durch Führungsvorbilder, verständliche Beispiele, Einweisung oder gemeinsame Reflexion.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R10-A3",
+          "text": "Kommunikation und Förderung finden über die relevanten Bereiche hinweg statt; eine einmalige Bekanntgabe allein genügt nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R11",
+      "criterion_id": "GP-C06",
+      "order": 11,
+      "kind": "component_requirement",
+      "text": "Wird die Einhaltung der gemeinsamen Werte und Prinzipien systematisch beobachtet beziehungsweise überwacht?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Tatsächlich durchgeführte Reviews, geeignete Befragungen, Entscheidungsstichproben oder strukturierte Rückmeldungen. Quantitative Kennzahlen sind möglich, aber keine allgemeine Pflicht dieser Komponente.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R11-EX",
+        "text": "In wiederkehrenden Entscheidungsreviews wird geprüft, ob Nutzerbedürfnisse, Zusammenarbeit und relevante Auswirkungen berücksichtigt wurden.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Angemessenes systematisches Beobachten der Anwendung mit Zuständigkeit und Prüfanlässen einführen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R11-A1",
+          "text": "Ein nachvollziehbares Vorgehen mit Zuständigkeit und passenden Prüfanlässen oder Zyklen ist vorhanden und wird genutzt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R11-A2",
+          "text": "Geeignete Fallbetrachtungen, Rückmeldungen oder andere Nachweise zeigen, ob die Prinzipien tatsächlich angewendet werden.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R11-A3",
+          "text": "Die Beobachtung deckt relevante formale und informelle Arbeitssituationen ab. Rein technische Leistungskennzahlen oder das Vorhandensein eines Leitbilds allein genügen nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R12",
+      "criterion_id": "GP-C06",
+      "order": 12,
+      "kind": "component_requirement",
+      "text": "Wird die beobachtete Einhaltung der Werte und Prinzipien systematisch bewertet?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Reviewbefunde, strukturierte Rückmeldungsanalysen und nachvollziehbare Bewertungen. Qualitative Verfahren können ausreichen.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R12-EX",
+        "text": "Ein Review unterscheidet eine begründete Notfallentscheidung von einer wiederkehrenden Missachtung der vereinbarten Zusammenarbeit.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Erkenntnisse zur Anwendung systematisch bewerten und wesentliche Schlussfolgerungen festhalten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R12-A1",
+          "text": "Die erhobenen Erkenntnisse werden tatsächlich ausgewertet und mit den gemeinsamen Erwartungen verglichen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R12-A2",
+          "text": "Abweichungen, Spannungen und geeignete Ausnahmen werden eingeordnet; legitime Abwägungen werden nicht als automatische Regelverletzung behandelt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R12-A3",
+          "text": "Ergebnisse und wesentliche Schlussfolgerungen sind nachvollziehbar. Eine Sammlung von Rückmeldungen ohne Bewertung genügt nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R13",
+      "criterion_id": "GP-C07",
+      "order": 13,
+      "kind": "component_requirement",
+      "text": "Werden die gemeinsamen Werte und Prinzipien über den gesamten betrachteten Umfang hinweg konsequent angewendet?",
+      "help_text": "Konsequente Anwendung und ein tatsächlicher fortlaufender Reflexionsprozess sind erforderlich. Eine begründete Bestätigung unveränderter Prinzipien ist zulässig; die Werte müssen nicht in jedem Review geändert werden.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Fälle und systematische Bewertungen über passende Zeiträume, einschließlich anspruchsvoller Situationen und relevanter Unterschiede zwischen Einheiten.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07",
+        "GP-R08",
+        "GP-R09",
+        "GP-R10",
+        "GP-R11",
+        "GP-R12",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R13-EX",
+        "text": "Auch bei konkurrierenden Standortinteressen bleiben Nutzen, Transparenz und gemeinsame Auswirkungen nachvollziehbare Entscheidungsmaßstäbe.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Systematische Unterschiede der Anwendung über Bereiche und Entscheidungsebenen hinweg bearbeiten.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R13-A1",
+          "text": "Geeignete Nachweise aus relevanten Bereichen, Rollen und Entscheidungsebenen zeigen eine konsistente Anwendung über den Zeitverlauf.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R13-A2",
+          "text": "Die Anwendung ist auch in anspruchsvollen Situationen nachvollziehbar, beispielsweise bei Zeitdruck, Interessenkonflikten oder knappen Ressourcen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R13-A3",
+          "text": "Wesentliche systematische Widersprüche zwischen erklärtem Rahmen und tatsächlicher Arbeit sind nicht ungeklärt geblieben. Nicht jeder Einzelfall muss fehlerfrei sein; relevante Ausnahmen werden begründet eingeordnet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 5,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R14",
+      "criterion_id": "GP-C08",
+      "order": 14,
+      "kind": "component_requirement",
+      "text": "Werden die gemeinsamen Werte und Prinzipien selbst fortlaufend und systematisch überprüft?",
+      "help_text": "Konsequente Anwendung und ein tatsächlicher fortlaufender Reflexionsprozess sind erforderlich. Eine begründete Bestätigung unveränderter Prinzipien ist zulässig; die Werte müssen nicht in jedem Review geändert werden.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Tatsächliche wiederholte Reflexionen oder Reviews des Prinzipienrahmens über einen geeigneten Zeitraum; kein pauschaler fester Mindestkalender.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07",
+        "GP-R08",
+        "GP-R09",
+        "GP-R10",
+        "GP-R11",
+        "GP-R12",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R14-EX",
+        "text": "Nach veränderten Leistungsanforderungen prüft die Organisation, ob ihre Auslegung der Prinzipien weiterhin zweckmäßig ist.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Den Prinzipienrahmen selbst mit geeigneter Verantwortung und regelmäßigen beziehungsweise passenden anlassbezogenen Reviews prüfen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R14-A1",
+          "text": "Es gibt einen tatsächlich genutzten Ansatz zur wiederkehrenden oder anlassbezogenen Prüfung von Inhalt, Angemessenheit und Spannungen der Prinzipien.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R14-A2",
+          "text": "Passende Erfahrungen, veränderte Anforderungen und relevante Rückmeldungen fließen ein.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R14-A3",
+          "text": "Eine reine Kontrolle der Einhaltung genügt nicht: Auch der Rahmen selbst wird hinterfragt. Zuständigkeit und reale wiederholte Prüfungen sind nachvollziehbar.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F14"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 5,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-R15",
+      "criterion_id": "GP-C08",
+      "order": 15,
+      "kind": "component_requirement",
+      "text": "Führen diese Überprüfungen zu nachvollziehbaren Bestätigungen, Hinterfragungen oder Anpassungen der Werte und Prinzipien?",
+      "help_text": "Konsequente Anwendung und ein tatsächlicher fortlaufender Reflexionsprozess sind erforderlich. Eine begründete Bestätigung unveränderter Prinzipien ist zulässig; die Werte müssen nicht in jedem Review geändert werden.",
+      "required_for_level": true,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Nachvollziehbare Reviewergebnisse, Begründungen und passende Weitergabe. Stufe 5 verlangt keine fortlaufende Änderung der grundlegenden Prinzipien.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07",
+        "GP-R08",
+        "GP-R09",
+        "GP-R10",
+        "GP-R11",
+        "GP-R12",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ],
+      "principle_id": null,
+      "healthcare_example": {
+        "id": "GP-R15-EX",
+        "text": "Ein Review bestätigt die bestehenden Prinzipien, präzisiert aber anhand realer Fälle ihre Anwendung bei Zielkonflikten.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Ergebnisse der Reflexion begründen und für die weitere Orientierung und Anwendung nutzbar machen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-R15-A1",
+          "text": "Reale Reviewergebnisse enthalten nachvollziehbare Schlussfolgerungen zum Prinzipienrahmen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R15-A2",
+          "text": "Eine begründete Bestätigung ist ebenso zulässig wie eine Anpassung oder vertiefte Hinterfragung; bloß ritualisierte Zustimmung ohne Prüfung reicht nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-R15-A3",
+          "text": "Maßgebliche Ergebnisse sind für die relevanten Beteiligten nutzbar, etwa durch bestätigte Orientierung oder aktualisierte Auslegung und Kommunikation.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F14"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "component_level": 5,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P01",
+      "criterion_id": "GP-C04",
+      "order": 16,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden Entscheidungen und Arbeitsweisen anhand des erwarteten Nutzens für relevante Beteiligte ausgerichtet?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete organisationsübergreifende Entscheidungen und Rückmeldungen. Keine erneute identische Frage je Practice.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P01",
+      "healthcare_example": {
+        "id": "GP-P01-EX",
+        "text": "Bei einer neuen IT-Leistung werden Nutzen für Beschäftigte und Auswirkungen auf Versorgungsabläufe in die Entscheidung aufgenommen.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Erwarteten Nutzen und relevante Beteiligte in Entscheidungen und Arbeitsweisen sichtbar berücksichtigen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P01-A1",
+          "text": "Relevante Nutznießer und ihre Bedürfnisse werden in geeigneten Entscheidungen tatsächlich berücksichtigt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P01-A2",
+          "text": "Der erwartete Nutzen beeinflusst die gewählte Lösung oder Priorität.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P01-A3",
+          "text": "Nutzen umfasst passende Ergebnisse, Erfahrungen, Aufwand und Risiken; technische Fertigstellung oder reine Kostenbetrachtung allein genügt nicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P02",
+      "criterion_id": "GP-C04",
+      "order": 17,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden vorhandene Fähigkeiten und Lösungen geprüft, bevor Veränderungen oder neue Lösungen beschlossen werden?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Reale Veränderungsentscheidungen mit Betrachtung des bestehenden Zustands und nachvollziehbarer Auswahl.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P02",
+      "healthcare_example": {
+        "id": "GP-P02-EX",
+        "text": "Vor einer gemeinsamen Lösung werden die bestehenden Ansätze beider Standorte auf Eignung und nutzbare Bestandteile geprüft.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Eine angemessene Betrachtung bestehender Fähigkeiten in Veränderungsentscheidungen verankern.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P02-A1",
+          "text": "Eine angemessene Betrachtung des bestehenden Zustands erfolgt in relevanten Veränderungsentscheidungen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P02-A2",
+          "text": "Geeignete vorhandene Fähigkeiten, Informationen oder Lösungen werden berücksichtigt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P02-A3",
+          "text": "Wiederverwendung, Anpassung oder begründete Ablösung ist nachvollziehbar. Bestehendes muss nicht unabhängig von seiner Eignung beibehalten werden.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P03",
+      "criterion_id": "GP-C04",
+      "order": 18,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden geeignete Veränderungen in überschaubaren Schritten umgesetzt und anhand von Feedback angepasst?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Veränderungsfälle mit Zwischenschritten und tatsächlichen Rückmeldungen; eine pauschale Pilotpflicht für jede Tätigkeit wird nicht verlangt.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P03",
+      "healthcare_example": {
+        "id": "GP-P03-EX",
+        "text": "Eine neue Unterstützungsleistung wird zunächst in einem passenden Teilbereich erprobt und anhand der Rückmeldungen angepasst.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Passende Schritte und Rückmeldemöglichkeiten in geeigneten Veränderungen vorsehen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P03-A1",
+          "text": "Die Schrittgröße ist passend zu Nutzen, Risiken und Abhängigkeiten gewählt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P03-A2",
+          "text": "Relevante Rückmeldungen werden während der Umsetzung eingeholt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P03-A3",
+          "text": "Rückmeldungen beeinflussen weitere Schritte oder führen zu einer begründeten Beibehaltung. Ein bestimmtes agiles Verfahren ist keine Pflicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P04",
+      "criterion_id": "GP-C04",
+      "order": 19,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden relevante Beteiligte gemeinsam einbezogen und erhalten sie die für ihre Beiträge notwendigen Informationen?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Reale Entscheidungen, Abstimmungen und Rückmeldungen verschiedener relevanter Bereiche, gegebenenfalls mit externen Beteiligten.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P04",
+      "healthcare_example": {
+        "id": "GP-P04-EX",
+        "text": "IT, Leistungsnutzer und ein relevanter Dienstleister klären eine Änderung gemeinsam und machen Abhängigkeiten rechtzeitig sichtbar.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Angemessene Beteiligung und erforderliche Transparenz in Zusammenarbeit und Entscheidungen stärken.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P04-A1",
+          "text": "Die für Entscheidung und Umsetzung relevanten Rollen oder Gruppen werden angemessen beteiligt.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P04-A2",
+          "text": "Notwendige Informationen, Entscheidungen und wesentliche Hindernisse sind für diese Beteiligten nachvollziehbar.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P04-A3",
+          "text": "Beteiligung und Transparenz beeinflussen reale Zusammenarbeit. Transparenz verlangt keine uneingeschränkte Offenlegung aller Informationen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P05",
+      "criterion_id": "GP-C04",
+      "order": 20,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden bei Entscheidungen wesentliche Auswirkungen und Abhängigkeiten über Bereichsgrenzen hinweg berücksichtigt?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete bereichsübergreifende Entscheidungen mit tatsächlicher Betrachtung von Auswirkungen. Die vier Perspektiven dienen als Prüfhilfe, nicht als viermal zu wiederholende Frage.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P05",
+      "healthcare_example": {
+        "id": "GP-P05-EX",
+        "text": "Eine Änderung am Zugangsverfahren wird auch auf ihre Auswirkungen auf Support, Arbeitsabläufe und beteiligte Anbieter geprüft.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Wesentliche bereichsübergreifende Auswirkungen und Abhängigkeiten in Entscheidungen einbeziehen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P05-A1",
+          "text": "Auswirkungen auf relevante Menschen, Services, Abläufe, Informationen, Technologien und gegebenenfalls Partner werden passend betrachtet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P05-A2",
+          "text": "Die Entscheidung bezieht wesentliche Wechselwirkungen und das gemeinsame Ergebnis ein.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P05-A3",
+          "text": "Lokale Optimierung wird nicht ohne Betrachtung wesentlicher nachteiliger Folgen für andere Bereiche als Erfolg angenommen.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P06",
+      "criterion_id": "GP-C04",
+      "order": 21,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden Arbeitsweisen und Anforderungen so gestaltet, dass sie zweckmäßig bleiben und unnötige Komplexität vermieden wird?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Reale Gestaltung oder Vereinfachung einer Arbeitsweise mit nachvollziehbarem Nutzen und berücksichtigten Rahmenbedingungen.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P06",
+      "healthcare_example": {
+        "id": "GP-P06-EX",
+        "text": "Doppelte Freigaben werden geprüft; eine überflüssige Prüfung entfällt, während notwendige Verantwortlichkeiten erhalten bleiben.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Arbeitsweisen auf Ergebnisbeitrag und vermeidbare Komplexität prüfen.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P06-A1",
+          "text": "Bei geeigneten Entscheidungen wird geprüft, welche Schritte oder Anforderungen für das Ergebnis erforderlich sind.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P06-A2",
+          "text": "Unnötige Komplexität wird reduziert oder die Beibehaltung begründet.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P06-A3",
+          "text": "Wesentliche Qualitäts-, Risiko- und Schutzanforderungen bleiben berücksichtigt. Weniger Schritte sind nicht automatisch besser.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    },
+    {
+      "id": "GP-P07",
+      "criterion_id": "GP-C04",
+      "order": 22,
+      "kind": "principle_application_evidence_helper",
+      "text": "Werden Abläufe vor einer möglichen Automatisierung auf Verbesserungsbedarf geprüft und wird Automatisierung begründet eingesetzt oder verworfen?",
+      "help_text": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht. V5: Nachweishilfe für die Anwendung im Organisationsumfang; kein zusätzliches eigenständiges Kategorie-Gate.",
+      "required_for_level": false,
+      "not_applicable_allowed": false,
+      "evidence_focus": "Geeignete Optimierungs- und Automatisierungsentscheidungen einschließlich begründeter Entscheidungen gegen Automatisierung. Eine reine Toolanschaffung genügt nicht.",
+      "suggested_evidence_types": [
+        "interview_note",
+        "work_record",
+        "decision_record",
+        "feedback",
+        "observation",
+        "document"
+      ],
+      "prerequisite_question_ids": [
+        "GP-R02",
+        "GP-R03",
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "principle_id": "GP-P07",
+      "healthcare_example": {
+        "id": "GP-P07-EX",
+        "text": "Ein wiederkehrender Ablauf wird zunächst vereinfacht; anschließend wird nur der geeignete Teil automatisiert und eine notwendige fachliche Prüfung bleibt erhalten.",
+        "illustrative_only": true
+      },
+      "recommended_action_if_not_met": "Optimierung und Eignungsprüfung vor Automatisierungsentscheidungen verankern.",
+      "authorship": "goek_original_operationalization",
+      "practice_specific": false,
+      "checks": [
+        {
+          "id": "GP-P07-A1",
+          "text": "Nutzen, Ablauf und wesentliche Verbesserungsmöglichkeiten werden betrachtet, bevor eine geeignete Automatisierung beschlossen wird.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P07-A2",
+          "text": "Eine Entscheidung für oder gegen Automatisierung berücksichtigt Eignung, Auswirkungen, Aufwand und erforderliche Kontrolle.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        },
+        {
+          "id": "GP-P07-A3",
+          "text": "Geeignete Beispiele können auch eine begründete Beibehaltung manueller Arbeit zeigen. Viele Automatisierungen oder eine bestimmte Technologie sind keine Reifegradpflicht.",
+          "applicability": {
+            "kind": "always"
+          },
+          "required": true
+        }
+      ],
+      "answer_option_set": "standard_evidence_answer",
+      "review_option_set": "evidence_review",
+      "response_fields": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "collection_mode": "direct",
+      "shared_fact_ids": [
+        "F05",
+        "F04"
+      ],
+      "evaluation_subject": "guiding_principles",
+      "automatic_answer_copy": false,
+      "assessor_focus": "Organisationsweite Werte und Prinzipien sowie ihre formale und informelle Anwendung; kein eigener Block je Practice.",
+      "required_for_diagnostic_profile": false,
+      "component_level": 4,
+      "used_for_average_criterion": false,
+      "individual_rating_scale": false
+    }
+  ],
+  "case_registry_contract": {
+    "fields": [
+      "case_id",
+      "title",
+      "case_type",
+      "assessment_unit_ids",
+      "period",
+      "roles_involved",
+      "formal_or_informal",
+      "principle_ids",
+      "source_locator",
+      "evidence_ids",
+      "finding",
+      "limitations"
+    ],
+    "case_types": [
+      "strategy_or_priority",
+      "investment_or_procurement",
+      "change_or_new_service",
+      "improvement",
+      "collaboration_or_handover",
+      "everyday_support",
+      "resource_or_interest_conflict",
+      "other"
+    ],
+    "selection_rule": "Eine begründete Auswahl aus relevanten Aktivitäten und Entscheidungen verwenden; formale und informelle Arbeit, unterschiedliche Bereiche und anspruchsvolle Situationen passend abdecken.",
+    "reuse_rule": "Dieselben Fälle und Nachweise dürfen mehrere Fragen oder andere SVS-Komponenten unterstützen. Aussageumfang und Bewertung bleiben je Frage nachvollziehbar.",
+    "no_practice_matrix": "Keine 7×34-Practice-Matrix und keine Wiederholung des ganzen Frageblocks für jede Practice. Fehlende Aussagekraft einer Auswahl gezielt durch weitere Fälle ergänzen.",
+    "examples_are_fictional": true
+  },
+  "assessment_record_contract": {
+    "response_fields": [
+      "question_id",
+      "answer",
+      "finding",
+      "review_status",
+      "evidence_status",
+      "evidence_ids",
+      "check_results",
+      "assessor_rationale",
+      "reviewer_id",
+      "reviewed_at"
+    ],
+    "finding_options": [
+      "fulfilled",
+      "not_fulfilled",
+      "partial",
+      "open",
+      "not_applicable"
+    ],
+    "review_options": [
+      "pending",
+      "approved"
+    ],
+    "evidence_options": [
+      "not_checked",
+      "sufficient",
+      "insufficient",
+      "conflicting"
+    ],
+    "response_schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question_id",
+        "answer",
+        "finding",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "check_results",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answer": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "partial",
+            "no",
+            "unknown"
+          ]
+        },
+        "finding": {
+          "type": "string",
+          "enum": [
+            "fulfilled",
+            "not_fulfilled",
+            "partial",
+            "open",
+            "not_applicable"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "evidence_status": {
+          "type": "string",
+          "enum": [
+            "not_checked",
+            "sufficient",
+            "insufficient",
+            "conflicting"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "check_results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "check_id",
+              "finding",
+              "evidence_ids",
+              "rationale"
+            ],
+            "properties": {
+              "check_id": {
+                "type": "string"
+              },
+              "finding": {
+                "type": "string",
+                "enum": [
+                  "fulfilled",
+                  "not_fulfilled",
+                  "partial",
+                  "open",
+                  "not_applicable"
+                ]
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "rationale": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "assessor_rationale": {
+          "type": "string"
+        },
+        "reviewer_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "evidence_register_schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "title",
+        "evidence_type",
+        "source_locator",
+        "scope_ids",
+        "covered_period",
+        "source_date"
+      ],
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_type": {
+          "type": "string",
+          "enum": [
+            "document",
+            "interview_note",
+            "work_record",
+            "decision_record",
+            "observation",
+            "feedback",
+            "review_record",
+            "metric_series",
+            "data_extract",
+            "test_result",
+            "other"
+          ]
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "covered_period": {
+          "type": "string"
+        },
+        "source_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "separation": "Katalog unverändert laden und versionierte Bewertungsdaten separat speichern."
+  },
+  "coverage_policy": {
+    "level_requirements": "Alle GP-R02 bis GP-R15 gemäß ihrem Komponentenlevel; GP-R01 nur anfängliche Klassifikation.",
+    "principle_application": "Geeignete Fälle zu den sieben Leitprinzipien verwenden, ohne jedes Prinzip für jede Practice abzufragen. Hilfsfragen zeigen Anwendungsbelege und erzeugen keine zusätzliche Einzelstufenleiter.",
+    "excluded_requirements": "Keine vollständige Kategoriereife bei ausgeschlossenen Pflichtmerkmalen."
+  },
+  "evidence_policy": {
+    "purpose": "Tatsächliches Verständnis, Zustimmung und Anwendung prüfen; Dokumente, Versandzahlen und Selbstauskünfte allein nicht mit gelebter Anwendung verwechseln.",
+    "level1": "Geprüfte Unterschiede zentraler Auffassungen zwischen relevanten Schlüsselpersonen belegen; fehlende Informationen nicht als Unterschiede werten.",
+    "level2": "Geeignete konkrete Interviews und Vermittlungsbeispiele können genügen. Eine Interviewnotiz der Beratenden macht schriftliche Kundendokumentation nicht zur Stufe-2-Pflicht.",
+    "level3": "Dokumentation und offizielle Erklärung sowie unabhängige geeignete Erkenntnisse zu Bekanntheit und Zustimmung im relevanten Personenkreis belegen.",
+    "level4": "Formale und informelle Anwendungsfälle, aktive Förderung sowie tatsächlich durchgeführte Überwachung und Bewertung belegen. Qualitative Verfahren können ausreichend sein.",
+    "level5": "Konsistente Anwendung und tatsächliche wiederholte Überprüfung des Rahmens selbst mit nachvollziehbaren Schlussfolgerungen belegen.",
+    "sampling": "Personenkreis und Fallgrundgesamtheit beschreiben, relevante Unterschiede berücksichtigen und Auswahl sowie verbleibende Grenzen begründen. Kein universeller Mindestzeitraum oder feste Zahl von Fällen.",
+    "contradictions": "Widersprüche zwischen erklärt dargestelltem Rahmen, Aussagen und beobachteter Arbeit vor Freigabe klären; conflicting ergibt unknown.",
+    "shared_evidence": "Ein Nachweis kann mehrere Fragen und weitere SVS-Komponenten unterstützen, sofern sein Aussageumfang passt.",
+    "privacy": "Arbeitsbezogene aggregierte, anonymisierte oder rollenbezogene Nachweise verwenden; keine personenbezogenen Gesundheitsdaten erforderlich."
+  },
+  "scoring_rules": {
+    "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+    "model": "explicit_component_eligibility",
+    "aggregation_method": "highest_fully_eligible_component_level",
+    "requirements_source": "component_maturity_criteria.requirements_introduced_by_level",
+    "initial_question_id": "GP-R01",
+    "positive_requirements_cumulative": true,
+    "all_required_conditions_must_be_fulfilled": true,
+    "detail_average_influences_component_level": false,
+    "detail_index_method": "arithmetic_mean_floor",
+    "same_evidence_not_double_counted": true
+  },
+  "result_contract": {
+    "component_id": "guiding_principles",
+    "fields": [
+      "component_id",
+      "assessment_id",
+      "assessment_unit_id",
+      "scope_id",
+      "scope_description",
+      "assessment_period",
+      "catalog_id",
+      "catalog_version",
+      "policy_id",
+      "level_type",
+      "assessed_level",
+      "possible_upper_level",
+      "status",
+      "context_status",
+      "is_final",
+      "result_is_draft",
+      "model_validation_completed",
+      "release_status",
+      "evidence_ids",
+      "limiting_unit_ids",
+      "blocking_question_ids",
+      "open_question_ids",
+      "higher_level_strength_question_ids",
+      "scope_qualification",
+      "unit_results",
+      "limitations",
+      "fulfilled_question_levels",
+      "aggregation_method",
+      "score_semantics",
+      "unrounded_mean",
+      "unrounded_upper_mean",
+      "weaker_criterion_ids",
+      "higher_level_unit_ids",
+      "component_level_evaluations",
+      "detail_index",
+      "category_level_source"
+    ],
+    "numeric_field": "assessed_level",
+    "graphic_policy": "Fünf tatsächliche Kategorie-Noten als Balken 1–5 anzeigen; SVS-Minimum separat als Gesamtzahl und Bezugslinie. Werte [4,4,4,4,2] bleiben sichtbar, SVS=2. Detailnoten, Rohmittelwerte und belegte isolierte höhere Merkmale separat kennzeichnen. null bleibt offen, niemals 0.",
+    "status_policy": "Status der höchsten belegten Kategorie-Voraussetzungen; lokale Mittelwerte haben eigene Statusfelder. Entwurfsstatus, Scope-Prüfung und fachliche Freigabe bleiben separat.",
+    "question_result_fields": [
+      "question_id",
+      "state",
+      "open_reasons",
+      "evidence_ids"
+    ],
+    "unit_result_fields": [
+      "unit_id",
+      "level_type",
+      "assessed_level",
+      "possible_upper_level",
+      "status",
+      "blocking_question_ids",
+      "open_question_ids",
+      "higher_level_strength_question_ids",
+      "result_is_draft"
+    ],
+    "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+    "mean_fields": {
+      "path": "detail_index oder einzelnes practice_result",
+      "influences_component_level": false
+    },
+    "category_level_source": "binding_component_maturity_criteria"
+  },
+  "implementation_guidance": [
+    "Drei Bewertungsebenen und Ergebnisfelder getrennt verwenden.",
+    "Eine lokale Note aus eigenen Aspektstufen bestimmen; Einzelnoten genau einmal und gleich gewichtet mitteln.",
+    "assessed_level der Kategorie aus ihren verbindlichen Voraussetzungen ermitteln; detail_index ist optional und beeinflusst die Kategorie nicht.",
+    "Bei Practices alle Schlüssel- und unterstützenden Rollen vorab fachlich prüfen; die Tabelle der Schwellen verwenden.",
+    "Beim gesamten SVS die niedrigste der fünf Kategorien ausgeben; die fünf tatsächlichen Balken sichtbar lassen.",
+    "V4-Antworten bei veränderter Fragebedeutung prüfen; alte Gesamtwerte vollständig neu berechnen."
+  ],
+  "domain_context_fields": [
+    {
+      "id": "GP-CTX01",
+      "key": "organization_profile",
+      "label": "Organisationsprofil",
+      "field_type": "object",
+      "required": true,
+      "prompt": "Welche Organisation und welche Service-Management-Aufgaben betrachten wir?",
+      "guidance": "Organisationstyp, Leistungsauftrag, wesentliche Anforderungen und interne oder gemeinsame Leistungserbringung beschreiben.",
+      "storage_path": "extensions.domain_context.organization_profile",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX02",
+      "key": "assessment_units",
+      "label": "Bewertungsumfang und Einheiten",
+      "field_type": "array",
+      "required": true,
+      "prompt": "Welche Bereiche, Standorte und Entscheidungsebenen gehören zur Bewertung?",
+      "guidance": "Stabile assessment_unit_id vergeben. Eine IT-Teilbewertung gilt nicht automatisch für das gesamte Unternehmen; eine gemeinsame Ebene gegebenenfalls separat bewerten.",
+      "storage_path": "assessment_unit_id + context.scope_id + context.scope_description",
+      "collection_mode": "reuse_context"
+    },
+    {
+      "id": "GP-CTX03",
+      "key": "assessment_objective",
+      "label": "Bewertungsziel",
+      "field_type": "text",
+      "required": true,
+      "prompt": "Welche Entscheidung oder Verbesserung soll das Profil unterstützen?",
+      "guidance": "Beispielsweise gemeinsames Verständnis bei Zusammenführung, Verbesserung der Zusammenarbeit oder Fortschrittsvergleich. Zielstufen verändern den Ist-Maßstab nicht.",
+      "storage_path": "extensions.domain_context.assessment_objective",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX04",
+      "key": "key_people",
+      "label": "Schlüsselpersonen",
+      "field_type": "array",
+      "required": true,
+      "prompt": "Welche Rollen prägen Ausrichtung, Entscheidungen und tatsächliche Zusammenarbeit wesentlich?",
+      "guidance": "Relevante Führungs-, Service- und Teamverantwortliche sowie andere maßgebliche Rollen nachvollziehbar bestimmen. Nicht ausschließlich die oberste IT-Leitung befragen.",
+      "storage_path": "extensions.domain_context.key_people",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX05",
+      "key": "people_population",
+      "label": "Relevanter Personenkreis",
+      "field_type": "object",
+      "required": true,
+      "prompt": "Für welchen Personenkreis werden Bekanntheit, Zustimmung und Anwendung beurteilt?",
+      "guidance": "Wesentliche Rollen, Bereiche, Standorte und gegebenenfalls relevante externe Beiträge abgrenzen. Leistungsnutzer als Nachweispartner einbeziehen; nicht automatisch alle Patientinnen und Patienten als Beschäftigtenpopulation behandeln.",
+      "storage_path": "extensions.domain_context.people_population",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX06",
+      "key": "evidence_period_and_sampling",
+      "label": "Zeitraum und Nachweisauswahl",
+      "field_type": "object",
+      "required": true,
+      "prompt": "Welche Zeiträume, Personengruppen und tatsächlichen Fälle ermöglichen eine begründete Bewertung?",
+      "guidance": "Begründete Fall- und Personenauswahl einschließlich anspruchsvoller Situationen festhalten. Keine pauschale Anzahl von Interviews, Prozentquote oder feste Zahl untersuchter Practices.",
+      "storage_path": "extensions.domain_context.evidence_period_and_sampling",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX07",
+      "key": "principle_framework",
+      "label": "Gemeinsamer Werte- und Prinzipienrahmen",
+      "field_type": "object",
+      "required": true,
+      "prompt": "Welche Werte und Prinzipien gelten beziehungsweise werden heute tatsächlich vertreten?",
+      "guidance": "Den Organisationsrahmen und seine Verbindung zu den sieben ITIL-Leitprinzipien festhalten. Eigene Begriffe sind zulässig; unveränderte englische Namen, Zertifikate oder ein ITIL-Poster sind keine Pflicht.",
+      "storage_path": "extensions.domain_context.principle_framework",
+      "collection_mode": "domain_extension"
+    },
+    {
+      "id": "GP-CTX08",
+      "key": "reference_cases",
+      "label": "Gemeinsame Praxis- und Entscheidungsfälle",
+      "field_type": "array",
+      "required": true,
+      "prompt": "Welche formalen und informellen Arbeits- oder Entscheidungsfälle nutzen wir als Nachweise?",
+      "guidance": "Geeignete Fälle aus relevanten Bereichen, Ebenen und Zeiträumen zusammenstellen. Ein Fall kann mehrere Prinzipien und weitere SVS-Komponenten unterstützen. Kein vollständiger neuer Fragenblock je Practice.",
+      "storage_path": "extensions.domain_context.reference_cases",
+      "collection_mode": "domain_extension"
+    }
+  ],
+  "component_extension_schema": {
+    "type": "object",
+    "properties": {
+      "domain_context": {
+        "type": "object"
+      },
+      "scope_flags": {
+        "type": "object"
+      },
+      "scope_flag_decisions": {
+        "type": "object",
+        "description": "Je bedingtem Flag: review_status, rationale und evidence_ids der geprüften Abgrenzung."
+      },
+      "excluded_question_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "criterion_ratings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "criterion_id",
+            "assessed_level",
+            "possible_upper_level",
+            "review_status",
+            "evidence_status",
+            "evidence_ids",
+            "assessor_rationale",
+            "reviewer_id",
+            "reviewed_at"
+          ],
+          "properties": {
+            "criterion_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "assessed_level": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "possible_upper_level": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "review_status": {
+              "enum": [
+                "pending",
+                "approved"
+              ]
+            },
+            "evidence_status": {
+              "enum": [
+                "not_checked",
+                "sufficient",
+                "insufficient",
+                "conflicting"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "assessor_rationale": {
+              "type": "string"
+            },
+            "reviewer_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "domain_context",
+      "criterion_ratings"
+    ]
+  },
+  "assessment_input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Gemeinsamer SVS-Bewertungsdatensatz V3",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "assessment_id",
+      "assessment_unit_id",
+      "catalog_id",
+      "catalog_version",
+      "assessment_execution_mode",
+      "context",
+      "evidence_register",
+      "responses",
+      "extensions"
+    ],
+    "properties": {
+      "assessment_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "assessment_unit_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "catalog_id": {
+        "const": "GOEK-SVS-GP"
+      },
+      "catalog_version": {
+        "const": "5.0.0"
+      },
+      "assessment_execution_mode": {
+        "type": "string",
+        "enum": [
+          "draft_preview",
+          "pilot",
+          "regular"
+        ]
+      },
+      "context": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "organization",
+          "scope_id",
+          "scope_description",
+          "services_in_scope",
+          "criticality",
+          "assessment_period",
+          "assessment_date",
+          "assessors",
+          "scope_reviewed",
+          "evidence_reviewed"
+        ],
+        "properties": {
+          "organization": {
+            "type": "string"
+          },
+          "scope_id": {
+            "type": "string"
+          },
+          "scope_description": {
+            "type": "string"
+          },
+          "services_in_scope": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "criticality": {
+            "type": "string"
+          },
+          "assessment_period": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "end": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            }
+          },
+          "assessment_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "assessors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "scope_reviewed": {
+            "type": "boolean"
+          },
+          "evidence_reviewed": {
+            "type": "boolean"
+          }
+        }
+      },
+      "evidence_register": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "evidence_id",
+            "title",
+            "evidence_type",
+            "source_locator",
+            "scope_ids",
+            "covered_period",
+            "source_date"
+          ],
+          "properties": {
+            "evidence_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_type": {
+              "type": "string",
+              "enum": [
+                "document",
+                "interview_note",
+                "work_record",
+                "decision_record",
+                "observation",
+                "feedback",
+                "review_record",
+                "metric_series",
+                "data_extract",
+                "test_result",
+                "other"
+              ]
+            },
+            "source_locator": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scope_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "covered_period": {
+              "type": "string"
+            },
+            "source_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            }
+          }
+        }
+      },
+      "responses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "answer",
+            "finding",
+            "review_status",
+            "evidence_status",
+            "evidence_ids",
+            "check_results",
+            "assessor_rationale",
+            "reviewer_id",
+            "reviewed_at"
+          ],
+          "properties": {
+            "question_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "answer": {
+              "type": "string",
+              "enum": [
+                "yes",
+                "partial",
+                "no",
+                "unknown"
+              ]
+            },
+            "finding": {
+              "type": "string",
+              "enum": [
+                "fulfilled",
+                "not_fulfilled",
+                "partial",
+                "open",
+                "not_applicable"
+              ]
+            },
+            "review_status": {
+              "type": "string",
+              "enum": [
+                "pending",
+                "approved"
+              ]
+            },
+            "evidence_status": {
+              "type": "string",
+              "enum": [
+                "not_checked",
+                "sufficient",
+                "insufficient",
+                "conflicting"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "check_results": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "check_id",
+                  "finding",
+                  "evidence_ids",
+                  "rationale"
+                ],
+                "properties": {
+                  "check_id": {
+                    "type": "string"
+                  },
+                  "finding": {
+                    "type": "string",
+                    "enum": [
+                      "fulfilled",
+                      "not_fulfilled",
+                      "partial",
+                      "open",
+                      "not_applicable"
+                    ]
+                  },
+                  "evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "rationale": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "assessor_rationale": {
+              "type": "string"
+            },
+            "reviewer_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            }
+          }
+        }
+      },
+      "extensions": {
+        "type": "object",
+        "description": "Komponentenspezifische Pflichtfelder gemäß Katalog."
+      }
+    }
+  },
+  "output_contract": {
+    "component_id": "guiding_principles",
+    "fields": [
+      "component_id",
+      "assessment_id",
+      "assessment_unit_id",
+      "scope_id",
+      "scope_description",
+      "assessment_period",
+      "catalog_id",
+      "catalog_version",
+      "policy_id",
+      "level_type",
+      "assessed_level",
+      "possible_upper_level",
+      "status",
+      "context_status",
+      "is_final",
+      "result_is_draft",
+      "model_validation_completed",
+      "release_status",
+      "evidence_ids",
+      "limiting_unit_ids",
+      "blocking_question_ids",
+      "open_question_ids",
+      "higher_level_strength_question_ids",
+      "scope_qualification",
+      "unit_results",
+      "limitations",
+      "fulfilled_question_levels",
+      "aggregation_method",
+      "score_semantics",
+      "unrounded_mean",
+      "unrounded_upper_mean",
+      "weaker_criterion_ids",
+      "higher_level_unit_ids",
+      "component_level_evaluations",
+      "detail_index",
+      "category_level_source"
+    ],
+    "numeric_field": "assessed_level",
+    "graphic_policy": "Fünf tatsächliche Kategorie-Noten als Balken 1–5 anzeigen; SVS-Minimum separat als Gesamtzahl und Bezugslinie. Werte [4,4,4,4,2] bleiben sichtbar, SVS=2. Detailnoten, Rohmittelwerte und belegte isolierte höhere Merkmale separat kennzeichnen. null bleibt offen, niemals 0.",
+    "status_policy": "Status der höchsten belegten Kategorie-Voraussetzungen; lokale Mittelwerte haben eigene Statusfelder. Entwurfsstatus, Scope-Prüfung und fachliche Freigabe bleiben separat.",
+    "question_result_fields": [
+      "question_id",
+      "state",
+      "open_reasons",
+      "evidence_ids"
+    ],
+    "unit_result_fields": [
+      "unit_id",
+      "level_type",
+      "assessed_level",
+      "possible_upper_level",
+      "status",
+      "blocking_question_ids",
+      "open_question_ids",
+      "higher_level_strength_question_ids",
+      "result_is_draft"
+    ],
+    "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+    "mean_fields": {
+      "path": "detail_index oder einzelnes practice_result",
+      "influences_component_level": false
+    },
+    "category_level_source": "binding_component_maturity_criteria"
+  },
+  "option_sets": {
+    "standard_evidence_answer": [
+      {
+        "id": "yes",
+        "label": "Ja"
+      },
+      {
+        "id": "partial",
+        "label": "Teilweise"
+      },
+      {
+        "id": "no",
+        "label": "Nein"
+      },
+      {
+        "id": "unknown",
+        "label": "Unklar"
+      }
+    ],
+    "evidence_review": [
+      {
+        "id": "pending",
+        "label": "Prüfung offen"
+      },
+      {
+        "id": "approved",
+        "label": "Fachlicher Befund freigegeben"
+      }
+    ]
+  },
+  "input_defaults": {
+    "template": {
+      "assessment_id": "ASSESSMENT-ID",
+      "assessment_unit_id": "UNIT-ID",
+      "catalog_id": "GOEK-SVS-GP",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "",
+        "scope_id": "",
+        "scope_description": "",
+        "services_in_scope": [],
+        "criticality": "",
+        "assessment_period": {
+          "start": null,
+          "end": null
+        },
+        "assessment_date": null,
+        "assessors": [],
+        "scope_reviewed": false,
+        "evidence_reviewed": false
+      },
+      "evidence_register": [],
+      "responses": [],
+      "extensions": {
+        "domain_context": {},
+        "scope_flags": {},
+        "scope_flag_decisions": {},
+        "excluded_question_ids": [],
+        "criterion_ratings": []
+      }
+    },
+    "unknown_is_zero": false
+  },
+  "input_integrity_rules": [
+    "Katalog-ID und Version, eindeutige Frage-IDs und Nachweis-IDs prüfen.",
+    "Nur kanonische V5-Felder zulassen; abweichende alte Aliaswerte nicht still priorisieren.",
+    "Nachweise müssen existieren und scope_id des Bewertungsumfangs abdecken.",
+    "Prüfer, Begründung und Reviewstatus sind getrennt von der Kundenantwort erforderlich.",
+    "Doppelte Fragen oder widersprüchliche Prüfpunkte zurückweisen. Abweichungen zwischen Selbstauskunft und fachlichem Befund in assessor_rationale erklären.",
+    "Mehrere Einheiten und Zeiträume nicht automatisch zu einem Organisationswert vermischen.",
+    "Unvalidierte Modelle im regular-Modus blockieren; Entwurf auch in abhängigen Ergebnissen erhalten."
+  ],
+  "common_assessment_policy": {
+    "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+    "policy_version": "5.0.0",
+    "language": "de-DE",
+    "official_peoplecert_rule": false,
+    "basis": "Korrigierter Nutzerauftrag vom 2026-10-13: eigene Einzelstufen und abgerundete Mittelwerte für Einzelbewertungen; ausdrückliche Level-Voraussetzungen für fünf Kategorien; Minimum ausschließlich für das ganze SVS.",
+    "requirement_states": [
+      "fulfilled",
+      "not_fulfilled",
+      "open"
+    ],
+    "canonical_fields": {
+      "answer": [
+        "yes",
+        "partial",
+        "no",
+        "unknown"
+      ],
+      "finding": [
+        "fulfilled",
+        "not_fulfilled",
+        "partial",
+        "open",
+        "not_applicable"
+      ],
+      "review_status": [
+        "pending",
+        "approved"
+      ],
+      "evidence_status": [
+        "not_checked",
+        "sufficient",
+        "insufficient",
+        "conflicting"
+      ]
+    },
+    "question_rule": {
+      "fulfilled": "Alle zutreffenden Prüfpunkte erfüllt; finding=fulfilled, review_status=approved, evidence_status=sufficient; passende registrierte Nachweise, Begründung und Prüfer vorhanden.",
+      "not_fulfilled": "Mindestens ein zutreffender Pflichtprüfpunkt nachweislich nicht erfüllt oder nur teilweise erfüllt; fachlich freigegeben und ausreichend belegt.",
+      "open": "Fehlende Antwort, fehlender oder ungeprüfter Befund, unzureichende/widersprüchliche Nachweise oder noch ungeklärte Anwendbarkeit ohne belegte Nichterfüllung.",
+      "self_report_is_not_score": true,
+      "partial_is_not_fulfilled": true,
+      "no_points_or_percentages": true,
+      "conditional_checks": "not_applicable nur bei bezeichnetem bedingtem Prüfpunkt und bestätigter, belegter Anwendbarkeitsentscheidung. Ganze Fragen bleiben Pflicht, soweit der Katalog keine Ausnahme erlaubt."
+    },
+    "level_rule": {
+      "method": "highest_fully_eligible_component_level",
+      "scope": "five_svs_components",
+      "all_required_conditions_must_be_fulfilled": true,
+      "higher_features_compensate_lower_gaps": false,
+      "positive_requirements_cumulative": true,
+      "initial_deficit_descriptions_are_not_higher_level_prerequisites": true,
+      "unconfirmed_is_not_fulfilled": true,
+      "missing_evidence_is_not_level_1": true,
+      "individual_ladders": "Eigene fachlich passende Stufen je Einzelaspekt; kumulative Prüfung ausschließlich innerhalb dieses Aspekts."
+    },
+    "minimum_rule": {
+      "method": "minimum",
+      "scope": [
+        "whole_svs"
+      ],
+      "formula": "svs.assessed_level = min(five_component_assessed_levels)",
+      "requires_all_five_categories": true,
+      "missing_is_zero": false,
+      "arithmetic_mean": false,
+      "improvement_focus": "Die schwächste Kategorie bestimmt die Gesamtbewertung. Alle höheren Kategorien und Einzelstärken bleiben sichtbar."
+    },
+    "practices_component_rule": {
+      "method": "explicit_role_thresholds",
+      "enabled": true,
+      "required_roles": [
+        "primary",
+        "supporting"
+      ],
+      "key_role_value": "primary",
+      "at_least_one_key_practice_required": true,
+      "thresholds": [
+        {
+          "level": 1,
+          "all_key_practices_min_capability": 1,
+          "all_supporting_practices_min_capability": null
+        },
+        {
+          "level": 2,
+          "all_key_practices_min_capability": 2,
+          "all_supporting_practices_min_capability": null
+        },
+        {
+          "level": 3,
+          "all_key_practices_min_capability": 3,
+          "all_supporting_practices_min_capability": 1
+        },
+        {
+          "level": 4,
+          "all_key_practices_min_capability": 4,
+          "all_supporting_practices_min_capability": 2
+        },
+        {
+          "level": 5,
+          "all_key_practices_min_capability": 5,
+          "all_supporting_practices_min_capability": 3
+        }
+      ],
+      "rule": "Höchstes Level, dessen getrennte Schwellen alle Schlüssel- und alle erforderlichen unterstützenden Practices im geprüften Umfang erfüllen. Keine Mittelung und kein Minimum aller Practice-Noten.",
+      "supporting_scope": "Alle unterstützenden Practices des bewerteten Funktionsbereichs bzw. Umfangs erfassen und fachlich prüfen; Auswahl darf keine notwendigen Practices weglassen.",
+      "no_supporting_practices": "Leere unterstützende Menge nur nach dokumentierter Prüfung zulässig; dann ist die zugehörige Allaussage erfüllt.",
+      "no_supporting_threshold_at_levels_1_2": true
+    },
+    "svs_aggregation": {
+      "enabled": true,
+      "method": "minimum",
+      "required_component_ids": [
+        "governance",
+        "service_value_chain",
+        "guiding_principles",
+        "continual_improvement",
+        "practices"
+      ],
+      "rule": "Optionaler Gesamtwert = Minimum der fünf vollständigen Komponentenwerte für dieselbe Bewertungseinheit, denselben geprüften Umfang und Zeitraum. Teilprofile, fehlende Komponenten und ungeklärte Widersprüche verhindern eine vollständige Gesamtnote.",
+      "single_overall_score_is_optional": true
+    },
+    "draft_rule": {
+      "result_is_draft_formula": "Eigener Katalog/Modul fachlich nicht validiert ODER Modus draft_preview/pilot ODER irgendein erforderliches Quellergebnis ist Entwurf.",
+      "model_validation_completed_formula": "Nur true, wenn der eigene verwendete Bewertungsmaßstab und alle erforderlichen Quellmodelle nachweislich validiert sind.",
+      "is_final_formula": "Numerischer Stand oder Unter-Stufe-1-Befund abschließend geklärt, vollständiger geprüfter Kontext, alle erforderlichen Scope-Prüfungen und Freigaben vorhanden und result_is_draft=false.",
+      "automatic_promotion_from_draft": false,
+      "regular_mode": "Nicht validierte Kataloge oder Module sind im regular-Modus gesperrt; im draft_preview-Modus berechenbar und durchgehend als Entwurf gekennzeichnet.",
+      "ci_dependency": "PR02-Entwurfskennzeichnung und Validierungsstatus unverändert in CI und jeden darüber aggregierten Wert übernehmen."
+    },
+    "result_fields": [
+      "component_id",
+      "assessment_id",
+      "assessment_unit_id",
+      "scope_id",
+      "scope_description",
+      "assessment_period",
+      "catalog_id",
+      "catalog_version",
+      "policy_id",
+      "level_type",
+      "assessed_level",
+      "possible_upper_level",
+      "status",
+      "context_status",
+      "is_final",
+      "result_is_draft",
+      "model_validation_completed",
+      "release_status",
+      "evidence_ids",
+      "limiting_unit_ids",
+      "blocking_question_ids",
+      "open_question_ids",
+      "higher_level_strength_question_ids",
+      "scope_qualification",
+      "unit_results",
+      "limitations",
+      "fulfilled_question_levels",
+      "aggregation_method",
+      "score_semantics",
+      "unrounded_mean",
+      "unrounded_upper_mean",
+      "weaker_criterion_ids",
+      "higher_level_unit_ids",
+      "component_level_evaluations",
+      "detail_index",
+      "component_profile",
+      "higher_scoring_component_ids",
+      "category_level_source"
+    ],
+    "result_statuses": [
+      "confirmed",
+      "provisional",
+      "open",
+      "not_assessed",
+      "below_baseline",
+      "partial_scope",
+      "needs_reconciliation",
+      "not_classifiable",
+      "not_applicable"
+    ],
+    "numeric_range": [
+      1,
+      5
+    ],
+    "unknown_is_zero": false,
+    "graphic_rule": "Fünf tatsächliche Kategorie-Noten als Balken 1–5 anzeigen; SVS-Minimum separat als Gesamtzahl und Bezugslinie. Werte [4,4,4,4,2] bleiben sichtbar, SVS=2. Detailnoten, Rohmittelwerte und belegte isolierte höhere Merkmale separat kennzeichnen. null bleibt offen, niemals 0.",
+    "shared_collection_contract": {
+      "fact_registry": [
+        {
+          "id": "F01",
+          "title": "Ziele und strategische Zuordnung",
+          "collect_once": [
+            "Gültige Organisations- und Serviceziele",
+            "Zielzuordnungen und Änderungsentscheidungen"
+          ]
+        },
+        {
+          "id": "F02",
+          "title": "Entscheidungen und Prioritäten",
+          "collect_once": [
+            "Entscheidungsfälle",
+            "Nutzen-, Risiko- und Prioritätsbegründungen"
+          ]
+        },
+        {
+          "id": "F03",
+          "title": "Rollen und Kompetenzen",
+          "collect_once": [
+            "Tatsächlich besetzte Rollen und Befugnisse",
+            "Aufgabenbezogene Kompetenz- und Ressourcenbelege"
+          ]
+        },
+        {
+          "id": "F04",
+          "title": "Zusammenarbeit und Informationsfluss",
+          "collect_once": [
+            "Formale und informelle Austauschfälle",
+            "Übergaben und Rückmeldungen"
+          ]
+        },
+        {
+          "id": "F05",
+          "title": "Vorgaben und Prinzipienrahmen",
+          "collect_once": [
+            "Geltende Vorgaben und Erklärung",
+            "Bekanntheit, Zustimmung und reale Anwendung"
+          ]
+        },
+        {
+          "id": "F06",
+          "title": "Risiken und Verpflichtungen",
+          "collect_once": [
+            "Risiken, Behandlung und Akzeptanz",
+            "Befugte Entscheidungen und Wirksamkeitsbelege"
+          ]
+        },
+        {
+          "id": "F07",
+          "title": "Ressourcen und Engpässe",
+          "collect_once": [
+            "Freigaben und Ressourcenbedarf",
+            "Umgesetzte Kompetenzmaßnahmen"
+          ]
+        },
+        {
+          "id": "F08",
+          "title": "Leistungsmessung und Ziele",
+          "collect_once": [
+            "Leistungsdaten mit Definition und Herkunft",
+            "Zielwerte und quantitative Auswertung"
+          ]
+        },
+        {
+          "id": "F09",
+          "title": "Überwachung und Ergebnisanalyse",
+          "collect_once": [
+            "Zeitreihen und Leistungsdynamik",
+            "Reviews und daraus entstandene Entscheidungen"
+          ]
+        },
+        {
+          "id": "F10",
+          "title": "Verbesserungsbedarf",
+          "collect_once": [
+            "Anlass und Ausgangslage",
+            "Hinweise, Ideen und Registereinträge"
+          ]
+        },
+        {
+          "id": "F11",
+          "title": "Verbesserungspriorisierung",
+          "collect_once": [
+            "Ziele und Auswahlentscheidungen",
+            "Aufwand, Risiken und erwarteter Nutzen"
+          ]
+        },
+        {
+          "id": "F12",
+          "title": "Verbesserungsumsetzung",
+          "collect_once": [
+            "Verantwortete tatsächlich durchgeführte Maßnahmen",
+            "Fortschritt und Hindernisse"
+          ]
+        },
+        {
+          "id": "F13",
+          "title": "Verbesserungswirkung",
+          "collect_once": [
+            "Vorher-Nachher-Ergebnisse",
+            "Ergebnisprüfung und weitere Nutzung"
+          ]
+        },
+        {
+          "id": "F14",
+          "title": "Weiterentwicklung des Ansatzes",
+          "collect_once": [
+            "Review des ausdrücklich bezeichneten Gegenstands",
+            "Begründete Anpassung oder zulässige Bestätigung und Anwendung"
+          ]
+        },
+        {
+          "id": "F15",
+          "title": "Wertstromumfang",
+          "collect_once": [
+            "Bedarf, Ergebnis und wesentliche Wertströme",
+            "Begründete Auswahl und Abgrenzung"
+          ]
+        },
+        {
+          "id": "F16",
+          "title": "Abläufe, Schnittstellen und Integration",
+          "collect_once": [
+            "Tatsächliche Ablauf- und Übergabefälle",
+            "Beiträge von Practices und gemeinsame Steuerung"
+          ]
+        },
+        {
+          "id": "F17",
+          "title": "Informationen und Hilfsmittel",
+          "collect_once": [
+            "Genutzte Informationen und Werkzeuge",
+            "Qualität, Zugriff und zweckbezogene Verwendung"
+          ]
+        },
+        {
+          "id": "F18",
+          "title": "Externe und delegierte Beiträge",
+          "collect_once": [
+            "Tatsächliche Beiträge und Zuständigkeiten",
+            "Vereinbarte Übergaben und Aufsicht"
+          ]
+        }
+      ],
+      "fact_record_fields": [
+        "fact_id",
+        "scope_id",
+        "subject_id",
+        "assessment_period",
+        "description",
+        "evidence_ids"
+      ],
+      "reuse_key": [
+        "fact_id",
+        "scope_id",
+        "subject_id",
+        "assessment_period"
+      ],
+      "rule": "Sachverhalte, Fälle, Rollen, Ziele und Nachweise unter dem passenden Schlüssel einmal erfassen. Fragen greifen darauf zu und ergänzen ausschließlich noch fehlende spezifische Prüfpunkte.",
+      "same_fact_is_not_same_rating": true,
+      "automatic_answer_copy": false,
+      "exception": "V5 enthält keine Antwortprojektionen. Gemeinsam sind ausschließlich Quellen und Fundstellen; Einzel- und Kategorie-Befunde werden separat geprüft.",
+      "practice_subject": "practice_id; bei allgemeinen Stammdaten darf eine gemeinsame Quelle referenziert werden. Die tatsächliche Verwendung für jede Practice separat prüfen.",
+      "ci_practice_component_boundary": "CI-Komponente: Reichweite und organisationsweiter Ansatz. PR02: Fähigkeit der Verbesserungs-Practice. SVC08: Verbesserung von Wertströmen. PC07: Weiterentwicklung der jeweils konkret bezeichneten Practice-Fähigkeit.",
+      "answer_projections": []
+    },
+    "migration": {
+      "from_catalog_version": "4.0.0",
+      "to_catalog_version": "5.0.0",
+      "aggregation_changed": true,
+      "old_scores_reusable": false,
+      "all_component_results_recalculate": true,
+      "review_required_for_changed_question_ids": true,
+      "criterion_findings_reusable": "Nur semantisch unveränderte, im selben Umfang geprüfte Befunde versioniert übernehmen. Geänderte Einzelstufen und frühere Antwortprojektionen neu prüfen. Nachweise dürfen weiterverwendet werden."
+    },
+    "assessment_input_schema": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "Gemeinsamer SVS-Bewertungsdatensatz V3",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment_id",
+        "assessment_unit_id",
+        "catalog_id",
+        "catalog_version",
+        "assessment_execution_mode",
+        "context",
+        "evidence_register",
+        "responses",
+        "extensions"
+      ],
+      "properties": {
+        "assessment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment_unit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalog_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalog_version": {
+          "const": "5.0.0"
+        },
+        "assessment_execution_mode": {
+          "type": "string",
+          "enum": [
+            "draft_preview",
+            "pilot",
+            "regular"
+          ]
+        },
+        "context": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "organization",
+            "scope_id",
+            "scope_description",
+            "services_in_scope",
+            "criticality",
+            "assessment_period",
+            "assessment_date",
+            "assessors",
+            "scope_reviewed",
+            "evidence_reviewed"
+          ],
+          "properties": {
+            "organization": {
+              "type": "string"
+            },
+            "scope_id": {
+              "type": "string"
+            },
+            "scope_description": {
+              "type": "string"
+            },
+            "services_in_scope": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "criticality": {
+              "type": "string"
+            },
+            "assessment_period": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "start",
+                "end"
+              ],
+              "properties": {
+                "start": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date"
+                },
+                "end": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date"
+                }
+              }
+            },
+            "assessment_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            },
+            "assessors": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "scope_reviewed": {
+              "type": "boolean"
+            },
+            "evidence_reviewed": {
+              "type": "boolean"
+            }
+          }
+        },
+        "evidence_register": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "evidence_id",
+              "title",
+              "evidence_type",
+              "source_locator",
+              "scope_ids",
+              "covered_period",
+              "source_date"
+            ],
+            "properties": {
+              "evidence_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_type": {
+                "type": "string",
+                "enum": [
+                  "document",
+                  "interview_note",
+                  "work_record",
+                  "decision_record",
+                  "observation",
+                  "feedback",
+                  "review_record",
+                  "metric_series",
+                  "data_extract",
+                  "test_result",
+                  "other"
+                ]
+              },
+              "source_locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "covered_period": {
+                "type": "string"
+              },
+              "source_date": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            }
+          }
+        },
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question_id",
+              "answer",
+              "finding",
+              "review_status",
+              "evidence_status",
+              "evidence_ids",
+              "check_results",
+              "assessor_rationale",
+              "reviewer_id",
+              "reviewed_at"
+            ],
+            "properties": {
+              "question_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "answer": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "partial",
+                  "no",
+                  "unknown"
+                ]
+              },
+              "finding": {
+                "type": "string",
+                "enum": [
+                  "fulfilled",
+                  "not_fulfilled",
+                  "partial",
+                  "open",
+                  "not_applicable"
+                ]
+              },
+              "review_status": {
+                "type": "string",
+                "enum": [
+                  "pending",
+                  "approved"
+                ]
+              },
+              "evidence_status": {
+                "type": "string",
+                "enum": [
+                  "not_checked",
+                  "sufficient",
+                  "insufficient",
+                  "conflicting"
+                ]
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "check_results": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "check_id",
+                    "finding",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "properties": {
+                    "check_id": {
+                      "type": "string"
+                    },
+                    "finding": {
+                      "type": "string",
+                      "enum": [
+                        "fulfilled",
+                        "not_fulfilled",
+                        "partial",
+                        "open",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence_ids": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "uniqueItems": true
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "assessor_rationale": {
+                "type": "string"
+              },
+              "reviewer_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reviewed_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              }
+            }
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "description": "Komponentenspezifische Pflichtfelder gemäß Katalog."
+        }
+      }
+    },
+    "average_rule": {
+      "method": "arithmetic_mean_floor",
+      "formula": "local_assessed_level = floor(sum(required_individual_ratings) / count(required_individual_ratings))",
+      "equal_weights": true,
+      "rounding": "floor",
+      "round_only_after_division": true,
+      "scope": [
+        "individual_practice",
+        "optional_individual_detail_index"
+      ],
+      "averaging_unit": "Ein fachlich abgegrenzter Einzelaspekt mit einer belegten Note 1–5, genau einmal gewichtet. Keine Mittelung fester Stufennummern von Prüffragen oder Ja/Nein-Codes.",
+      "allow_compensation_between_criteria": true,
+      "raw_mean_field": "unrounded_mean",
+      "criterion_results_visible": true,
+      "practice_baseline_excluded_from_average": "C00 ist ein Basisnachweis und kein gleichgewichteter Kriterienblock mit dauerhaftem Maximalwert 1.",
+      "unknown_policy": "Fehlende, ungeprüfte oder nicht numerisch einordenbare notwendige Kriterien nicht als 0 einsetzen und nicht aus dem Nenner streichen. Vollständigen Durchschnitt offenlassen; vorhandene Detailstände anzeigen.",
+      "upper_bound": "floor(sum(possible_upper_levels) / count(required_criteria)); ungeklärte höhere Stufen bleiben bis 5 möglich.",
+      "status": "confirmed, wenn abgerundete Unter- und Obergrenze übereinstimmen; sonst provisional bei belegtem numerischem Mindestindex.",
+      "example": {
+        "criterion_levels": [
+          2,
+          3,
+          4
+        ],
+        "unrounded_mean": 3.0,
+        "assessed_level": 3
+      },
+      "fractional_example": {
+        "criterion_levels": [
+          2,
+          3,
+          3
+        ],
+        "unrounded_mean": 2.6666666666666665,
+        "assessed_level": 2
+      },
+      "category_score_override": false
+    },
+    "aggregation_matrix": {
+      "individual_practice": "arithmetic_mean_floor",
+      "governance": "highest_fully_eligible_component_level",
+      "service_value_chain": "highest_fully_eligible_component_level",
+      "guiding_principles": "highest_fully_eligible_component_level",
+      "continual_improvement": "highest_fully_eligible_component_level",
+      "practices": "explicit_role_thresholds",
+      "whole_svs": "minimum_of_five_component_scores"
+    },
+    "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+    "ci_dependency_policy": {
+      "mandatory_collection": true,
+      "practice_id": "PR02",
+      "numeric_average_cap": true,
+      "rule": "CI-Kategorie Level N benötigt einen passenden geprüften PR02-Fähigkeitsstand (abgerundeter Durchschnitt seiner Einzelbewertungen) mindestens N UND sämtliche zugehörigen CI-Komponentenmerkmale.",
+      "missing_dependency": "CI-Kategorie offenlassen; vorhandene Komponentenmerkmale und Detailprofil separat zeigen.",
+      "separate_assessment_required": true,
+      "evidence_reuse_allowed": true,
+      "automatic_answer_copy": false
+    },
+    "criterion_rating_contract": {
+      "storage_path": "extensions.criterion_ratings",
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "purpose": "Eine belegte freigegebene Einzelnote erheben oder aus der eigenen Leiter des Einzelaspekts ableiten. Nicht doppelt gewichten. Optionale Detailindizes beeinflussen die Kategorie nicht automatisch.",
+      "conflict_policy": "Direkte Kriteriennote darf bestätigten niedrigeren Pflichtlücken desselben Blocks oder einem bereits höher belegten Stand nicht widersprechen.",
+      "guiding_principles": "Eigene aspektbezogene Anker für acht optionale Einzelbewertungen; die 15 GP-Referenzfragen prüfen separat die Kategoriereife. Die sieben Prinzipienbeispiele sind Nachweishilfen, keine 7×34-Practice-Abfrage."
+    },
+    "examples": [
+      {
+        "individual_ratings": [
+          2,
+          3,
+          4
+        ],
+        "local_score": 3
+      },
+      {
+        "individual_ratings": [
+          2,
+          3,
+          3
+        ],
+        "local_score": 2
+      },
+      {
+        "key_practice_scores": [
+          4,
+          4
+        ],
+        "supporting_practice_scores": [
+          2
+        ],
+        "practices_component_score": 4
+      },
+      {
+        "key_practice_scores": [
+          5
+        ],
+        "supporting_practice_scores": [
+          2
+        ],
+        "practices_component_score": 4
+      },
+      {
+        "component_scores": [
+          4,
+          4,
+          4,
+          4,
+          2
+        ],
+        "svs_score": 2,
+        "visible_component_scores": [
+          4,
+          4,
+          4,
+          4,
+          2
+        ]
+      }
+    ]
+  },
+  "deduplication_policy": {
+    "shared_facts_reference": "common_assessment_policy.shared_collection_contract",
+    "direct_aliases": {},
+    "governance_split": "Strategische Ausrichtung, Ressourcensteuerung und Überwachung als verschiedene Einzelaspekte bewerten; gemeinsame Nachweise referenzieren, Antworten nicht kopieren.",
+    "no_cross_component_score_copy": true
+  },
+  "change_log": [
+    {
+      "version": "5.0.0",
+      "change": "Kategorie-Gates statt Kategorie-Mittelwert/Practice-Minimum; Einzelstufen restauriert bzw. fachlich passend abgegrenzt; SVS-Minimum."
+    },
+    {
+      "version": "4.0.0",
+      "previous_version": "3.0.0",
+      "date": "2026-10-13",
+      "breaking_change": true,
+      "changes": [
+        "Durchschnitt mit Abrundung innerhalb einzelner Practices und der vier übrigen Kategorien.",
+        "Minimum zwischen ausgewählten Practice-Ergebnissen beibehalten.",
+        "Kriterien gleichgewichtet; Practice-Basisnachweis C00 aus dem Mittelwert ausgeschlossen.",
+        "GP-Kriterien um vollständige fünf Stufenanker ergänzt; alte Prüffragen bleiben Referenzhilfen.",
+        "CI-Kriterien jetzt Durchschnittsanteile; strengen Referenzvergleich getrennt vom Durchschnittsindex führen.",
+        "V3-Doppelungsbereinigung, einheitliche Felder, Nachweise und Entwurfsvererbung erhalten."
+      ]
+    }
+  ],
+  "criterion_rating_contract": {
+    "storage_path": "extensions.criterion_ratings",
+    "schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "criterion_id",
+        "assessed_level",
+        "possible_upper_level",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "properties": {
+        "criterion_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessed_level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "possible_upper_level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "review_status": {
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "evidence_status": {
+          "enum": [
+            "not_checked",
+            "sufficient",
+            "insufficient",
+            "conflicting"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "assessor_rationale": {
+          "type": "string"
+        },
+        "reviewer_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "purpose": "Eine belegte freigegebene Einzelnote erheben oder aus der eigenen Leiter des Einzelaspekts ableiten. Nicht doppelt gewichten. Optionale Detailindizes beeinflussen die Kategorie nicht automatisch.",
+    "conflict_policy": "Direkte Kriteriennote darf bestätigten niedrigeren Pflichtlücken desselben Blocks oder einem bereits höher belegten Stand nicht widersprechen.",
+    "guiding_principles": "Eigene aspektbezogene Anker für acht optionale Einzelbewertungen; die 15 GP-Referenzfragen prüfen separat die Kategoriereife. Die sieben Prinzipienbeispiele sind Nachweishilfen, keine 7×34-Practice-Abfrage."
+  },
+  "rating_units": [
+    {
+      "criterion_id": "GP-C01",
+      "title": "Gemeinsames Verständnis der Schlüsselpersonen",
+      "rating_question": "Welche Ausprägung ist für „Gemeinsames Verständnis der Schlüsselpersonen“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Unterschiedliche oder gemeinsame Auffassungen werden in einzelnen geeigneten Fällen betrachtet."
+        },
+        {
+          "level": 2,
+          "description": "Schlüsselpersonen gleichen ihr Verständnis wiederholt miteinander ab."
+        },
+        {
+          "level": 3,
+          "description": "Ein gemeinsames Vorgehen zum Klären und Abstimmen des Verständnisses ist definiert und wird angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Übereinstimmung und Klarheit des Verständnisses werden systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Vorgehen zur Verständigung wird aufgrund seiner Ergebnisse und Rückmeldungen verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R01",
+        "GP-R02",
+        "GP-R03"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C02",
+      "title": "Dokumentation und offizielle Erklärung",
+      "rating_question": "Welche Ausprägung ist für „Dokumentation und offizielle Erklärung“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Vorhandene Aussagen zu Werten und Prinzipien werden in einzelnen Fällen festgehalten oder bekanntgegeben."
+        },
+        {
+          "level": 2,
+          "description": "Wiederkehrende Anlässe zur Pflege und Erklärung der Werte und Prinzipien werden verlässlich bearbeitet."
+        },
+        {
+          "level": 3,
+          "description": "Verantwortung und Vorgehen für Pflege, Freigabe und Erklärung des Rahmens sind definiert und werden angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Aktualität und Nutzbarkeit der Dokumentation und Erklärung werden systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Verfahren zur Pflege und Erklärung wird aufgrund seiner Ergebnisse verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R04",
+        "GP-R05"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C03",
+      "title": "Bekanntheit und Zustimmung",
+      "rating_question": "Welche Ausprägung ist für „Bekanntheit und Zustimmung“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Bekanntheit und Zustimmung werden bei einzelnen Personen nachvollziehbar betrachtet."
+        },
+        {
+          "level": 2,
+          "description": "Bekanntheit und Zustimmung werden wiederholt im relevanten Personenkreis betrachtet."
+        },
+        {
+          "level": 3,
+          "description": "Ein geeigneter Ansatz zur Erfassung von Bekanntheit und Zustimmung ist definiert und wird angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Erfasste Bekanntheit und Zustimmung werden systematisch bewertet und Unterschiede aufgegriffen."
+        },
+        {
+          "level": 5,
+          "description": "Der Erfassungs- und Beteiligungsansatz wird aufgrund der Bewertungen und Rückmeldungen verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R06",
+        "GP-R07"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C04",
+      "title": "Anwendung in Aktivitäten und Entscheidungen",
+      "rating_question": "Welche Ausprägung ist für „Anwendung in Aktivitäten und Entscheidungen“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Die Anwendung von Werten und Prinzipien ist an einzelnen Arbeits- oder Entscheidungsfällen nachvollziehbar."
+        },
+        {
+          "level": 2,
+          "description": "Werte und Prinzipien werden in wiederkehrenden geeigneten Arbeits- und Entscheidungsfällen berücksichtigt."
+        },
+        {
+          "level": 3,
+          "description": "Das Vorgehen zur Einbindung der Prinzipien in Arbeit und Entscheidungen ist definiert und wird angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Die Wirkung und Eignung dieser Einbindung wird an geeigneten Fällen systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Die Einbindung in Arbeit und Entscheidungen wird aufgrund der Bewertungen und Rückmeldungen verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R08",
+        "GP-R09",
+        "GP-P01",
+        "GP-P02",
+        "GP-P03",
+        "GP-P04",
+        "GP-P05",
+        "GP-P06",
+        "GP-P07"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C05",
+      "title": "Kommunikation und Förderung",
+      "rating_question": "Welche Ausprägung ist für „Kommunikation und Förderung“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Werte und Prinzipien werden bei einzelnen passenden Anlässen vermittelt."
+        },
+        {
+          "level": 2,
+          "description": "Werte und Prinzipien werden bei wiederkehrenden geeigneten Anlässen vermittelt."
+        },
+        {
+          "level": 3,
+          "description": "Zuständigkeit, Zielgruppen und Vorgehen zur Kommunikation und Förderung sind definiert und werden angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Reichweite und Wirkung der Kommunikation und Förderung werden systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Kommunikations- und Förderungsverfahren wird aufgrund seiner Ergebnisse und Rückmeldungen verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R10"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C06",
+      "title": "Systematische Überwachung und Bewertung",
+      "rating_question": "Welche Ausprägung ist für „Systematische Überwachung und Bewertung“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Die Einhaltung von Werten und Prinzipien wird an einzelnen Fällen betrachtet."
+        },
+        {
+          "level": 2,
+          "description": "Die Einhaltung wird wiederholt betrachtet und Auffälligkeiten werden aufgegriffen."
+        },
+        {
+          "level": 3,
+          "description": "Das Vorgehen zur Beobachtung und Bewertung der Einhaltung ist definiert und wird angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Befunde zur Einhaltung und die Wirksamkeit der Behandlung von Abweichungen werden systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Beobachtungs- und Bewertungsverfahren wird aufgrund seiner Ergebnisse verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R11",
+        "GP-R12"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C07",
+      "title": "Konsequente Anwendung",
+      "rating_question": "Welche Ausprägung ist für „Konsequente Anwendung“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Unterschiede der Anwendung zwischen geeigneten Fällen sind nachvollziehbar."
+        },
+        {
+          "level": 2,
+          "description": "Die Anwendung wird in wiederkehrenden Fällen über relevante Arbeitskontexte hinweg abgeglichen."
+        },
+        {
+          "level": 3,
+          "description": "Das Vorgehen zur Prüfung konsistenter Anwendung einschließlich legitimer Abwägungen ist definiert und wird angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Konsistenz und relevante Abweichungen werden systematisch anhand geeigneter Fälle bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Vorgehen zur Sicherung konsistenter Anwendung wird aufgrund der Bewertungen verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R13"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    },
+    {
+      "criterion_id": "GP-C08",
+      "title": "Fortlaufende Überprüfung des Prinzipienrahmens",
+      "rating_question": "Welche Ausprägung ist für „Fortlaufende Überprüfung des Prinzipienrahmens“ im vereinbarten Umfang nachgewiesen?",
+      "weight": 1,
+      "required_for_average": true,
+      "derivation": "reviewed_rating_with_five_anchors",
+      "level_anchors": [
+        {
+          "level": 1,
+          "description": "Ein tatsächlicher Anlass zur Betrachtung des Werte- und Prinzipienrahmens ist nachvollziehbar."
+        },
+        {
+          "level": 2,
+          "description": "Der Rahmen wird bei wiederkehrenden geeigneten Anlässen betrachtet."
+        },
+        {
+          "level": 3,
+          "description": "Zuständigkeit, Anlässe und Vorgehen zur Überprüfung des Rahmens sind definiert und werden angewendet."
+        },
+        {
+          "level": 4,
+          "description": "Eignung und Wirksamkeit der Rahmenüberprüfungen werden systematisch bewertet."
+        },
+        {
+          "level": 5,
+          "description": "Das Überprüfungsverfahren selbst wird aufgrund seiner Ergebnisse und veränderter Bedarfe verbessert."
+        }
+      ],
+      "supporting_question_ids": [
+        "GP-R14",
+        "GP-R15"
+      ],
+      "rating_record_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "assessed_level",
+          "possible_upper_level",
+          "review_status",
+          "evidence_status",
+          "evidence_ids",
+          "assessor_rationale",
+          "reviewer_id",
+          "reviewed_at"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessed_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "possible_upper_level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "review_status": {
+            "enum": [
+              "pending",
+              "approved"
+            ]
+          },
+          "evidence_status": {
+            "enum": [
+              "not_checked",
+              "sufficient",
+              "insufficient",
+              "conflicting"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "assessor_rationale": {
+            "type": "string"
+          },
+          "reviewer_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "no_extra_questionnaire": "Den Kriterienblock einmal bewerten. Zugeordnete Stufenfragen und gemeinsame Nachweise als Hilfen verwenden; keine doppelte Eingabe derselben Note.",
+      "used_for_component_score": false
+    }
+  ],
+  "method_rules": [
+    {
+      "id": "V5-R01",
+      "rule": "local_assessed_level = floor(sum(required_individual_ratings) / count(required_individual_ratings)); nur einzelne Practices und optionale Detailindizes."
+    },
+    {
+      "id": "V5-R02",
+      "rule": "Kategorien ausschließlich nach vollständig erfüllten Voraussetzungen bewerten."
+    },
+    {
+      "id": "V5-R03",
+      "rule": "Höchstes Level, dessen getrennte Schwellen alle Schlüssel- und alle erforderlichen unterstützenden Practices im geprüften Umfang erfüllen. Keine Mittelung und kein Minimum aller Practice-Noten."
+    },
+    {
+      "id": "V5-R04",
+      "rule": "CI-Kategorie Level N benötigt einen passenden geprüften PR02-Fähigkeitsstand (abgerundeter Durchschnitt seiner Einzelbewertungen) mindestens N UND sämtliche zugehörigen CI-Komponentenmerkmale."
+    },
+    {
+      "id": "V5-R05",
+      "rule": "Minimum ausschließlich über die fünf vollständigen Kategorie-Ergebnisse des ganzen SVS."
+    },
+    {
+      "id": "V5-R06",
+      "rule": "Fehlende, ungeprüfte oder widersprüchliche Befunde offenlassen; nicht als 0 oder automatisch Stufe 1 einsetzen."
+    },
+    {
+      "id": "V5-R07",
+      "rule": "Höhere Kategorie- und Einzelergebnisse sowie offene höhere Merkmale sichtbar erhalten."
+    }
+  ],
+  "aggregation_examples": [
+    {
+      "individual_ratings": [
+        2,
+        3,
+        4
+      ],
+      "local_score": 3
+    },
+    {
+      "individual_ratings": [
+        2,
+        3,
+        3
+      ],
+      "local_score": 2
+    },
+    {
+      "key_practice_scores": [
+        4,
+        4
+      ],
+      "supporting_practice_scores": [
+        2
+      ],
+      "practices_component_score": 4
+    },
+    {
+      "key_practice_scores": [
+        5
+      ],
+      "supporting_practice_scores": [
+        2
+      ],
+      "practices_component_score": 4
+    },
+    {
+      "component_scores": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ],
+      "svs_score": 2,
+      "visible_component_scores": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ]
+    }
+  ],
+  "component_reference_role": "Die übermittelten Beschreibungen bestimmen verbindlich die Kategoriestufen. Eigene Einzelstufen bleiben fachlich getrennt; Einzelmittelwerte ersetzen keine Kategorie-Voraussetzung.",
+  "component_maturity_criteria": {
+    "role": "binding_component_level_eligibility",
+    "levels": [
+      {
+        "number": 1,
+        "label": "Unterschiedliche Auffassungen",
+        "description_de": "Schlüsselpersonen haben unterschiedliche Auffassungen von Werten und Prinzipien; diese können miteinander in Konflikt stehen.",
+        "interpretation": "Ein belegter Befund wesentlicher unterschiedlicher Auffassungen kennzeichnet Stufe 1. Tatsächliche Konflikte müssen nicht zusätzlich vorliegen. Der Befund ist keine kumulative Voraussetzung höherer Stufen.",
+        "question_ids": [
+          "GP-R01"
+        ]
+      },
+      {
+        "number": 2,
+        "label": "Gemeinsames informelles Verständnis",
+        "description_de": "Schlüsselpersonen teilen gemeinsame Werte und Prinzipien und formulieren sie sinngemäß ähnlich. Die Kommunikation kann überwiegend informell und mündlich erfolgen.",
+        "interpretation": "Ein inhaltlich gemeinsames Verständnis ist erforderlich. Schriftliche Leitlinien und offizielle Bekanntgabe sind noch keine Pflicht. Formellere Kommunikation verhindert die Einstufung nicht.",
+        "question_ids": [
+          "GP-R02",
+          "GP-R03"
+        ]
+      },
+      {
+        "number": 3,
+        "label": "Dokumentiert und offiziell erklärt",
+        "description_de": "Gemeinsame Werte und Prinzipien sind dokumentiert und offiziell erklärt. Die meisten Personen kennen sie und stimmen ihnen zu.",
+        "interpretation": "Dokumentation, offizielle Erklärung, breite Bekanntheit und breite Zustimmung sind vier separate Merkmale. Ein Leitbild auf Papier allein reicht nicht.",
+        "question_ids": [
+          "GP-R04",
+          "GP-R05",
+          "GP-R06",
+          "GP-R07"
+        ]
+      },
+      {
+        "number": 4,
+        "label": "Integriert und systematisch überprüft",
+        "description_de": "Gemeinsame Werte und Prinzipien prägen Aktivitäten und Entscheidungen auf formaler und informeller Ebene. Sie werden über die Organisation hinweg kommuniziert und gefördert. Ihre Einhaltung wird systematisch überwacht und bewertet.",
+        "interpretation": "Tatsächliche Anwendung, aktive Kommunikation und Förderung sowie systematische Beobachtung und Bewertung sind erforderlich. Die sieben Anwendungsfragen konkretisieren den ITIL-Bezug. Quantitative Kennzahlen sind für diese komponentenspezifische Beschreibung keine zusätzliche pauschale Pflicht.",
+        "question_ids": [
+          "GP-R08",
+          "GP-R09",
+          "GP-R10",
+          "GP-R11",
+          "GP-R12",
+          "GP-P01",
+          "GP-P02",
+          "GP-P03",
+          "GP-P04",
+          "GP-P05",
+          "GP-P06",
+          "GP-P07"
+        ]
+      },
+      {
+        "number": 5,
+        "label": "Konsequent angewendet und fortlaufend hinterfragt",
+        "description_de": "Gemeinsame Werte und Prinzipien werden konsequent über die Organisation hinweg angewendet und zugleich fortlaufend und systematisch überprüft. Sie können dabei hinterfragt oder bestätigt werden.",
+        "interpretation": "Konsequente Anwendung und ein tatsächlicher fortlaufender Reflexionsprozess sind erforderlich. Eine begründete Bestätigung unveränderter Prinzipien ist zulässig; die Werte müssen nicht in jedem Review geändert werden.",
+        "question_ids": [
+          "GP-R13",
+          "GP-R14",
+          "GP-R15"
+        ]
+      }
+    ],
+    "requirements_introduced_by_level": {
+      "1": [],
+      "2": [
+        "GP-R02",
+        "GP-R03"
+      ],
+      "3": [
+        "GP-R04",
+        "GP-R05",
+        "GP-R06",
+        "GP-R07"
+      ],
+      "4": [
+        "GP-R08",
+        "GP-R09",
+        "GP-R10",
+        "GP-R11",
+        "GP-R12"
+      ],
+      "5": [
+        "GP-R13",
+        "GP-R14",
+        "GP-R15"
+      ]
+    },
+    "positive_requirements_cumulative": true,
+    "initial_classification_question_id": "GP-R01",
+    "initial_classification_is_higher_level_prerequisite": false,
+    "source": "Stufenbeschreibungen im aktuellen Nutzerauftrag; operationalisiert durch die zugeordneten Kategorie-Prüffragen."
+  },
+  "integration_notes": [
+    "V5: lokale Einzelbewertungen mitteln und abrunden; Kategorien anhand ihrer eigenen vollständigen Voraussetzungen; Minimum nur für das ganze SVS.",
+    "Nachweise über stabile evidence_ids wiederverwenden; unterschiedliche Bewertungsgegenstände separat prüfen.",
+    "Keine Antwortprojektionen zwischen wiederhergestellten CI-Einzelstufen und Kategorie-Prüffragen.",
+    "Basis-, Entwurfs-, Nachweis- und Scope-Prüfungen getrennt von der Berechnung behandeln."
+  ]
+}

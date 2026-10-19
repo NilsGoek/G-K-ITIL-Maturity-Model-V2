@@ -1,0 +1,874 @@
+{
+  "policy_id": "GOEK-SVS-LOCAL-MEAN-COMPONENT-GATES-SVS-MIN-V5",
+  "policy_version": "5.0.0",
+  "language": "de-DE",
+  "official_peoplecert_rule": false,
+  "basis": "Korrigierter Nutzerauftrag vom 2026-10-13: eigene Einzelstufen und abgerundete Mittelwerte für Einzelbewertungen; ausdrückliche Level-Voraussetzungen für fünf Kategorien; Minimum ausschließlich für das ganze SVS.",
+  "requirement_states": [
+    "fulfilled",
+    "not_fulfilled",
+    "open"
+  ],
+  "canonical_fields": {
+    "answer": [
+      "yes",
+      "partial",
+      "no",
+      "unknown"
+    ],
+    "finding": [
+      "fulfilled",
+      "not_fulfilled",
+      "partial",
+      "open",
+      "not_applicable"
+    ],
+    "review_status": [
+      "pending",
+      "approved"
+    ],
+    "evidence_status": [
+      "not_checked",
+      "sufficient",
+      "insufficient",
+      "conflicting"
+    ]
+  },
+  "question_rule": {
+    "fulfilled": "Alle zutreffenden Prüfpunkte erfüllt; finding=fulfilled, review_status=approved, evidence_status=sufficient; passende registrierte Nachweise, Begründung und Prüfer vorhanden.",
+    "not_fulfilled": "Mindestens ein zutreffender Pflichtprüfpunkt nachweislich nicht erfüllt oder nur teilweise erfüllt; fachlich freigegeben und ausreichend belegt.",
+    "open": "Fehlende Antwort, fehlender oder ungeprüfter Befund, unzureichende/widersprüchliche Nachweise oder noch ungeklärte Anwendbarkeit ohne belegte Nichterfüllung.",
+    "self_report_is_not_score": true,
+    "partial_is_not_fulfilled": true,
+    "no_points_or_percentages": true,
+    "conditional_checks": "not_applicable nur bei bezeichnetem bedingtem Prüfpunkt und bestätigter, belegter Anwendbarkeitsentscheidung. Ganze Fragen bleiben Pflicht, soweit der Katalog keine Ausnahme erlaubt."
+  },
+  "level_rule": {
+    "method": "highest_fully_eligible_component_level",
+    "scope": "five_svs_components",
+    "all_required_conditions_must_be_fulfilled": true,
+    "higher_features_compensate_lower_gaps": false,
+    "positive_requirements_cumulative": true,
+    "initial_deficit_descriptions_are_not_higher_level_prerequisites": true,
+    "unconfirmed_is_not_fulfilled": true,
+    "missing_evidence_is_not_level_1": true,
+    "individual_ladders": "Eigene fachlich passende Stufen je Einzelaspekt; kumulative Prüfung ausschließlich innerhalb dieses Aspekts."
+  },
+  "minimum_rule": {
+    "method": "minimum",
+    "scope": [
+      "whole_svs"
+    ],
+    "formula": "svs.assessed_level = min(five_component_assessed_levels)",
+    "requires_all_five_categories": true,
+    "missing_is_zero": false,
+    "arithmetic_mean": false,
+    "improvement_focus": "Die schwächste Kategorie bestimmt die Gesamtbewertung. Alle höheren Kategorien und Einzelstärken bleiben sichtbar."
+  },
+  "practices_component_rule": {
+    "method": "explicit_role_thresholds",
+    "enabled": true,
+    "required_roles": [
+      "primary",
+      "supporting"
+    ],
+    "key_role_value": "primary",
+    "at_least_one_key_practice_required": true,
+    "thresholds": [
+      {
+        "level": 1,
+        "all_key_practices_min_capability": 1,
+        "all_supporting_practices_min_capability": null
+      },
+      {
+        "level": 2,
+        "all_key_practices_min_capability": 2,
+        "all_supporting_practices_min_capability": null
+      },
+      {
+        "level": 3,
+        "all_key_practices_min_capability": 3,
+        "all_supporting_practices_min_capability": 1
+      },
+      {
+        "level": 4,
+        "all_key_practices_min_capability": 4,
+        "all_supporting_practices_min_capability": 2
+      },
+      {
+        "level": 5,
+        "all_key_practices_min_capability": 5,
+        "all_supporting_practices_min_capability": 3
+      }
+    ],
+    "rule": "Höchstes Level, dessen getrennte Schwellen alle Schlüssel- und alle erforderlichen unterstützenden Practices im geprüften Umfang erfüllen. Keine Mittelung und kein Minimum aller Practice-Noten.",
+    "supporting_scope": "Alle unterstützenden Practices des bewerteten Funktionsbereichs bzw. Umfangs erfassen und fachlich prüfen; Auswahl darf keine notwendigen Practices weglassen.",
+    "no_supporting_practices": "Leere unterstützende Menge nur nach dokumentierter Prüfung zulässig; dann ist die zugehörige Allaussage erfüllt.",
+    "no_supporting_threshold_at_levels_1_2": true
+  },
+  "svs_aggregation": {
+    "enabled": true,
+    "method": "minimum",
+    "required_component_ids": [
+      "governance",
+      "service_value_chain",
+      "guiding_principles",
+      "continual_improvement",
+      "practices"
+    ],
+    "rule": "Optionaler Gesamtwert = Minimum der fünf vollständigen Komponentenwerte für dieselbe Bewertungseinheit, denselben geprüften Umfang und Zeitraum. Teilprofile, fehlende Komponenten und ungeklärte Widersprüche verhindern eine vollständige Gesamtnote.",
+    "single_overall_score_is_optional": true
+  },
+  "draft_rule": {
+    "result_is_draft_formula": "Eigener Katalog/Modul fachlich nicht validiert ODER Modus draft_preview/pilot ODER irgendein erforderliches Quellergebnis ist Entwurf.",
+    "model_validation_completed_formula": "Nur true, wenn der eigene verwendete Bewertungsmaßstab und alle erforderlichen Quellmodelle nachweislich validiert sind.",
+    "is_final_formula": "Numerischer Stand oder Unter-Stufe-1-Befund abschließend geklärt, vollständiger geprüfter Kontext, alle erforderlichen Scope-Prüfungen und Freigaben vorhanden und result_is_draft=false.",
+    "automatic_promotion_from_draft": false,
+    "regular_mode": "Nicht validierte Kataloge oder Module sind im regular-Modus gesperrt; im draft_preview-Modus berechenbar und durchgehend als Entwurf gekennzeichnet.",
+    "ci_dependency": "PR02-Entwurfskennzeichnung und Validierungsstatus unverändert in CI und jeden darüber aggregierten Wert übernehmen."
+  },
+  "result_fields": [
+    "component_id",
+    "assessment_id",
+    "assessment_unit_id",
+    "scope_id",
+    "scope_description",
+    "assessment_period",
+    "catalog_id",
+    "catalog_version",
+    "policy_id",
+    "level_type",
+    "assessed_level",
+    "possible_upper_level",
+    "status",
+    "context_status",
+    "is_final",
+    "result_is_draft",
+    "model_validation_completed",
+    "release_status",
+    "evidence_ids",
+    "limiting_unit_ids",
+    "blocking_question_ids",
+    "open_question_ids",
+    "higher_level_strength_question_ids",
+    "scope_qualification",
+    "unit_results",
+    "limitations",
+    "fulfilled_question_levels",
+    "aggregation_method",
+    "score_semantics",
+    "unrounded_mean",
+    "unrounded_upper_mean",
+    "weaker_criterion_ids",
+    "higher_level_unit_ids",
+    "component_level_evaluations",
+    "detail_index",
+    "component_profile",
+    "higher_scoring_component_ids",
+    "category_level_source"
+  ],
+  "result_statuses": [
+    "confirmed",
+    "provisional",
+    "open",
+    "not_assessed",
+    "below_baseline",
+    "partial_scope",
+    "needs_reconciliation",
+    "not_classifiable",
+    "not_applicable"
+  ],
+  "numeric_range": [
+    1,
+    5
+  ],
+  "unknown_is_zero": false,
+  "graphic_rule": "Fünf tatsächliche Kategorie-Noten als Balken 1–5 anzeigen; SVS-Minimum separat als Gesamtzahl und Bezugslinie. Werte [4,4,4,4,2] bleiben sichtbar, SVS=2. Detailnoten, Rohmittelwerte und belegte isolierte höhere Merkmale separat kennzeichnen. null bleibt offen, niemals 0.",
+  "shared_collection_contract": {
+    "fact_registry": [
+      {
+        "id": "F01",
+        "title": "Ziele und strategische Zuordnung",
+        "collect_once": [
+          "Gültige Organisations- und Serviceziele",
+          "Zielzuordnungen und Änderungsentscheidungen"
+        ]
+      },
+      {
+        "id": "F02",
+        "title": "Entscheidungen und Prioritäten",
+        "collect_once": [
+          "Entscheidungsfälle",
+          "Nutzen-, Risiko- und Prioritätsbegründungen"
+        ]
+      },
+      {
+        "id": "F03",
+        "title": "Rollen und Kompetenzen",
+        "collect_once": [
+          "Tatsächlich besetzte Rollen und Befugnisse",
+          "Aufgabenbezogene Kompetenz- und Ressourcenbelege"
+        ]
+      },
+      {
+        "id": "F04",
+        "title": "Zusammenarbeit und Informationsfluss",
+        "collect_once": [
+          "Formale und informelle Austauschfälle",
+          "Übergaben und Rückmeldungen"
+        ]
+      },
+      {
+        "id": "F05",
+        "title": "Vorgaben und Prinzipienrahmen",
+        "collect_once": [
+          "Geltende Vorgaben und Erklärung",
+          "Bekanntheit, Zustimmung und reale Anwendung"
+        ]
+      },
+      {
+        "id": "F06",
+        "title": "Risiken und Verpflichtungen",
+        "collect_once": [
+          "Risiken, Behandlung und Akzeptanz",
+          "Befugte Entscheidungen und Wirksamkeitsbelege"
+        ]
+      },
+      {
+        "id": "F07",
+        "title": "Ressourcen und Engpässe",
+        "collect_once": [
+          "Freigaben und Ressourcenbedarf",
+          "Umgesetzte Kompetenzmaßnahmen"
+        ]
+      },
+      {
+        "id": "F08",
+        "title": "Leistungsmessung und Ziele",
+        "collect_once": [
+          "Leistungsdaten mit Definition und Herkunft",
+          "Zielwerte und quantitative Auswertung"
+        ]
+      },
+      {
+        "id": "F09",
+        "title": "Überwachung und Ergebnisanalyse",
+        "collect_once": [
+          "Zeitreihen und Leistungsdynamik",
+          "Reviews und daraus entstandene Entscheidungen"
+        ]
+      },
+      {
+        "id": "F10",
+        "title": "Verbesserungsbedarf",
+        "collect_once": [
+          "Anlass und Ausgangslage",
+          "Hinweise, Ideen und Registereinträge"
+        ]
+      },
+      {
+        "id": "F11",
+        "title": "Verbesserungspriorisierung",
+        "collect_once": [
+          "Ziele und Auswahlentscheidungen",
+          "Aufwand, Risiken und erwarteter Nutzen"
+        ]
+      },
+      {
+        "id": "F12",
+        "title": "Verbesserungsumsetzung",
+        "collect_once": [
+          "Verantwortete tatsächlich durchgeführte Maßnahmen",
+          "Fortschritt und Hindernisse"
+        ]
+      },
+      {
+        "id": "F13",
+        "title": "Verbesserungswirkung",
+        "collect_once": [
+          "Vorher-Nachher-Ergebnisse",
+          "Ergebnisprüfung und weitere Nutzung"
+        ]
+      },
+      {
+        "id": "F14",
+        "title": "Weiterentwicklung des Ansatzes",
+        "collect_once": [
+          "Review des ausdrücklich bezeichneten Gegenstands",
+          "Begründete Anpassung oder zulässige Bestätigung und Anwendung"
+        ]
+      },
+      {
+        "id": "F15",
+        "title": "Wertstromumfang",
+        "collect_once": [
+          "Bedarf, Ergebnis und wesentliche Wertströme",
+          "Begründete Auswahl und Abgrenzung"
+        ]
+      },
+      {
+        "id": "F16",
+        "title": "Abläufe, Schnittstellen und Integration",
+        "collect_once": [
+          "Tatsächliche Ablauf- und Übergabefälle",
+          "Beiträge von Practices und gemeinsame Steuerung"
+        ]
+      },
+      {
+        "id": "F17",
+        "title": "Informationen und Hilfsmittel",
+        "collect_once": [
+          "Genutzte Informationen und Werkzeuge",
+          "Qualität, Zugriff und zweckbezogene Verwendung"
+        ]
+      },
+      {
+        "id": "F18",
+        "title": "Externe und delegierte Beiträge",
+        "collect_once": [
+          "Tatsächliche Beiträge und Zuständigkeiten",
+          "Vereinbarte Übergaben und Aufsicht"
+        ]
+      }
+    ],
+    "fact_record_fields": [
+      "fact_id",
+      "scope_id",
+      "subject_id",
+      "assessment_period",
+      "description",
+      "evidence_ids"
+    ],
+    "reuse_key": [
+      "fact_id",
+      "scope_id",
+      "subject_id",
+      "assessment_period"
+    ],
+    "rule": "Sachverhalte, Fälle, Rollen, Ziele und Nachweise unter dem passenden Schlüssel einmal erfassen. Fragen greifen darauf zu und ergänzen ausschließlich noch fehlende spezifische Prüfpunkte.",
+    "same_fact_is_not_same_rating": true,
+    "automatic_answer_copy": false,
+    "exception": "V5 enthält keine Antwortprojektionen. Gemeinsam sind ausschließlich Quellen und Fundstellen; Einzel- und Kategorie-Befunde werden separat geprüft.",
+    "practice_subject": "practice_id; bei allgemeinen Stammdaten darf eine gemeinsame Quelle referenziert werden. Die tatsächliche Verwendung für jede Practice separat prüfen.",
+    "ci_practice_component_boundary": "CI-Komponente: Reichweite und organisationsweiter Ansatz. PR02: Fähigkeit der Verbesserungs-Practice. SVC08: Verbesserung von Wertströmen. PC07: Weiterentwicklung der jeweils konkret bezeichneten Practice-Fähigkeit.",
+    "answer_projections": []
+  },
+  "migration": {
+    "from_catalog_version": "4.0.0",
+    "to_catalog_version": "5.0.0",
+    "aggregation_changed": true,
+    "old_scores_reusable": false,
+    "all_component_results_recalculate": true,
+    "review_required_for_changed_question_ids": true,
+    "criterion_findings_reusable": "Nur semantisch unveränderte, im selben Umfang geprüfte Befunde versioniert übernehmen. Geänderte Einzelstufen und frühere Antwortprojektionen neu prüfen. Nachweise dürfen weiterverwendet werden."
+  },
+  "assessment_input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Gemeinsamer SVS-Bewertungsdatensatz V3",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "assessment_id",
+      "assessment_unit_id",
+      "catalog_id",
+      "catalog_version",
+      "assessment_execution_mode",
+      "context",
+      "evidence_register",
+      "responses",
+      "extensions"
+    ],
+    "properties": {
+      "assessment_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "assessment_unit_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "catalog_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "catalog_version": {
+        "const": "5.0.0"
+      },
+      "assessment_execution_mode": {
+        "type": "string",
+        "enum": [
+          "draft_preview",
+          "pilot",
+          "regular"
+        ]
+      },
+      "context": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "organization",
+          "scope_id",
+          "scope_description",
+          "services_in_scope",
+          "criticality",
+          "assessment_period",
+          "assessment_date",
+          "assessors",
+          "scope_reviewed",
+          "evidence_reviewed"
+        ],
+        "properties": {
+          "organization": {
+            "type": "string"
+          },
+          "scope_id": {
+            "type": "string"
+          },
+          "scope_description": {
+            "type": "string"
+          },
+          "services_in_scope": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "criticality": {
+            "type": "string"
+          },
+          "assessment_period": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "end": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            }
+          },
+          "assessment_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "assessors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "scope_reviewed": {
+            "type": "boolean"
+          },
+          "evidence_reviewed": {
+            "type": "boolean"
+          }
+        }
+      },
+      "evidence_register": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "evidence_id",
+            "title",
+            "evidence_type",
+            "source_locator",
+            "scope_ids",
+            "covered_period",
+            "source_date"
+          ],
+          "properties": {
+            "evidence_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_type": {
+              "type": "string",
+              "enum": [
+                "document",
+                "interview_note",
+                "work_record",
+                "decision_record",
+                "observation",
+                "feedback",
+                "review_record",
+                "metric_series",
+                "data_extract",
+                "test_result",
+                "other"
+              ]
+            },
+            "source_locator": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scope_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "covered_period": {
+              "type": "string"
+            },
+            "source_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            }
+          }
+        }
+      },
+      "responses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "answer",
+            "finding",
+            "review_status",
+            "evidence_status",
+            "evidence_ids",
+            "check_results",
+            "assessor_rationale",
+            "reviewer_id",
+            "reviewed_at"
+          ],
+          "properties": {
+            "question_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "answer": {
+              "type": "string",
+              "enum": [
+                "yes",
+                "partial",
+                "no",
+                "unknown"
+              ]
+            },
+            "finding": {
+              "type": "string",
+              "enum": [
+                "fulfilled",
+                "not_fulfilled",
+                "partial",
+                "open",
+                "not_applicable"
+              ]
+            },
+            "review_status": {
+              "type": "string",
+              "enum": [
+                "pending",
+                "approved"
+              ]
+            },
+            "evidence_status": {
+              "type": "string",
+              "enum": [
+                "not_checked",
+                "sufficient",
+                "insufficient",
+                "conflicting"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "check_results": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "check_id",
+                  "finding",
+                  "evidence_ids",
+                  "rationale"
+                ],
+                "properties": {
+                  "check_id": {
+                    "type": "string"
+                  },
+                  "finding": {
+                    "type": "string",
+                    "enum": [
+                      "fulfilled",
+                      "not_fulfilled",
+                      "partial",
+                      "open",
+                      "not_applicable"
+                    ]
+                  },
+                  "evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "rationale": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "assessor_rationale": {
+              "type": "string"
+            },
+            "reviewer_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            }
+          }
+        }
+      },
+      "extensions": {
+        "type": "object",
+        "description": "Komponentenspezifische Pflichtfelder gemäß Katalog."
+      }
+    }
+  },
+  "average_rule": {
+    "method": "arithmetic_mean_floor",
+    "formula": "local_assessed_level = floor(sum(required_individual_ratings) / count(required_individual_ratings))",
+    "equal_weights": true,
+    "rounding": "floor",
+    "round_only_after_division": true,
+    "scope": [
+      "individual_practice",
+      "optional_individual_detail_index"
+    ],
+    "averaging_unit": "Ein fachlich abgegrenzter Einzelaspekt mit einer belegten Note 1–5, genau einmal gewichtet. Keine Mittelung fester Stufennummern von Prüffragen oder Ja/Nein-Codes.",
+    "allow_compensation_between_criteria": true,
+    "raw_mean_field": "unrounded_mean",
+    "criterion_results_visible": true,
+    "practice_baseline_excluded_from_average": "C00 ist ein Basisnachweis und kein gleichgewichteter Kriterienblock mit dauerhaftem Maximalwert 1.",
+    "unknown_policy": "Fehlende, ungeprüfte oder nicht numerisch einordenbare notwendige Kriterien nicht als 0 einsetzen und nicht aus dem Nenner streichen. Vollständigen Durchschnitt offenlassen; vorhandene Detailstände anzeigen.",
+    "upper_bound": "floor(sum(possible_upper_levels) / count(required_criteria)); ungeklärte höhere Stufen bleiben bis 5 möglich.",
+    "status": "confirmed, wenn abgerundete Unter- und Obergrenze übereinstimmen; sonst provisional bei belegtem numerischem Mindestindex.",
+    "example": {
+      "criterion_levels": [
+        2,
+        3,
+        4
+      ],
+      "unrounded_mean": 3.0,
+      "assessed_level": 3
+    },
+    "fractional_example": {
+      "criterion_levels": [
+        2,
+        3,
+        3
+      ],
+      "unrounded_mean": 2.6666666666666665,
+      "assessed_level": 2
+    },
+    "category_score_override": false
+  },
+  "aggregation_matrix": {
+    "individual_practice": "arithmetic_mean_floor",
+    "governance": "highest_fully_eligible_component_level",
+    "service_value_chain": "highest_fully_eligible_component_level",
+    "guiding_principles": "highest_fully_eligible_component_level",
+    "continual_improvement": "highest_fully_eligible_component_level",
+    "practices": "explicit_role_thresholds",
+    "whole_svs": "minimum_of_five_component_scores"
+  },
+  "score_semantics": "Drei getrennte Ebenen: individuelle Fähigkeits-/Detailnoten; Kategorienreife nach erfüllten Level-Voraussetzungen; SVS-Gesamtreife als Minimum der fünf Kategorien. Die Kombination mit lokalen Mittelwerten ist die nutzerspezifische Bewertungsmethode.",
+  "ci_dependency_policy": {
+    "mandatory_collection": true,
+    "practice_id": "PR02",
+    "numeric_average_cap": true,
+    "rule": "CI-Kategorie Level N benötigt einen passenden geprüften PR02-Fähigkeitsstand (abgerundeter Durchschnitt seiner Einzelbewertungen) mindestens N UND sämtliche zugehörigen CI-Komponentenmerkmale.",
+    "missing_dependency": "CI-Kategorie offenlassen; vorhandene Komponentenmerkmale und Detailprofil separat zeigen.",
+    "separate_assessment_required": true,
+    "evidence_reuse_allowed": true,
+    "automatic_answer_copy": false
+  },
+  "criterion_rating_contract": {
+    "storage_path": "extensions.criterion_ratings",
+    "schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "criterion_id",
+        "assessed_level",
+        "possible_upper_level",
+        "review_status",
+        "evidence_status",
+        "evidence_ids",
+        "assessor_rationale",
+        "reviewer_id",
+        "reviewed_at"
+      ],
+      "properties": {
+        "criterion_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessed_level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "possible_upper_level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "review_status": {
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "evidence_status": {
+          "enum": [
+            "not_checked",
+            "sufficient",
+            "insufficient",
+            "conflicting"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "assessor_rationale": {
+          "type": "string"
+        },
+        "reviewer_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "purpose": "Eine belegte freigegebene Einzelnote erheben oder aus der eigenen Leiter des Einzelaspekts ableiten. Nicht doppelt gewichten. Optionale Detailindizes beeinflussen die Kategorie nicht automatisch.",
+    "conflict_policy": "Direkte Kriteriennote darf bestätigten niedrigeren Pflichtlücken desselben Blocks oder einem bereits höher belegten Stand nicht widersprechen.",
+    "guiding_principles": "Eigene aspektbezogene Anker für acht optionale Einzelbewertungen; die 15 GP-Referenzfragen prüfen separat die Kategoriereife. Die sieben Prinzipienbeispiele sind Nachweishilfen, keine 7×34-Practice-Abfrage."
+  },
+  "examples": [
+    {
+      "individual_ratings": [
+        2,
+        3,
+        4
+      ],
+      "local_score": 3
+    },
+    {
+      "individual_ratings": [
+        2,
+        3,
+        3
+      ],
+      "local_score": 2
+    },
+    {
+      "key_practice_scores": [
+        4,
+        4
+      ],
+      "supporting_practice_scores": [
+        2
+      ],
+      "practices_component_score": 4
+    },
+    {
+      "key_practice_scores": [
+        5
+      ],
+      "supporting_practice_scores": [
+        2
+      ],
+      "practices_component_score": 4
+    },
+    {
+      "component_scores": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ],
+      "svs_score": 2,
+      "visible_component_scores": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ]
+    }
+  ]
+}

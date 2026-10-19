@@ -1,0 +1,4197 @@
+{
+  "example_only": true,
+  "note": "Synthetische Eingaben, kein tatsächliches Unternehmen.",
+  "assessments": {
+    "governance": {
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-governance",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "Synthetische Organisation",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "services_in_scope": [
+          "TEST-SERVICE"
+        ],
+        "criticality": "Test",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "assessment_date": "2026-10-13",
+        "assessors": [
+          "TEST-REVIEWER"
+        ],
+        "scope_reviewed": true,
+        "evidence_reviewed": true
+      },
+      "evidence_register": [
+        {
+          "evidence_id": "TEST-E",
+          "title": "Synthetischer Nachweis",
+          "evidence_type": "test_result",
+          "source_locator": "synthetic://fixture",
+          "scope_ids": [
+            "TEST-SCOPE"
+          ],
+          "covered_period": "2026-07-01 bis 2026-09-30",
+          "source_date": "2026-10-13"
+        }
+      ],
+      "responses": [
+        {
+          "question_id": "GV01-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV01-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV01-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV01-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV01-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV02-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV02-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV02-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV02-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV02-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV03-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV03-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV03-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV03-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV03-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV04-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV04-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV04-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV04-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV04-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV05-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV05-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV05-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV05-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV05-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV06-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV06-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV06-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV06-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV06-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV07-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV07-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV07-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV07-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV07-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV08-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV08-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV08-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV08-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV08-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV-R01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV-R02",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV-R03",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV-R04",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GV-R05",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        }
+      ],
+      "extensions": {
+        "criterion_ratings": []
+      }
+    },
+    "service_value_chain": {
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-service-value-chain",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "Synthetische Organisation",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "services_in_scope": [
+          "TEST-SERVICE"
+        ],
+        "criticality": "Test",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "assessment_date": "2026-10-13",
+        "assessors": [
+          "TEST-REVIEWER"
+        ],
+        "scope_reviewed": true,
+        "evidence_reviewed": true
+      },
+      "evidence_register": [
+        {
+          "evidence_id": "TEST-E",
+          "title": "Synthetischer Nachweis",
+          "evidence_type": "test_result",
+          "source_locator": "synthetic://fixture",
+          "scope_ids": [
+            "TEST-SCOPE"
+          ],
+          "covered_period": "2026-07-01 bis 2026-09-30",
+          "source_date": "2026-10-13"
+        }
+      ],
+      "responses": [
+        {
+          "question_id": "SVC01-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC01-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC01-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC01-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC01-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC02-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC02-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC02-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC02-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC02-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC03-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC03-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC03-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC03-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC03-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC04-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC04-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC04-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC04-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC04-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC05-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC05-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC05-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC05-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC05-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC06-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC06-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC06-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC06-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC06-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC07-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC07-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC07-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC07-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC07-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC08-S1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC08-S2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC08-S3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC08-S4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC08-S5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC-R01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC-R02",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC-R03",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC-R04",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "SVC-R05",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        }
+      ],
+      "extensions": {
+        "criterion_ratings": [],
+        "value_stream_inventory": [
+          {
+            "id": "TEST-VS",
+            "name": "Testwertstrom",
+            "is_major": true,
+            "assessed": true,
+            "excluded_reason": null,
+            "documentation_preexisted": true,
+            "documentation_evidence_ids": [
+              "TEST-E"
+            ]
+          }
+        ],
+        "coverage_mode": "all_major_streams_in_scope",
+        "inventory_reviewed": true,
+        "coverage_evidence_ids": [
+          "TEST-E"
+        ],
+        "stream_selection_rationale": "Synthetisch vollständig",
+        "scope_flags": {
+          "external_partners_in_scope": true
+        },
+        "scope_flag_decisions": {}
+      }
+    },
+    "guiding_principles": {
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "GOEK-SVS-GP",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "Synthetische Organisation",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "services_in_scope": [
+          "TEST-SERVICE"
+        ],
+        "criticality": "Test",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "assessment_date": "2026-10-13",
+        "assessors": [
+          "TEST-REVIEWER"
+        ],
+        "scope_reviewed": true,
+        "evidence_reviewed": true
+      },
+      "evidence_register": [
+        {
+          "evidence_id": "TEST-E",
+          "title": "Synthetischer Nachweis",
+          "evidence_type": "test_result",
+          "source_locator": "synthetic://fixture",
+          "scope_ids": [
+            "TEST-SCOPE"
+          ],
+          "covered_period": "2026-07-01 bis 2026-09-30",
+          "source_date": "2026-10-13"
+        }
+      ],
+      "responses": [
+        {
+          "question_id": "GP-R01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R02",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R03",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R04",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R05",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R06",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R07",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R08",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R09",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R10",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R11",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R12",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R13",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R14",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-R15",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P02",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P03",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P04",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P05",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P06",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "GP-P07",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        }
+      ],
+      "extensions": {
+        "domain_context": {},
+        "scope_flags": {
+          "external_partners_in_scope": true
+        },
+        "scope_flag_decisions": {},
+        "excluded_question_ids": [],
+        "criterion_ratings": [
+          {
+            "criterion_id": "GP-C01",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C02",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C03",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C04",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C05",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C06",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C07",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          },
+          {
+            "criterion_id": "GP-C08",
+            "assessed_level": 4,
+            "possible_upper_level": 4,
+            "review_status": "approved",
+            "evidence_status": "sufficient",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "assessor_rationale": "Synthetischer Befund zu den eigenen Stufenankern dieses Einzelaspekts.",
+            "reviewer_id": "TEST-REVIEWER",
+            "reviewed_at": "2026-10-13T13:00:00Z"
+          }
+        ]
+      }
+    },
+    "continual_improvement": {
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "GOEK-SVS-CI",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "Synthetische Organisation",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "services_in_scope": [
+          "TEST-SERVICE"
+        ],
+        "criticality": "Test",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "assessment_date": "2026-10-13",
+        "assessors": [
+          "TEST-REVIEWER"
+        ],
+        "scope_reviewed": true,
+        "evidence_reviewed": true
+      },
+      "evidence_register": [
+        {
+          "evidence_id": "TEST-E",
+          "title": "Synthetischer Nachweis",
+          "evidence_type": "test_result",
+          "source_locator": "synthetic://fixture",
+          "scope_ids": [
+            "TEST-SCOPE"
+          ],
+          "covered_period": "2026-07-01 bis 2026-09-30",
+          "source_date": "2026-10-13"
+        }
+      ],
+      "responses": [
+        {
+          "question_id": "CI-01-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-01-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-01-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-01-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-01-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-02-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-02-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-02-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-02-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-02-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-03-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-03-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-03-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-03-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-03-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-04-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-04-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-04-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-04-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-04-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-05-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-05-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-05-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-05-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-05-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-06-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-06-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-06-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-06-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-06-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-07-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-07-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-07-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-07-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-07-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-08-L1",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-08-L2",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-08-L3",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-08-L4",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-08-L5",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R02",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R03",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R04",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R05",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R06",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R07",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R08",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R09",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R10",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "CI-R11",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        }
+      ],
+      "extensions": {
+        "domain_context": {},
+        "scope_flags": {
+          "external_partners_in_scope": true
+        },
+        "scope_flag_decisions": {},
+        "excluded_question_ids": [],
+        "criterion_ratings": []
+      }
+    },
+    "practices": {
+      "assessment_id": "TEST-ASSESSMENT",
+      "assessment_unit_id": "TEST-UNIT",
+      "catalog_id": "svs-practices",
+      "catalog_version": "5.0.0",
+      "assessment_execution_mode": "draft_preview",
+      "context": {
+        "organization": "Synthetische Organisation",
+        "scope_id": "TEST-SCOPE",
+        "scope_description": "Synthetischer Prüfumfang",
+        "services_in_scope": [
+          "TEST-SERVICE"
+        ],
+        "criticality": "Test",
+        "assessment_period": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "assessment_date": "2026-10-13",
+        "assessors": [
+          "TEST-REVIEWER"
+        ],
+        "scope_reviewed": true,
+        "evidence_reviewed": true
+      },
+      "evidence_register": [
+        {
+          "evidence_id": "TEST-E",
+          "title": "Synthetischer Nachweis",
+          "evidence_type": "test_result",
+          "source_locator": "synthetic://fixture",
+          "scope_ids": [
+            "TEST-SCOPE"
+          ],
+          "covered_period": "2026-07-01 bis 2026-09-30",
+          "source_date": "2026-10-13"
+        }
+      ],
+      "responses": [
+        {
+          "question_id": "PR02-C00-S1-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C01-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C01-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C01-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C01-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C02-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C02-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C02-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C02-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C03-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C03-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C03-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C03-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C04-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C04-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C04-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C04-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C05-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C05-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C05-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C05-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C06-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C06-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C06-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C06-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C07-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C07-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C07-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C07-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C08-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C08-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C08-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C08-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C09-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C09-S3-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C09-S4-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR02-C09-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C00-S1-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C01-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C01-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C01-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C01-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C02-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C02-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C02-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C02-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C03-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C03-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C03-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C03-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C04-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C04-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C04-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C04-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C05-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C05-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C05-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C05-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C06-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C06-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C06-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C06-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C07-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C07-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C07-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C07-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C08-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C08-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C08-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C08-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C09-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C09-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C09-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C09-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C10-S2-Q01",
+          "answer": "yes",
+          "finding": "fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C10-S3-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C10-S4-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        },
+        {
+          "question_id": "PR22-C10-S5-Q01",
+          "answer": "no",
+          "finding": "not_fulfilled",
+          "review_status": "approved",
+          "evidence_status": "sufficient",
+          "evidence_ids": [
+            "TEST-E"
+          ],
+          "check_results": [],
+          "assessor_rationale": "Synthetischer geprüfter Befund zu sämtlichen zutreffenden Anforderungen.",
+          "reviewer_id": "TEST-REVIEWER",
+          "reviewed_at": "2026-10-13T13:00:00Z"
+        }
+      ],
+      "extensions": {
+        "criterion_ratings": [],
+        "assessment_mode": "svs_maturity",
+        "screening_responses": [],
+        "scope_decisions": [
+          {
+            "practice_id": "PR01",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR02",
+            "selection_status": "included",
+            "scope_role": "primary",
+            "implementation_presence": "present",
+            "objective_ids": [
+              "TEST-GOAL"
+            ],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR03",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR04",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR05",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR06",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR07",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR08",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR09",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR10",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR11",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR12",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR13",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR14",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR15",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR16",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR17",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR18",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR19",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR20",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR21",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR22",
+            "selection_status": "included",
+            "scope_role": "primary",
+            "implementation_presence": "present",
+            "objective_ids": [
+              "TEST-GOAL"
+            ],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR23",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR24",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR25",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR26",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR27",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR28",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR29",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR30",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR31",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR32",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR33",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          },
+          {
+            "practice_id": "PR34",
+            "selection_status": "not_applicable",
+            "scope_role": null,
+            "implementation_presence": "present",
+            "objective_ids": [],
+            "value_stream_ids": [],
+            "rationale": "Synthetisch geprüfte Auswahl",
+            "evidence_ids": [
+              "TEST-E"
+            ],
+            "reviewed": true
+          }
+        ],
+        "dependency_decisions": [],
+        "custom_dependency_edges": [],
+        "scope_review_complete": true,
+        "confirmed_required_practice_ids": [
+          "PR02",
+          "PR22"
+        ]
+      }
+    }
+  }
+}

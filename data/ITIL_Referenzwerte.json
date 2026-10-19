@@ -1,0 +1,689 @@
+{
+  "schema_version": "2.0.0",
+  "title": "Referenzwerte für Service Value Systeme",
+  "source": {
+    "id": "PROVIDED-WORKBOOK",
+    "kind": "user_supplied_workbook",
+    "file_name": "Eingabe Referenzen für Webseite.xlsx",
+    "sheet": "Tabelle1",
+    "sha256": "1d99b3024393da5f72360ce3075a4a4d72c111a3ac6c36094910b811c128eebc",
+    "number_format": "General",
+    "practice_range": "B3:E36",
+    "component_range": "B40:D44",
+    "overall_range": "B47:D49",
+    "organization_count": null,
+    "respondent_count": null,
+    "study_year": null,
+    "provenance_note": "Vom Nutzer bereitgestellte Excel-Referenzwerte. Die Datei enthält keine Angaben zur Stichprobengröße oder zur zugrunde liegenden Erhebung."
+  },
+  "practice_rows": [
+    {
+      "id": "WORKBOOK-PRACTICE-R03",
+      "practice_id": "PR01",
+      "source_name": "Architekturmanagement",
+      "original_value": 2.68,
+      "floor_value": 2,
+      "standard_deviation": 1.28,
+      "source_cells": {
+        "label": "B3",
+        "original": "C3",
+        "floor": "D3",
+        "standard_deviation": "E3"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R04",
+      "practice_id": "PR26",
+      "source_name": "Unternehmensanalyse",
+      "original_value": 2.86,
+      "floor_value": 2,
+      "standard_deviation": 1.37,
+      "source_cells": {
+        "label": "B4",
+        "original": "C4",
+        "floor": "D4",
+        "standard_deviation": "E4"
+      },
+      "mapping_status": "user_confirmed",
+      "mapping_note": "Der Nutzer hat Unternehmensanalyse ausdrücklich dem Service-Kontinuitätsmanagement zugeordnet."
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R05",
+      "practice_id": "PR02",
+      "source_name": "Kontinuierliche Verbesserung",
+      "original_value": 2.7,
+      "floor_value": 2,
+      "standard_deviation": 1.3,
+      "source_cells": {
+        "label": "B5",
+        "original": "C5",
+        "floor": "D5",
+        "standard_deviation": "E5"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R06",
+      "practice_id": "PR03",
+      "source_name": "Informationssicherheitsmanagement",
+      "original_value": 3.5,
+      "floor_value": 3,
+      "standard_deviation": 1.42,
+      "source_cells": {
+        "label": "B6",
+        "original": "C6",
+        "floor": "D6",
+        "standard_deviation": "E6"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R07",
+      "practice_id": "PR04",
+      "source_name": "Wissensmanagement",
+      "original_value": 2.62,
+      "floor_value": 2,
+      "standard_deviation": 1.25,
+      "source_cells": {
+        "label": "B7",
+        "original": "C7",
+        "floor": "D7",
+        "standard_deviation": "E7"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R08",
+      "practice_id": "PR05",
+      "source_name": "Messung und Berichterstattung",
+      "original_value": 3.56,
+      "floor_value": 3,
+      "standard_deviation": 1.28,
+      "source_cells": {
+        "label": "B8",
+        "original": "C8",
+        "floor": "D8",
+        "standard_deviation": "E8"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R09",
+      "practice_id": "PR06",
+      "source_name": "Organisatorisches Wandelmanagement",
+      "original_value": 2.59,
+      "floor_value": 2,
+      "standard_deviation": 1.29,
+      "source_cells": {
+        "label": "B9",
+        "original": "C9",
+        "floor": "D9",
+        "standard_deviation": "E9"
+      },
+      "mapping_status": "name_alias",
+      "mapping_note": "Entspricht dem kanonischen organisatorischen Veränderungsmanagement."
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R10",
+      "practice_id": "PR07",
+      "source_name": "Portfoliomanagement",
+      "original_value": 2.83,
+      "floor_value": 2,
+      "standard_deviation": 1.27,
+      "source_cells": {
+        "label": "B10",
+        "original": "C10",
+        "floor": "D10",
+        "standard_deviation": "E10"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R11",
+      "practice_id": "PR08",
+      "source_name": "Projektmanagement",
+      "original_value": 2.72,
+      "floor_value": 2,
+      "standard_deviation": 1.36,
+      "source_cells": {
+        "label": "B11",
+        "original": "C11",
+        "floor": "D11",
+        "standard_deviation": "E11"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R12",
+      "practice_id": "PR09",
+      "source_name": "Beziehungsmanagement",
+      "original_value": 2.93,
+      "floor_value": 2,
+      "standard_deviation": 1.33,
+      "source_cells": {
+        "label": "B12",
+        "original": "C12",
+        "floor": "D12",
+        "standard_deviation": "E12"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R13",
+      "practice_id": "PR10",
+      "source_name": "Risikomanagement",
+      "original_value": 3.46,
+      "floor_value": 3,
+      "standard_deviation": 1.3,
+      "source_cells": {
+        "label": "B13",
+        "original": "C13",
+        "floor": "D13",
+        "standard_deviation": "E13"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R14",
+      "practice_id": "PR11",
+      "source_name": "Finanzmanagement für Services",
+      "original_value": 3.06,
+      "floor_value": 3,
+      "standard_deviation": 1.41,
+      "source_cells": {
+        "label": "B14",
+        "original": "C14",
+        "floor": "D14",
+        "standard_deviation": "E14"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R15",
+      "practice_id": "PR12",
+      "source_name": "Strategiemanagement",
+      "original_value": 3.27,
+      "floor_value": 3,
+      "standard_deviation": 1.32,
+      "source_cells": {
+        "label": "B15",
+        "original": "C15",
+        "floor": "D15",
+        "standard_deviation": "E15"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R16",
+      "practice_id": "PR13",
+      "source_name": "Lieferantenmanagement",
+      "original_value": 2.96,
+      "floor_value": 2,
+      "standard_deviation": 1.37,
+      "source_cells": {
+        "label": "B16",
+        "original": "C16",
+        "floor": "D16",
+        "standard_deviation": "E16"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R17",
+      "practice_id": "PR14",
+      "source_name": "Personal- und Talentmanagement",
+      "original_value": 2.61,
+      "floor_value": 2,
+      "standard_deviation": 1.4,
+      "source_cells": {
+        "label": "B17",
+        "original": "C17",
+        "floor": "D17",
+        "standard_deviation": "E17"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R18",
+      "practice_id": "PR15",
+      "source_name": "Verfügbarkeitsmanagement",
+      "original_value": 3.01,
+      "floor_value": 3,
+      "standard_deviation": 1.4,
+      "source_cells": {
+        "label": "B18",
+        "original": "C18",
+        "floor": "D18",
+        "standard_deviation": "E18"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R19",
+      "practice_id": "PR16",
+      "source_name": "Geschäfts- und Anforderungsanalyse",
+      "original_value": 2.68,
+      "floor_value": 2,
+      "standard_deviation": 1.28,
+      "source_cells": {
+        "label": "B19",
+        "original": "C19",
+        "floor": "D19",
+        "standard_deviation": "E19"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R20",
+      "practice_id": "PR17",
+      "source_name": "Kapazitäts- und Leistungsmanagement",
+      "original_value": 2.88,
+      "floor_value": 2,
+      "standard_deviation": 1.35,
+      "source_cells": {
+        "label": "B20",
+        "original": "C20",
+        "floor": "D20",
+        "standard_deviation": "E20"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R21",
+      "practice_id": "PR18",
+      "source_name": "Änderungssteuerung",
+      "original_value": 3.68,
+      "floor_value": 3,
+      "standard_deviation": 1.32,
+      "source_cells": {
+        "label": "B21",
+        "original": "C21",
+        "floor": "D21",
+        "standard_deviation": "E21"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R22",
+      "practice_id": "PR19",
+      "source_name": "Störungsmanagement",
+      "original_value": 4.26,
+      "floor_value": 4,
+      "standard_deviation": 1.31,
+      "source_cells": {
+        "label": "B22",
+        "original": "C22",
+        "floor": "D22",
+        "standard_deviation": "E22"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R23",
+      "practice_id": "PR20",
+      "source_name": "IT-Asset-Management",
+      "original_value": 3.26,
+      "floor_value": 3,
+      "standard_deviation": 1.36,
+      "source_cells": {
+        "label": "B23",
+        "original": "C23",
+        "floor": "D23",
+        "standard_deviation": "E23"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R24",
+      "practice_id": "PR21",
+      "source_name": "Überwachungs- und Ereignismanagement",
+      "original_value": 3.23,
+      "floor_value": 3,
+      "standard_deviation": 1.47,
+      "source_cells": {
+        "label": "B24",
+        "original": "C24",
+        "floor": "D24",
+        "standard_deviation": "E24"
+      },
+      "mapping_status": "name_alias",
+      "mapping_note": "Entspricht dem kanonischen Überwachung und Ereignismanagement."
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R25",
+      "practice_id": "PR22",
+      "source_name": "Problemmanagement",
+      "original_value": 3.42,
+      "floor_value": 3,
+      "standard_deviation": 1.36,
+      "source_cells": {
+        "label": "B25",
+        "original": "C25",
+        "floor": "D25",
+        "standard_deviation": "E25"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R26",
+      "practice_id": "PR23",
+      "source_name": "Release-Management",
+      "original_value": 3.2,
+      "floor_value": 3,
+      "standard_deviation": 1.34,
+      "source_cells": {
+        "label": "B26",
+        "original": "C26",
+        "floor": "D26",
+        "standard_deviation": "E26"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R27",
+      "practice_id": "PR24",
+      "source_name": "Servicekatalog-Management",
+      "original_value": 2.94,
+      "floor_value": 2,
+      "standard_deviation": 1.3,
+      "source_cells": {
+        "label": "B27",
+        "original": "C27",
+        "floor": "D27",
+        "standard_deviation": "E27"
+      },
+      "mapping_status": "normalized_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R28",
+      "practice_id": "PR25",
+      "source_name": "Service-Konfigurationsmanagement",
+      "original_value": 3.78,
+      "floor_value": 3,
+      "standard_deviation": 1.36,
+      "source_cells": {
+        "label": "B28",
+        "original": "C28",
+        "floor": "D28",
+        "standard_deviation": "E28"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R29",
+      "practice_id": "PR27",
+      "source_name": "Servicegestaltung",
+      "original_value": 2.45,
+      "floor_value": 2,
+      "standard_deviation": 1.27,
+      "source_cells": {
+        "label": "B29",
+        "original": "C29",
+        "floor": "D29",
+        "standard_deviation": "E29"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R30",
+      "practice_id": "PR28",
+      "source_name": "Service Desk",
+      "original_value": 3.01,
+      "floor_value": 3,
+      "standard_deviation": 1.42,
+      "source_cells": {
+        "label": "B30",
+        "original": "C30",
+        "floor": "D30",
+        "standard_deviation": "E30"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R31",
+      "practice_id": "PR29",
+      "source_name": "Service-Level-Management",
+      "original_value": 3.26,
+      "floor_value": 3,
+      "standard_deviation": 1.39,
+      "source_cells": {
+        "label": "B31",
+        "original": "C31",
+        "floor": "D31",
+        "standard_deviation": "E31"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R32",
+      "practice_id": "PR30",
+      "source_name": "Serviceanfragenmanagement",
+      "original_value": 3.1,
+      "floor_value": 3,
+      "standard_deviation": 1.32,
+      "source_cells": {
+        "label": "B32",
+        "original": "C32",
+        "floor": "D32",
+        "standard_deviation": "E32"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R33",
+      "practice_id": "PR31",
+      "source_name": "Servicevalidierung und Testen",
+      "original_value": 2.91,
+      "floor_value": 2,
+      "standard_deviation": 1.3,
+      "source_cells": {
+        "label": "B33",
+        "original": "C33",
+        "floor": "D33",
+        "standard_deviation": "E33"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R34",
+      "practice_id": "PR32",
+      "source_name": "Bereitstellungsmanagement",
+      "original_value": 3.2,
+      "floor_value": 3,
+      "standard_deviation": 1.33,
+      "source_cells": {
+        "label": "B34",
+        "original": "C34",
+        "floor": "D34",
+        "standard_deviation": "E34"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R35",
+      "practice_id": "PR33",
+      "source_name": "Infrastruktur- und Plattformmanagement",
+      "original_value": 2.7,
+      "floor_value": 2,
+      "standard_deviation": 1.31,
+      "source_cells": {
+        "label": "B35",
+        "original": "C35",
+        "floor": "D35",
+        "standard_deviation": "E35"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    },
+    {
+      "id": "WORKBOOK-PRACTICE-R36",
+      "practice_id": "PR34",
+      "source_name": "Softwareentwicklung und -management",
+      "original_value": 2.66,
+      "floor_value": 2,
+      "standard_deviation": 1.29,
+      "source_cells": {
+        "label": "B36",
+        "original": "C36",
+        "floor": "D36",
+        "standard_deviation": "E36"
+      },
+      "mapping_status": "canonical_name",
+      "mapping_note": null
+    }
+  ],
+  "component_rows": [
+    {
+      "id": "WORKBOOK-COMPONENT-R40",
+      "component_id": "guiding_principles",
+      "source_name": "Guiding Principles",
+      "original_value": 3.067,
+      "floor_value": 3,
+      "standard_deviation": null,
+      "source_cells": {
+        "label": "B40",
+        "original": "C40",
+        "floor": "D40"
+      },
+      "source_formula": null,
+      "value_origin": "provided_numeric_value"
+    },
+    {
+      "id": "WORKBOOK-COMPONENT-R41",
+      "component_id": "governance",
+      "source_name": "Governance",
+      "original_value": 2.537,
+      "floor_value": 2,
+      "standard_deviation": null,
+      "source_cells": {
+        "label": "B41",
+        "original": "C41",
+        "floor": "D41"
+      },
+      "source_formula": null,
+      "value_origin": "provided_numeric_value"
+    },
+    {
+      "id": "WORKBOOK-COMPONENT-R42",
+      "component_id": "service_value_chain",
+      "source_name": "Servcice Value Chain",
+      "original_value": 2.7514,
+      "floor_value": 2,
+      "standard_deviation": null,
+      "source_cells": {
+        "label": "B42",
+        "original": "C42",
+        "floor": "D42"
+      },
+      "source_formula": null,
+      "value_origin": "provided_numeric_value"
+    },
+    {
+      "id": "WORKBOOK-COMPONENT-R43",
+      "component_id": "practices",
+      "source_name": "Practices",
+      "original_value": 3.0582352941176474,
+      "floor_value": 3,
+      "standard_deviation": null,
+      "source_cells": {
+        "label": "B43",
+        "original": "C43",
+        "floor": "D43"
+      },
+      "source_formula": "=AVERAGE(C3:C36)",
+      "value_origin": "cached_workbook_formula"
+    },
+    {
+      "id": "WORKBOOK-COMPONENT-R44",
+      "component_id": "continual_improvement",
+      "source_name": "Continual Improvement",
+      "original_value": 2.6173,
+      "floor_value": 2,
+      "standard_deviation": null,
+      "source_cells": {
+        "label": "B44",
+        "original": "C44",
+        "floor": "D44"
+      },
+      "source_formula": null,
+      "value_origin": "provided_numeric_value"
+    }
+  ],
+  "overall_rows": [
+    {
+      "id": "WORKBOOK-OVERALL-R47",
+      "organization": "Vodafone",
+      "source_name": "Vodafone",
+      "original_value": 4,
+      "floor_value": 4,
+      "published_level": 4,
+      "original_absolute_mean": null,
+      "source_cells": {
+        "label": "B47",
+        "original": "D47",
+        "floor": "D47"
+      },
+      "value_origin": "provided_integer_level"
+    },
+    {
+      "id": "WORKBOOK-OVERALL-R48",
+      "organization": "Salvation Army",
+      "source_name": "Salvation Army",
+      "original_value": 3,
+      "floor_value": 3,
+      "published_level": 3,
+      "original_absolute_mean": null,
+      "source_cells": {
+        "label": "B48",
+        "original": "D48",
+        "floor": "D48"
+      },
+      "value_origin": "provided_integer_level"
+    },
+    {
+      "id": "WORKBOOK-OVERALL-R49",
+      "organization": "Universitas Ivet Semarang",
+      "source_name": "Universitas Ivet Semarang",
+      "original_value": 2,
+      "floor_value": 2,
+      "published_level": 2,
+      "original_absolute_mean": null,
+      "source_cells": {
+        "label": "B49",
+        "original": "D49",
+        "floor": "D49"
+      },
+      "value_origin": "provided_integer_level"
+    }
+  ]
+}
